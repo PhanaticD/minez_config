@@ -263,19 +263,19 @@ chests:
 ghosts:
   can_damage: true
 zombie_awareness_month:
-  enabled: true
+  enabled: false
 specialevent:
   zombie_awareness_month:
     strength_multiplier: 2.0
     health_multiplier: 2.0
     detection_multiplier: 2.0
-    zombify: true
+    zombify: false
   april_fools:
-    enabled: true
+    enabled: false
   easter:
-    enabled: true
+    enabled: false
   speak_like_pirate:
-    enabled: true
+    enabled: false
 friends:
   friendly_fire: false
 safe_logout:
