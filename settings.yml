@@ -169,7 +169,7 @@ heal:
       extention: 0
       level: 0
     antiseptic: true
-// temperature:
+temperature:
   default: 37.0
   biome:
     frozen: 31.0
