@@ -17,7 +17,8 @@ enderpearls_explode:
   enabled: true
 chat:
   local:
-    enabled: true
+    #temp off so we can talk globally
+    enabled: false
   radio:
     enabled: true
   private:
