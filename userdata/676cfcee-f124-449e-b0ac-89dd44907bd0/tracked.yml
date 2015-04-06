@@ -8,7 +8,7 @@ tracked:
   kills:
     zombie: 31
     player: 0
-    pigman: 17
+    pigman: 23
     giant: 10
     guard: 0
 temperature: 37.0
