@@ -8,8 +8,8 @@ pigman:
       excludes:
       - Mesa Plateau
     limits:
-      minimum_z: 0
-      maximum_z: 0
+      minimum_z: -4095
+      maximum_z: -2000
       enabled: false
   attribute:
     health: 1.0
