@@ -110,8 +110,6 @@ main:
               - §r§6Heal II
               - §r§6Absorption II
               - §r§6Immunity X
-              enchants:
-                Glow: 9
           command: give $player minecraft:dye 1 11 { ench:[{id:69,lvl:9}]display:{Name:"§r§eMedicine",Lore:["§rAdvanced medicine.", "§r", "§r§6Heal II", "§r§6Absorption II", "§r§6Immunity X"]} }
           cost: 22.0
         '&rScissors':

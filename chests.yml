@@ -537,8 +537,6 @@ types:
           - §r
           - §r§6Heal X
           - §rAbsorption I
-          enchants:
-            Glow: 9
     17b1e58c-c598-43b7-8eb8-9b1b65491054:
       probability: 12
       amount_minimum: 1
@@ -555,8 +553,6 @@ types:
           - §rTreats infection.
           - §r
           - §r§6Immunity X
-          enchants:
-            Glow: 9
     a90e2d4a-99d0-4b6e-8203-94b46f9b1a17:
       probability: 5
       amount_minimum: 1
@@ -609,8 +605,6 @@ types:
           - §r§6Heal II
           - §r§6Absorption II
           - §r§6Immunity X
-          enchants:
-            Glow: 9
     ca8f62d0-b2c3-4ec7-92cc-d09147fcdf6f:
       probability: 4
       amount_minimum: 1
@@ -676,8 +670,6 @@ types:
           - §r§6Heal II
           - §r§6Absorption II
           - §r§6Immunity X
-          enchants:
-            Glow: 9
     a6450f5c-2429-4c7c-9938-369a81950372:
       probability: 7
       amount_minimum: 1
