@@ -10,7 +10,7 @@ pigman:
     limits:
       minimum_z: -4095
       maximum_z: -2000
-      enabled: false
+      enabled: true
   attribute:
     health: 1.0
     speed:
