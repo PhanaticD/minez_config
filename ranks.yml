@@ -1,0 +1,59 @@
+ranks:
+  '0':
+    chat_prefix: ''
+    equipment:
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §rTraining Tunic
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+          - §rIt's better than nothing!
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rTraining Sword
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+          - §rGet to slashing.
+      - ==: org.bukkit.inventory.ItemStack
+        type: COMPASS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rThermometer
+          lore:
+          - §r§eRight click to get temperature reading.
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+  '100':
+    chat_prefix: ''
+    equipment:
+      inventory: []

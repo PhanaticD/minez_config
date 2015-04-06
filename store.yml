@@ -1,0 +1,453 @@
+main:
+  name: '&4MyZ Store'
+  gui_template: $0
+  sale_template: '$0~&ePrice: &6$1 &ezPoints~&eClick to purchase'
+'&4MyZ Store':
+  children:
+    '&9Skill Upgrades':
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: EXP_BOTTLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Skill Upgrades
+      children:
+        '&4Immunity':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: ROTTEN_FLESH
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §4Immunity
+          items:
+            '&rTrain':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: ANVIL
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rTrain
+                  lore:
+                  - '§ePrice: §650 §ezPoints'
+              command: myz userdata $player immunity +1
+              cost: 50.0
+        '&eToughness':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: LEATHER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §eToughness
+          items:
+            '&rTrain':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: ANVIL
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rTrain
+                  lore:
+                  - '§ePrice: §650 §ezPoints'
+              command: myz userdata $player toughness +1
+              cost: 50.0
+    '&eSurvivability':
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §eSurvivability
+      items:
+        '&rCold Water':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              display-name: §rCold Water
+              lore:
+              - '§ePrice: §620 §ezPoints'
+          command: give $player minecraft:potion 1 0 {display:{Name:"§rCold Bottle of Water"} }
+          cost: 20.0
+        '&rBandage':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: PAPER
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §rBandage
+              lore:
+              - '§ePrice: §612 §ezPoints'
+              - ''
+              - §rStops bleeding.
+              - §r
+              - §r§eRight-click to use
+              - §r§eLeft-click friend to use
+          command: give $player minecraft:paper 1 0 {display:{Name:"§rBandage",Lore:["§rStops bleeding.", "§r", "§r§eRight-click to use", "§r§eLeft-click friend to use"]} }
+          cost: 12.0
+        '&rMedicine':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: INK_SACK
+            damage: 11
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §rMedicine
+              lore:
+              - '§ePrice: §622 §ezPoints'
+              - ''
+              - §rAdvanced medicine.
+              - §r
+              - §r§6Heal II
+              - §r§6Absorption II
+              - §r§6Immunity X
+              enchants:
+                Glow: 9
+          command: give $player minecraft:dye 1 11 { ench:[{id:69,lvl:9}]display:{Name:"§r§eMedicine",Lore:["§rAdvanced medicine.", "§r", "§r§6Heal II", "§r§6Absorption II", "§r§6Immunity X"]} }
+          cost: 22.0
+        '&rScissors':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: SHEARS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §rScissors
+              lore:
+              - '§ePrice: §67 §ezPoints'
+              - ''
+              - §rUsed to cut bandages.
+              - §r
+              - §r§eLeft-click friend
+              - §r§eto cut bandage
+          command: give $player minecraft:shears 1 0 {display:{Name:"§rScissors",Lore:["§rUsed to cut bandages.", "§r", "§r§eLeft-click friend", "§r§eto cut bandage"]} }
+          cost: 7.0
+        Apple:
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: APPLE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Apple
+              lore:
+              - '§ePrice: §611 §ezPoints'
+          command: give $player minecraft:apple 1 0
+          cost: 11.0
+    '&cRank Unlocks':
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: NETHER_STAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cRank Unlocks
+      children:
+        '&9Prefixes':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: NAME_TAG
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §9Prefixes
+          items:
+            '&r&5[Dangerous]':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: STONE_SWORD
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §r§5[Dangerous]
+                  lore:
+                  - '§ePrice: §670 §ezPoints'
+              command: myz userdata $player prefix &5[Dangerous]~&r
+              cost: 70.0
+            '&r&9[Deadly]':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: IRON_SWORD
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §r§9[Deadly]
+                  lore:
+                  - '§ePrice: §6110 §ezPoints'
+              command: myz userdata $player prefix &9[Deadly]~&r
+              cost: 110.0
+            '&r&4[Zombie Slayer]':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: DIAMOND_SWORD
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §r§4[Zombie Slayer]
+                  lore:
+                  - '§ePrice: §6220 §ezPoints'
+              command: myz userdata $player prefix &4[Zombie Slayer]~&r
+              cost: 220.0
+            '&r&c[Healer]':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: SHEARS
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §r§c[Healer]
+                  lore:
+                  - '§ePrice: §650 §ezPoints'
+              command: myz userdata $player prefix &c[Healer]~&r
+              cost: 50.0
+            '&r&a[Survivor]':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: WOOD_SWORD
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §r§a[Survivor]
+                  lore:
+                  - '§ePrice: §620 §ezPoints'
+              command: myz userdata $player prefix &a[Survivor]~&r
+              cost: 20.0
+        '&eRanks':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: GOLD_INGOT
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §eRanks
+          items:
+            '&rUpgrade':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: ANVIL
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rUpgrade
+                  lore:
+                  - '§ePrice: §650 §ezPoints'
+              command: myz userdata $player rank +1
+              cost: 50.0
+    '&4Stat Boosters':
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Stat Boosters
+      children:
+        '&dGuard Kills':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: WOOD_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §dGuard Kills
+          items:
+            '&rPlus 10':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: WOOD_SWORD
+                amount: 10
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 10
+                  lore:
+                  - '§ePrice: §610 §ezPoints'
+              command: myz userdata $player kills.guard +10
+              cost: 10.0
+            '&rPlus 20':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: WOOD_SWORD
+                amount: 20
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 20
+                  lore:
+                  - '§ePrice: §618 §ezPoints'
+              command: myz userdata $player kills.guard +20
+              cost: 18.0
+            '&rPlus 50':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: WOOD_SWORD
+                amount: 50
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 50
+                  lore:
+                  - '§ePrice: §640 §ezPoints'
+              command: myz userdata $player kills.guard +50
+              cost: 40.0
+        '&cZombie Kills':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §cZombie Kills
+          items:
+            '&rPlus 10':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: STONE_SWORD
+                amount: 10
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 10
+                  lore:
+                  - '§ePrice: §612 §ezPoints'
+              command: myz userdata $player kills.zombie +10
+              cost: 12.0
+            '&rPlus 20':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: STONE_SWORD
+                amount: 20
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 20
+                  lore:
+                  - '§ePrice: §620 §ezPoints'
+              command: myz userdata $player kills.zombie +20
+              cost: 20.0
+            '&rPlus 50':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: STONE_SWORD
+                amount: 50
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 50
+                  lore:
+                  - '§ePrice: §645 §ezPoints'
+              command: myz userdata $player kills.zombie +50
+              cost: 45.0
+        '&2Pigman Kills':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: GOLD_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §2Pigman Kills
+          items:
+            '&rPlus 10':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: GOLD_SWORD
+                amount: 10
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 10
+                  lore:
+                  - '§ePrice: §610 §ezPoints'
+              command: myz userdata $player kills.pigman +10
+              cost: 10.0
+            '&rPlus 20':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: GOLD_SWORD
+                amount: 20
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 20
+                  lore:
+                  - '§ePrice: §617 §ezPoints'
+              command: myz userdata $player kills.pigman +20
+              cost: 17.0
+            '&rPlus 50':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: GOLD_SWORD
+                amount: 50
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 50
+                  lore:
+                  - '§ePrice: §640 §ezPoints'
+              command: myz userdata $player kills.pigman +50
+              cost: 40.0
+        '&6Player Kills':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: IRON_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §6Player Kills
+        '&4Giant Kills':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: DIAMOND_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §4Giant Kills
+          items:
+            '&rPlus 10':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: DIAMOND_SWORD
+                amount: 10
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 10
+                  lore:
+                  - '§ePrice: §641 §ezPoints'
+              command: myz userdata $player kills.giant +10
+              cost: 41.0
+            '&rPlus 20':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: DIAMOND_SWORD
+                amount: 20
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 20
+                  lore:
+                  - '§ePrice: §680 §ezPoints'
+              command: myz userdata $player kills.giant +20
+              cost: 80.0
+            '&rPlus 50':
+              display:
+                ==: org.bukkit.inventory.ItemStack
+                type: DIAMOND_SWORD
+                amount: 50
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §rPlus 50
+                  lore:
+                  - '§ePrice: §6180 §ezPoints'
+              command: myz userdata $player kills.giant +50
+              cost: 180.0

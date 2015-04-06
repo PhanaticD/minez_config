@@ -1,0 +1,878 @@
+types:
+  Weaponry - Common:
+    c4d92e89-44c7-418f-a922-a595d6b99568:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Dull
+          - §r90% Effective
+    9e5ceef4-316a-4a81-ab2f-8385954a0290:
+      probability: 30
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        damage: 29
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Dull
+          - §r90% Effective
+    1503db5c-2cb2-46e8-82a6-d7a14d0c65f9:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_SWORD
+        damage: 65
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Weakened
+          - §r85% Effective
+    d5da871b-17d6-4bb2-8cf0-6fa92c3824fb:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Dull
+          - §r90% Effective
+  Weaponry - Uncommon:
+    a1cc23c1-d96e-4672-9d63-1d9fc89a414d:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§2Sharpened
+          - §r130% Effective
+    f90ce83b-0147-4b19-a081-1414a368abd3:
+      probability: 9
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        damage: 125
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+    3f1be883-a400-401c-8644-87b1bdf39e10:
+      probability: 34
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        damage: 83
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+    326ea3e4-bfc2-497f-84f0-134aaf27b8a6:
+      probability: 18
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        damage: 76
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+  Weaponry - Rare:
+    5bde1032-fbc0-4931-ba7d-2644e06b0c30:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§2Tempered
+          - §r150% Effective
+    8ee2d98e-9da4-4f1f-ac03-d98c2e4b46f3:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        damage: 62
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§2Sharpened
+          - §r130% Effective
+    4f6f00a9-c0e6-41a1-9f59-432e40dec4fd:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Slack
+          - §r90% Effective
+    1edd5240-2808-428a-b76b-ebaa5083d91b:
+      probability: 23
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+  Armor - Common:
+    59998e59-0c2f-4117-851f-5b95ab4c49b7:
+      probability: 9
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+    dd0e8cf9-700b-43c9-89f6-109c83ead82e:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        damage: 27
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+    27137384-fe34-45d3-9d6e-0a0f81e76cef:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        damage: 53
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Weakened
+          - §r85% Effective
+    7ed86ea1-45c6-4b4a-a5de-e5a262a2f3cf:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_HELMET
+        damage: 82
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+    17788416-e498-4016-a3c7-0f097b51a5af:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_BOOTS
+        damage: 162
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Weakened
+          - §r85% Effective
+    d443b016-8f6a-4ef6-ab44-025766ce24c0:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        damage: 27
+    a506e3c8-4998-4834-9f1d-6bb8c1b3c80a:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        damage: 38
+  Armor - Uncommon:
+    2a442b42-b2b0-4859-a89c-aceb2fc8784b:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_HELMET
+        damage: 150
+    c79b6d36-2f66-413e-b74b-30d212e0b38a:
+      probability: 9
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_LEGGINGS
+        damage: 125
+    ddfa75df-fbeb-448d-b3fd-393154ead134:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        damage: 68
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§2Fortified
+          - §r120% Effective
+    a2c40a6c-74d7-4ff4-ae17-d8236a6667ec:
+      probability: 17
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        damage: 72
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§6Reinforced
+          - §r110% Effective
+    1b21d1d6-7c15-4eb9-85e6-dbb996d6ab1d:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        damage: 97
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+    36bbc6e5-2044-4955-a48e-7e39e2f1cee8:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_CHESTPLATE
+        damage: 77
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+    87ffcb4b-be9e-46f7-9122-d8801643e14a:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_LEGGINGS
+        damage: 75
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+    a22292c5-2c68-4957-99a6-756acfde5df0:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_LEGGINGS
+        damage: 54
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§6Reinforced
+          - §r110% Effective
+  Armor - Rare:
+    e3cbe06d-19d4-4c73-a2b6-b9fd4a1c60db:
+      probability: 17
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_LEGGINGS
+        damage: 140
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§6Ornate
+          - §r150% Effective
+    bccfe123-7d7d-4deb-b7b6-ad9d9ab75539:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_HELMET
+        damage: 110
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§6Ornate
+          - §r150% Effective
+    57b4863d-c616-4cf2-95cb-b0d49d82aeae:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_LEGGINGS
+        damage: 187
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Weakened
+          - §r85% Effective
+    443bddce-793a-4b1d-9f70-2bc3b74418c9:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_CHESTPLATE
+        damage: 150
+    5a8df4cf-ea91-4268-84ed-76eab918cc42:
+      probability: 16
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_CHESTPLATE
+        damage: 218
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§6Ornate
+          - §r150% Effective
+    855e1681-7023-4bf6-8750-6a9c4807c2d5:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        damage: 137
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Weakened
+          - §r85% Effective
+    5eb8fa7c-1b0a-4264-9363-aebfd28c7b35:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+        damage: 150
+  Supplies - Common:
+    48ee74e8-a6bc-4615-ba2d-472efa003e12:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+    e79ad4da-b446-46d3-8b3c-e344700d39b9:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rWarm Bottle of Water
+    4571f175-3212-49ad-beec-01905b30de0f:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rBottle of Saltwater
+    3e23d21d-fd3f-4dc1-8e63-f7b5a6913e15:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHEARS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rScissors
+          lore:
+          - §rUsed to cut bandages.
+          - §r
+          - §r§eLeft-click friend
+          - §r§eto cut bandage
+    6d824a4b-740a-405a-951a-6fa24a16e5d2:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 4
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STICK
+    d1f4065e-5cd7-4ab8-bdfe-3bc7d2ae2ff7:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+    189e2259-fdc9-4543-99b5-a8ba4964279e:
+      probability: 9
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER
+    71474b49-8247-41a1-98f7-a657c61e953a:
+      probability: 14
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rMurky Water Bottle
+  Supplies - Uncommon:
+    bd53c9b3-a06b-453c-9a65-1be1871b7f48:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 1
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§4Ointment
+          lore:
+          - §rBasic medicine.
+          - §r
+          - §r§6Heal X
+          - §rAbsorption I
+          enchants:
+            Glow: 9
+    f9f11b20-34e0-4f27-b626-6244ea8596fa:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§aAntiseptic
+          lore:
+          - §rTreats infection.
+          - §r
+          - §r§6Immunity X
+          enchants:
+            Glow: 9
+    37dfe1eb-7d81-4141-bb46-0e40b5d1a27f:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHEARS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rScissors
+          lore:
+          - §rUsed to cut bandages.
+          - §r
+          - §r§eLeft-click friend
+          - §r§eto cut bandage
+    cc5b50a0-62ca-489e-9435-15fb5610e6a7:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+    9533abc3-53ba-4c0b-8372-234a7f7f1c00:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 3
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_FENCE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rChain Links
+    a42c3cc9-456a-42ba-bc24-0235e67de618:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 11
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§eMedicine
+          lore:
+          - §rAdvanced medicine.
+          - §r
+          - §r§6Heal II
+          - §r§6Absorption II
+          - §r§6Immunity X
+          enchants:
+            Glow: 9
+    e72aaa3b-22b4-4753-ac0a-93e198f17ecf:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+    92fdf242-6ecd-4190-b414-40a2f790749e:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 6
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+    3fe9bbfe-2746-42b2-a99a-2160cbf41550:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+    94829c67-7082-4b15-a98f-9cd79b95491e:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SNOW_BALL
+    2767199e-785a-477c-8eb0-832bb1120150:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: MILK_BUCKET
+  Supplies - Rare:
+    0f2ff6d9-372a-4048-aaa1-f388e96af3e3:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+    f369f239-8275-4442-b189-95ebb138c85b:
+      probability: 18
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 11
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§eMedicine
+          lore:
+          - §rAdvanced medicine.
+          - §r
+          - §r§6Heal II
+          - §r§6Absorption II
+          - §r§6Immunity X
+          enchants:
+            Glow: 9
+    3e4edfdc-2774-40ae-8850-035c121e93e2:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+    c94f1c9e-b3cd-4cde-a54f-e06f510c7b57:
+      probability: 8
+      amount_minimum: 2
+      amount_maximum: 5
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_FENCE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rChain Links
+    7baf08ba-a6e3-4c91-bfb3-a54f391d3d00:
+      probability: 11
+      amount_minimum: 5
+      amount_maximum: 13
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+    c1439d7d-510a-4b98-a46c-93e160e0d962:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+    b68355c5-c8b9-41fa-a73e-f3feff91f11b:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 2
+    4ad50082-743a-4e28-817f-94f4a3eeee42:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rGrappling Hook
+          lore:
+          - §r§4Weak
+          - §r§eRight click to use
+  Food - Common:
+    91797fd1-aa0e-40af-81d8-237ae92fa220:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ROTTEN_FLESH
+    d4174161-7591-4d13-b207-cf43e0f5c0f3:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+    2633a4c6-7dab-47d1-96fe-0f4cf22b3154:
+      probability: 9
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+    f53524da-93b5-401e-a2fd-bd09c944737a:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WHEAT
+    96fb401b-d97e-4e30-bd80-2fc81852c9d0:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COCOA
+    0e52c650-4a86-4502-821f-2236fdf8b1f6:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOWL
+    e703b7cb-cecb-4a4b-819d-40c8b1ddcded:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: RED_MUSHROOM
+    eadc333d-a379-4f5c-9211-54248f4dbaeb:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BROWN_MUSHROOM
+  Food - Uncommon:
+    955f6c59-5c51-4911-bb9a-93421f9870a5:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: RAW_CHICKEN
+    f4663398-5baf-46cb-b729-c89dd39ffa7d:
+      probability: 9
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+    74b9e660-b084-4854-a9ad-1fe50dcb48b3:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+    bb76df52-47b2-4a2e-8fce-f062b7840342:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BAKED_POTATO
+    932e5efc-ac5e-4fac-a701-ae1fd403eb8f:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+    3fadce38-346e-400a-bfc5-e00e3d2444a9:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 3
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+  Food - Rare:
+    e78ae600-f095-491b-9a8c-cf02a7031dce:
+      probability: 11
+      amount_minimum: 3
+      amount_maximum: 6
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WHEAT
+    e5020c0c-caf6-4860-a2ee-329f6f153ae4:
+      probability: 7
+      amount_minimum: 2
+      amount_maximum: 4
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_FISH
+    01eb6b82-ea7d-4515-9eae-92961ec80524:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_CHICKEN
+    112be98a-f138-4204-8647-f4ad735c84c7:
+      probability: 16
+      amount_minimum: 1
+      amount_maximum: 3
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_PIE
+    367b1c3a-b8c4-46d4-bf53-ca8155da8b74:
+      probability: 13
+      amount_minimum: 4
+      amount_maximum: 8
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+    b56196a2-48fd-48b2-812a-ce918871a233:
+      probability: 6
+      amount_minimum: 2
+      amount_maximum: 4
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: MUSHROOM_SOUP
+locations: {}

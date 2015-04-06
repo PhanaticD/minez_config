@@ -1,0 +1,63 @@
+enhance_envils:
+  enabled: true
+thirst:
+  enabled: true
+enhanced_food:
+  enabled: true
+wither_damage:
+  disabled: true
+zombie:
+  falldamage:
+    disabled: true
+  burn_in_daylight:
+    enabled: false
+natural_regen:
+  enabled: false
+enderpearls_explode:
+  enabled: true
+chat:
+  local:
+    enabled: true
+  radio:
+    enabled: true
+  private:
+    enabled: true
+enhanced_deathmessages:
+  enabled: true
+death:
+  become_ghost:
+    enabled: true
+  become_zombie:
+    enabled: true
+    always: false
+enhance_furnaces:
+  enabled: true
+bandages:
+  enabled: true
+use_healing:
+  enabled: true
+reviving:
+  enabled: true
+visibility:
+  enabled: true
+bleeding:
+  enabled: true
+infection:
+  enabled: true
+temperature:
+  enabled: true
+chests:
+  enabled: true
+scoreboard:
+  enabled: true
+hologram:
+  enabled: true
+npc:
+  enabled: true
+  corpses:
+    enabled: true
+followers:
+  horse:
+    enabled: true
+  wolf:
+    enabled: true

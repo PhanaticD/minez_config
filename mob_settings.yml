@@ -1,0 +1,168 @@
+pigman:
+  spawn:
+    chance: 10
+    pack:
+      minimum: 1
+      maximum: 2
+    biome:
+      excludes:
+      - Mesa Plateau
+    limits:
+      minimum_z: 0
+      maximum_z: 0
+      enabled: false
+  attribute:
+    health: 1.0
+    speed:
+      no_target: 0.21
+      target_multiplier: 1.45
+    knockback_resistance: 0.0
+    damage: 10.0
+    jump:
+      multiplier: 1.05
+  explode:
+    adult:
+      amount: 4
+    baby:
+      magnitude: 1.0
+  babies: true
+zombie:
+  spawn:
+    chance: 80
+    pack:
+      minimum: 1
+      maximum: 5
+    biome:
+      excludes:
+      - Mesa Plateau
+    limits:
+      minimum_z: 0
+      maximum_z: 0
+      enabled: false
+  attribute:
+    health: 20.0
+    speed:
+      no_target: 0.23
+      target_multiplier: 1.5
+    knockback_resistance: 0.0
+    damage: 3.0
+    jump:
+      multiplier: 1.05
+  type:
+    normal:
+      chance: 80
+    leather:
+      chance: 10
+    chain:
+      chance: 5
+    gold:
+      chance: 3
+    iron:
+      chance: 2
+  subtype:
+    crawler:
+      chance: 5
+  babies: true
+guard:
+  spawn:
+    chance: 5
+    pack:
+      minimum: 1
+      maximum: 1
+    biome:
+      excludes:
+      - Mesa Plateau
+    limits:
+      minimum_z: 0
+      maximum_z: 0
+      enabled: false
+  names:
+  - MrTeePee
+  - ConnMen
+  attribute:
+    jump:
+      multiplier: 1.05
+    health: 20.0
+    speed:
+      no_target: 0.23
+      target_multiplier: 1.0
+    knockback_resistance: 0.0
+    damage: 3.0
+  equipment:
+    melee:
+      sword: IRON_SWORD
+    boots: CHAINMAIL_BOOTS
+    leggings: CHAINMAIL_LEGGINGS
+    chestplate: AIR
+    helmet: GOLD_HELMET
+  become_zombie_on_death: true
+giant:
+  spawn:
+    chance: 1
+    pack:
+      minimum: 1
+      maximum: 1
+    biome:
+      includes:
+      - Mesa Plateau
+    limits:
+      minimum_z: 0
+      maximum_z: 0
+      enabled: false
+  ability:
+    reinforcement:
+      minimum: 1
+      maximum: 6
+      chance: 30
+    stomp:
+      slowness:
+        radius: 10
+      magnitude: 1.5
+  attribute:
+    health: 100.0
+    speed:
+      no_target: 0.23
+      target_multiplier: 1.5
+    jump:
+      multiplier: 4.1
+    knockback_resistance: 0.0
+    damage: 12.0
+general:
+  spawn:
+    biome:
+      excludes:
+      - Sky
+      - Ocean
+      - Deep Ocean
+npc:
+  lifetime_ticks: 600
+default_mobs:
+  CREEPER: false
+  SKELETON: false
+  SPIDER: false
+  SLIME: false
+  GHAST: false
+  ENDERMAN: false
+  CAVE_SPIDER: false
+  SILVERFISH: false
+  BLAZE: false
+  MAGMA_CUBE: false
+  ENDER_DRAGON: false
+  WITHER: false
+  BAT: false
+  WITCH: false
+  ENDERMITE: false
+  GUARDIAN: false
+  PIG: false
+  SHEEP: false
+  COW: false
+  CHICKEN: false
+  SQUID: false
+  WOLF: false
+  MUSHROOM_COW: false
+  SNOWMAN: false
+  OCELOT: false
+  IRON_GOLEM: false
+  HORSE: false
+  RABBIT: false
+  VILLAGER: false

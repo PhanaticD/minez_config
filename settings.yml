@@ -1,0 +1,283 @@
+visibility:
+  player:
+    walking: 3
+    sprinting: 7
+    airborne: 2
+    activate_redstone: 3
+    take_damage: 2
+    shooting: 1
+    sneaking: -2
+    holding_flesh: -1
+    wearing_zombie_head: -3
+    base: 5
+    bleeding: 2
+    chat: 2
+    on_fire: 7
+    in_grass: -5
+    crackshot:
+      Bazooka:
+        shoot: 7
+        reload: 2
+      Olympia:
+        shoot: 7
+        reload: 2
+      Riotshield:
+        shoot: 7
+        reload: 2
+      Python:
+        shoot: 7
+        reload: 2
+      CocoPops:
+        shoot: 7
+        reload: 2
+      M320:
+        shoot: 7
+        reload: 2
+      C4:
+        shoot: 7
+        reload: 2
+      Trinket:
+        shoot: 7
+        reload: 2
+      Gauss:
+        shoot: 7
+        reload: 2
+      Carbine:
+        shoot: 7
+        reload: 2
+      Airstrike:
+        shoot: 7
+        reload: 2
+      Grenade:
+        shoot: 7
+        reload: 2
+      Hunting:
+        shoot: 7
+        reload: 2
+      AK-47:
+        shoot: 7
+        reload: 2
+      Putty:
+        shoot: 7
+        reload: 2
+      Toaster:
+        shoot: 7
+        reload: 2
+      Tactical_Knife:
+        shoot: 7
+        reload: 2
+      Flashbang:
+        shoot: 7
+        reload: 2
+      Deagle:
+        shoot: 7
+        reload: 2
+      Type95:
+        shoot: 7
+        reload: 2
+  environment:
+    explosion: 6
+    arrow_landed: 4
+    snowball_landed: 5
+  stretch: 32.0
+  eating: 1
+  drinking: 1
+thirst:
+  max:
+    default: 20
+  decay:
+    beach: 20
+    plains: 38
+    taiga: 40
+    desert: 23
+    ocean: -120
+    jungle: 31
+    mesa: 30
+    mushroom: 50
+    swamp: 49
+    modifier:
+      per_dehydrated_level: -4
+chat:
+  local:
+    radius: 20
+  autocorrect: true
+death:
+  vulnerable_time: 300
+  revive_time: 10
+  transition_time: 60
+bleed:
+  damage_delay: 42
+  damage_amount: 1.1
+infection:
+  damage_delay: 38
+  damage_amount: 1.3
+equipment:
+  devastated_modifier: 50
+  shattered_modifier: 40
+  broken_modifier: 70
+  slack_modifier: 90
+  reinforced_modifier: 110
+  cracked_modifier: 80
+  precise_modifier: 120
+  bow_sharpened:
+    ranged_modifier: 150
+    combat_modifier: 5
+  weakened_modifier: 85
+  dull_modifier: 90
+  sharpened_modifier: 130
+  tempered_modifier: 150
+  fortified_modifier: 120
+  ornate_modifier: 150
+  upgrade:
+    material_cost: 6
+  bow_precise:
+    headshot_modifier: 4
+heal:
+  bandage:
+    amount: 1.0
+  time_to_complete: 15
+  time_to_cooldown: 300
+  default:
+    heal:
+      duration: 5
+      level: 0
+    absorption:
+      duration: 0
+      level: 0
+    antiseptic: false
+  medicine:
+    heal:
+      extention: 5
+      level: 1
+    absorption:
+      extention: 20
+      level: 1
+    antiseptic: true
+  ointment:
+    heal:
+      extention: 3
+      level: 0
+    absorption:
+      extention: 8
+      level: 0
+    antiseptic: false
+  antiseptic:
+    heal:
+      extention: 0
+      level: 0
+    absorption:
+      extention: 0
+      level: 0
+    antiseptic: true
+temperature:
+  default: 37.0
+  biome:
+    frozen: 31.0
+    cold: 35.5
+    medium: 37.0
+    warm: 39.9
+    ocean: 30.5
+  modify:
+    thirst:
+      threshold: 3
+      thirsty: 0.5
+    water:
+      in_non_ocean_water: -2.2
+    downfall: -1.6
+    player:
+      on_fire: 15.0
+    armour_per_piece:
+      leather: 0.3
+      chainmail: 0.11
+      iron: 0.15
+      gold: 0.21
+      diamond: 0.27
+    infected: 2.1
+    sprinting: 0.9
+    nighttime: -1.2
+    warm_water: 0.5
+    cold_water: -0.9
+  threshold:
+    heatstroke:
+      '3': 42.7
+      '2': 40.6
+      '1': 39.2
+    sweating: 38.2
+    shivering: 35.8
+    hypothermia:
+      '1': 34.8
+      '2': 33.4
+      '3': 32.3
+  heatstroke:
+    damage_per_level: 1.0
+  hypothermia:
+    damage_per_level: 1.0
+  execute_after_delay:
+    damage: 40
+    frostbite: 62
+    potion_effects: 33
+    sweat: 3
+chest:
+  respawn_time: 300
+airdrop:
+  break_blocks: true
+  create_wreckage: true
+  set_fires: false
+  explosion_magnitude: 2.0
+  chest_types:
+  - Supplies - Rare
+  - Weaponry - Rare
+  - Armor - Rare
+  - Food - Rare
+spawnkit:
+  hierarchical: false
+scoreboard:
+  name: '&4MyZ Stats - Career Kills@&4MyZ Stats - Current Kills@&4MyZ Stats - Status@&4MyZ
+    Stats - Skills@&4MyZ Stats - Other'
+  data: Players Killed:%kills.player%,Zombies Killed:%kills.zombie%,Pigmen Killed:%kills.pigman%,Giants Killed:%kills.giant%@Players Killed:%tracked.kills.player%,Zombies Killed:%tracked.kills.zombie%,Pigmen Killed:%tracked.kills.pigman%,Giants Killed:%tracked.kills.giant%@Bleeding:%bleeding%,Poisoned:%poisoned%,Temperature:%temperature%,Thirst:%thirst%@Immunity Level:%immunity%,Toughness Level:%toughness%@Friends:%friends%,Revives:%revives.other%,Drinks Consumed:%drinks%,Deaths:%deaths%,Bandages Used:%heals.self.infection%,Heals:%heals.other%,zPoints:%z_points%
+spawn:
+  safespawn_radius: 15
+hologram:
+  display_ticks: 3
+points:
+  death: 0.1
+  kill:
+    zombie: 1.0
+    pigman: 0.9
+    giant: 12.0
+    player: 3.0
+    guard: 0.8
+  drink: 0.05
+  friend_add: 0.08
+  heal:
+    self: 0.5
+    other: 1.3
+    infection: 0.5
+  revive:
+    other: 1.2
+    self: 0.7
+  ghost: 0.2
+  undead: 0.25
+chests:
+  random_layout: false
+ghosts:
+  can_damage: true
+zombie_awareness_month:
+  enabled: true
+specialevent:
+  zombie_awareness_month:
+    strength_multiplier: 2.0
+    health_multiplier: 2.0
+    detection_multiplier: 2.0
+    zombify: true
+  april_fools:
+    enabled: true
+  easter:
+    enabled: true
+  speak_like_pirate:
+    enabled: true
+friends:
+  friendly_fire: false
+safe_logout:
+  timer: 15
+  completed_command: kick $player

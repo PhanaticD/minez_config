@@ -1,0 +1,257 @@
+sql:
+  is_off: MySql会话未启用
+  modified_off: 当试图修改MySql的时候断开 连接.
+  connect:
+    success: 连接成功.
+    fail: 连接失败.
+    connecting: 正在连接到数据库...
+  disconnect:
+    success: 与MySql断开连接.
+    fail: 与MySql断开连接失败.
+  execute:
+    fail: 无法执行MySql命令
+item:
+  murky_water: 污水瓶
+  radio:
+    displayname: 广播
+    lore: '&e拿着它可以聊天'
+  healing:
+    bandage:
+      displayname: 绷带
+    ointment:
+      displayname: '&4药膏'
+      lore: 基础医学.~~&6治愈 X~伤害吸收 I
+    antiseptic:
+      displayname: '&a抗生素'
+      lore: 治疗感染.~~&6抗性 X
+    scissors:
+      displayname: 剪刀
+      lore: 用来剪切绷带.~~&e对着伙伴左 键~&e将绷带剪下来
+    medicine:
+      displayname: '&e药'
+      lore: 高级的药品.~~&6治疗 II~&6伤害吸 收 II~&6抗性 X
+  salt_water: 瓶装盐水
+  chain: 链条
+  grapple:
+    displayname: 爪钩
+    lore: '&e右键使用'
+  cold_water: 瓶装冰水
+  warm_water: 瓶装温水
+  thermometer:
+    displayname: 温度计
+    lore: '&e右键查看温度.'
+    state:
+      normal: '&a正常 - $0 摄氏度'
+      sweating: '&4炎热 - $0 摄氏度'
+      heatstroke:
+        '1': '&4中暑 I - $0 摄氏度'
+        '2': '&4中暑 II - $0 摄氏度'
+        '3': '&4中暑 III - $0 摄氏度'
+      shivering: '&b寒冷 - $0 摄氏度'
+      hypothermia:
+        '1': '&b低温 I - $0 摄氏度'
+        '2': '&b低温 II - $0 摄氏度'
+        '3': '&b低温 III - $0 摄氏度'
+event:
+  infected: '&4你已经被感染了.'
+  bleeding: '&4你被剪到了,正在流血!'
+  stopped_bleeding: '&e伤口止血了.'
+  uninfected: '&e你正在发烧,感觉身体就像 不是自己的一样.'
+  open_inventory:
+    cannot: '&4你无法打开别人正在使用的 箱子.'
+  earned_achievement: '&e你获得成就 &6$0 &8($1)&r.'
+  headshot: '&e爆头一击! &4伤害增加+$0 '
+  heal:
+    unable: '&4你现在不能治疗那个玩家.'
+    not_completed_healed: '&4你没能及时治疗.'
+    not_completed_healer: '&4你没能及时治疗,需要 重新开始.'
+    cooling_down: '&4你需要等待 $0 秒.'
+    check: |-
+      &e治疗: $0
+      &e生命: &6$1
+    completed_healer: '&e你治疗了 $0.'
+    completed_healed: '&e你被玩家 $0 治疗了.'
+    started_healed: event.heal.started_healed
+    started_healer: event.heal.started_healer
+  chest:
+    set: '&e箱子现在生成了 &6$0&e.'
+    create: '&e请给你生成的奖励箱命名. 当你输入名字后, 将会打开一 个箱子界面,你可以往里面添加 东西.'
+    add_item: |-
+      &e请输入最小和最大的概率,对于这个物品获取的概率
+      &9例 子: 1, 5, 50 &e(在1-5之间, 50% 的概率)
+    add_item_error: |-
+      &4错误的格式. &e请输入最小 和最大的概率,对于这个物品获 取的概率
+      &9ie. 1, 5, 50 &e(在1-5之间, 50% 的 概率)
+chat:
+  radio: '%s: &a1.$0 Hz - %s'
+  private:
+    from: '&8来自&7 %s &8的消息: %s'
+    to: '&8发送给 %s: %s'
+    error: '&4找不到指定用户.'
+    did_poke: '&8你正在联系 $0.'
+    poked: '&8$0 正在联系你.'
+  local:
+    format: '%s: %s'
+error:
+  incompatible: MyZ与当前服务端版本不兼容.
+revive:
+  finished_revive: '&eYou revived $0.'
+  was_revived: '&aYou were revived by $0. Y接下来的&e五分钟 内&a你将会感到虚弱&a.'
+  reviver_started: '&e你即将复活 $0. 抓紧了.'
+  revived_started: '&e$0即将复活你. 抓紧了.'
+  reviver_cancelled: '&4你滑了一跤,未能恢复 $0.'
+  revived_cancelled: '&4$0 无法复活你.'
+death:
+  became_ghost: '&e你成为了一个 &f幽灵&e! 如果 你不在$0秒内复活, 你将会死亡.'
+  became_zombie: '&e你成为了&2僵尸&e! 请面对 $0秒 的审判,并且坚持下来吧.'
+  fall_damage: '&4$0 想要成为一只快乐的小鸟.'
+  zombie: '&4$0 {joined the horde}.'
+  pigman: '&4$0 认为 {pigmen} 是友好的.'
+  giant: '&4$0 想去和{Giant} 比力气. 失败了..'
+  drowned: '&4$0 想要成为一条 {fish}.'
+  cactus: '&4$0 认为 {cactus} 是友好的.'
+  fire: '&4$0 成为了 {BBQ}.'
+  lava: '&4$0 想要洗个热水澡.于是跳入了 {lava}.'
+  poison: '&4$0 想要试一试 {poison} 的美味.'
+  magic: '&4$0 明白了 {Harry Potter''d}.'
+  shot: '&4$0 膝盖中了一 {arrow}.'
+  player: '&4$0 被 $1 谋杀了.'
+  explosion: '&4$0 {blew up}.'
+  block_suffocation: '&4$0 认为他躲在 {in a wall} 里就 可以躲避僵尸.'
+  unknown_cause: '&4$0 死亡了.'
+  starvation: '&4$0 无法找到最近的金色拱门.'
+  void: '&4$0 掉出了这个世界.'
+  as_ghost: '&4$0 面临审判.'
+command:
+  cannot_execute_as_console: 当前指令无法在控制 台执行.
+  manage:
+    spawn:
+      begin: |-
+        &e你现在正在管理出生点.
+        &9o&f右 键选择出生点设置模式.
+        &9o&f左 键移除一个出生点
+        &9o&f 左键添 加一个出生点
+        &9o&f 蹲伏状态下 左键设置家
+        &9o&f 丢弃工具来结 束设置
+      no_spawns: '&e没有出生点.'
+      viewing_spawn: '&e现在前往的是#$0 号出生 点.'
+      removed_spawn: '&e你移除了当前位置的出 生点.'
+      added_spawn: '&e你在当前位置添加了出 生点.'
+      home_set: '&e在当前位置设置了家的坐 标.'
+    ended: '&e你完成了管理操作.'
+    engineer:
+      begin: |-
+        &e你现在正在管理合成配方.
+        &9o&f 右键打开制作界面
+        &9o&f 左键 浏览现有的合成配方
+        &9o&f 将所 需材料放入坐左边槽位
+        &9o&f 将 获得物品放入右边槽位
+        &9o&f 关 闭菜单来创建配方
+        &9o&f 丢弃工 具来结束设置
+      recipe:
+        not_created: '&4配方未创建.'
+        created: '&e一个新的合成配方被创建 出来了.'
+        removed: '&e合成配方被移除.'
+        modified: '&e合成配方已修改.'
+      no_recipes: '&4没有配方可以查看.'
+      viewing_recipe: '&e正在查看 #$0 配方.'
+  spawn:
+    spawned: '&e欢迎加入饥饿游戏.'
+    already_spawned: '&4你早就加入了饥饿游戏.'
+  manager:
+    chest:
+      begin: |-
+        &e你现在正在编辑一个箱子.
+        &9o&f 左/右键点击一个箱子,设置 箱子的奖励,多次点击可切换.
+        &9o&f 左键创建一个奖励列表
+        &9o&f右 键移除一个奖励列表
+        &9o&f 丢弃 工具来结束设置
+      lootset_created: '&e奖励列表创建完成.'
+      lootset_removed: '&e奖励列表成功移除.'
+      lootset_remove: '&e请输入你想移除的奖励 列表的名字. Options include:'
+    chat_prefix:
+      start: '&e输入一个聊天前缀 (例子: [VIP]),使 用符号:(&)可以设置颜色与字体.'
+      continue: '&e输入一个序号: (0-100), 或者一 个玩家的名字.'
+      finish: '&a聊天浅醉创建成功.'
+    spawn_kit: |-
+      &e你正在编辑出生礼包
+      &9o&f 输 入一个序号 (0-100) 或者一个玩家的 名字来保存当前的背包.
+    spawn_kit_created: '&a出生礼包成功创建.'
+    region:
+      begin: command.manager.region.begin
+      click: command.manager.region.click
+      added: command.manager.region.added
+      not_added: command.manager.region.not_added
+      finalize: command.manager.region.finalize
+  requires_player: '&4这个指令需要你输入一 个玩家的名字.'
+  userdata:
+    no_field: command.userdata.no_field
+    immutable: command.userdata.immutable
+    wrong_type: command.userdata.wrong_type
+    parse_error: command.userdata.parse_error
+  store:
+    hand_empty: command.store.hand_empty
+    syntax_error: command.store.syntax_error
+    created:
+      item: command.store.created.item
+      gui: command.store.created.gui
+  get_points: command.get_points
+equipment:
+  starter:
+    chestplate:
+      displayname: 培训束腰外衣
+      lore: 总比没有要好!:)
+    sword:
+      displayname: 修练用短剑
+      lore: 砍!刺!啊,断了!
+  state:
+    devastated: '&4毁坏的~$0% 有效'
+    broken: '&4破碎的~$0% 有效'
+    dull: '&4迟钝的~$0% 有效'
+    tempered: '&2温和的~$0% 有效'
+    reinforced: '&6强化的~$0% 有效'
+    shattered: '&粉碎的~$0% 有效'
+    weakened: '&4虚弱的~$0% 有效'
+    sharpened: '&2尖锐的~$0% 有效'
+    ornate: '&6华丽的~$0% 有效'
+    fortified: '&2强化的~$0% 有效'
+    slack: '&4松弛的~$0% 有效'
+    precise: '&2精确的~$0% 有效的~&9+$1 爆头伤 害'
+    cracked: '&4破碎的~$0% 有效'
+    bow_sharpened: '&2尖锐的~$0% 有效的~~&9+$1 攻击 伤害'
+    weak_grapple: '&4虚弱'
+    lightweight_grapple: '&6轻盈的~&9免疫掉落伤害'
+items:
+  healing:
+    bandage:
+      lore: 可以止血.~~&e右键使用~&e左键对 伙伴使用
+statement:
+  'yes': '&a是'
+  'no': '&4否'
+  nothing: nothing
+success: success
+spawn:
+  unable: spawn.unable
+kill:
+  zombie: kill.zombie
+  pigman: kill.pigman
+  giant: kill.giant
+  guard: kill.guard
+  player: kill.player
+update:
+  available: update.available
+special_event:
+  awareness_month: special_event.awareness_month
+friend:
+  added: friend.added
+  was_added: friend.was_added
+  removed: friend.removed
+  was_removed: friend.was_removed
+safe_logout:
+  progress: safe_logout.progress
+  failure: safe_logout.failure
+specialevent:
+  active: specialevent.active
+  april_fools: specialevent.april_fools
+  easter: specialevent.easter
+  speak_like_pirate_day: specialevent.speak_like_pirate_day

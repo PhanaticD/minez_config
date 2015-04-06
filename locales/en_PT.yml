@@ -1,0 +1,276 @@
+sql:
+  is_off: MySQL has walked te' plank.
+  modified_off: Yar MySQL cannot be changed when 'tis off.
+  connect:
+    success: Yar connected.
+    fail: Ya couldn't connect.
+    connecting: MySQL, ho!
+  disconnect:
+    success: MySQL has set sail.
+    fail: MySQL has joined our crew, captain.
+  execute:
+    fail: Couldn't run MySQL, capt'n.
+item:
+  murky_water: Murky Bottle o' Grog
+  radio:
+    displayname: Pearl o' Talkin'
+    lore: '&eHold to chat with ''''yer shipmates'
+  healing:
+    bandage:
+      displayname: Old rag
+    ointment:
+      displayname: '&4Ointment'
+      lore: Basic medicine.~~&6Heal X~Absorption I
+    antiseptic:
+      displayname: '&aAntiseptic'
+      lore: Keeps ya in tip-top shape.~~&6Immunity X
+    scissors:
+      displayname: Scissors
+      lore: Used to cut old rags.~~&eLeft-click friend~&eto cut bandage
+    medicine:
+      displayname: '&eMedicine'
+      lore: Proper medicine.~~&6Heal II~&6Absorption II~&6Immunity X
+  salt_water: Bottle of Seawater
+  chain: Links o' Chain
+  grapple:
+    displayname: Hook o' Grapplin'
+    lore: '&eRight click to use'
+  cold_water: Cold Bottle of Water
+  warm_water: Warm Bottle of Water
+  thermometer:
+    displayname: Thermometer
+    lore: '&eRight click to check ''yer temperature.'
+    state:
+      normal: '&aSeafarin'' - $0 degrees'
+      sweating: '&4Sweatin'' - $0 degrees'
+      heatstroke:
+        '1': '&4Heatstroke I - $0 degrees'
+        '2': '&4Heatstroke II - $0 degrees'
+        '3': '&4Heatstroke III - $0 degrees'
+      shivering: '&bShiverin'' - $0 degrees'
+      hypothermia:
+        '1': '&bHypothermia I - $0 degrees'
+        '2': '&bHypothermia II - $0 degrees'
+        '3': '&bHypothermia III - $0 degrees'
+event:
+  infected: '&4Arrrr!'
+  bleeding: '&4Yer blood is spillin'' on the deck!'
+  stopped_bleeding: '&e''Ye stop bleedin''.'
+  uninfected: '&eYer fever drops.'
+  open_inventory:
+    cannot: '&4''Ye can''t open that while a crewmate is usin'' it.'
+  earned_achievement: '&eAhoy! ''Ye got the achievement &6$0 &8($1)&r.'
+  headshot: '&eHeadshot! &4+$0 Damage'
+  heal:
+    unable: '&4''Yer unable to heal that crewmate.'
+    not_completed_healed: '&4''Ye were not healed in time.'
+    not_completed_healer: '&4''Ye did not finish healin'' in time and must start over.'
+    cooling_down: '&4''Ye must wait $0 seconds.'
+    check: |-
+      &eBleedin': $0
+      &eHealth: &6$1
+    completed_healer: '&e''Ye healed $0.'
+    completed_healed: '&e''Ye were healed by $0.'
+    started_healed: '&e''Yer crewmate, $0 has begun to patch ''ye up.'
+    started_healer: '&e''Yer now patchin'' up $0.'
+  chest:
+    set: Thar treasure trove now spawns &6$0.
+    create: '&ePlease enter a name for ''yer new chest type. Once ''ye enter a name,
+      an inventory will open where ''ye may add a spawn item.'
+    add_item: |-
+      &ePlease enter a minimum and maximum amount for this item, followed by a probability.
+      &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
+    add_item_error: |-
+      &4Unable to parse format. &ePlease enter a minimum and maximum amount for this item, followed by a probability.
+      &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
+chat:
+  radio: '%s: &aPearl o'' Talkin'' $0 - %s'
+  private:
+    from: '&8Crewmate %s: %s'
+    to: '&8To %s: %s'
+    error: '&4Unable to speak to shipmate.'
+    did_poke: '&8''Ye signalled $0.'
+    poked: '&8$0 wants ''yer attention.'
+  local:
+    format: '%s: %s'
+error:
+  incompatible: MyZ cannot set sail on this server version.
+revive:
+  finished_revive: '&e''Ye revived $0.'
+  was_revived: '&a''Ye were revived by $0. Davy Jones is near for the next &efive
+    minutes&a.'
+  reviver_started: '&e''Ye have begun revivin'' $0.'
+  revived_started: '&eAhoy! $0 has begun to revive ''ye.'
+  reviver_cancelled: '&4''Ye failed to revive $0.'
+  revived_cancelled: '&4$0 was unable to revive ''ye.'
+death:
+  became_ghost: '&e''Yer in &fDavy Jones'' Locker&e! If ''ye aren''t revived within
+    $0 seconds, ''ye will perish.'
+  became_zombie: '&e''Yer one of &2Davy Jones'' undead&e! Hold out for $0 seconds
+    to escape the Locker.'
+  fall_damage: '&4$0 tried to be a seagull.'
+  zombie: '&4$0 {joined Davy Jones}.'
+  pigman: '&4$0 thought {pigmen} were friendly.'
+  giant: '&4$0 took on an {Undead Boss}. And lost.'
+  drowned: '&4$0 {went swimmin'' with the fishes}.'
+  cactus: '&4$0 brawled with a {cactus}.'
+  fire: '&4$0 is a {BBQ}.'
+  lava: '&4$0 went for a swim. In {lava}.'
+  poison: '&4$0 mistook {poison} for rum.'
+  magic: '&4$0 got {Harry Potter''d}.'
+  shot: '&4$0 took a {cannonball} to the knee.'
+  player: '&4$0 was SWASHBUCKLED by $1.'
+  explosion: '&4$0 {blew up}.'
+  block_suffocation: '&4$0 thought he could hide from Davy Jones {in a wall}.'
+  unknown_cause: '&4$0 walked the plank.'
+  starvation: '&4$0 got scurvy.'
+  void: '&4$0 fell overboard.'
+  as_ghost: '&4$0 was abandoned by Davy Jones.'
+command:
+  cannot_execute_as_console: '''Ye cannot execute this command unless ''yer a deckhand.'
+  manage:
+    spawn:
+      begin: |-
+        &e'Yer now managin' spawnpoints.
+        &9o&f Right click to cycle spawnpoints.
+        &9o&f Left click a spawnpoint to remove it
+        &9o&f Left click to add a spawnpoint
+        &9o&f Left click while crouchin' to set the home point
+        &9o&f Drop wand to end
+      no_spawns: '&eThere are no spawns.'
+      viewing_spawn: '&eNow viewin'' spawnpoint #$0.'
+      removed_spawn: '&e''Ye have removed a spawn at the current location.'
+      added_spawn: '&e''Ye have added a spawn at the current location.'
+      home_set: '&eSet the home spawnpoint to the current location.'
+    ended: '&e''Ye have finished managin''.'
+    engineer:
+      begin: |-
+        &e'Yer now managin' engineerin' recipes.
+        &9o&f Right click to open the interface
+        &9o&f Left click to flip through existin' recipes
+        &9o&f Place 'yer input items in the left slots
+        &9o&f Place 'yer output item in the right slot
+        &9o&f Close the interface to create the recipe
+        &9o&f Drop wand to end
+      recipe:
+        not_created: '&4The recipe was not created.'
+        created: '&eA new engineerin'' recipe has been created.'
+        removed: '&eThe engineerin'' recipe has been removed.'
+        modified: '&eThe engineerin'' recipe has been modified.'
+      no_recipes: '&4There are no recipes to view.'
+      viewing_recipe: '&eNow viewin'' recipe #$0.'
+  spawn:
+    spawned: '&e''Ye have spawned in the world.'
+    already_spawned: '&4''Yer already land ''ho.'
+  manager:
+    chest:
+      begin: |-
+        &eYer now managin' chests.
+        &9o&f Click a treasure trove to assign it a lootset
+        &9o&f Left click air to create a lootset
+        &9o&f Right click air to remove a lootset
+        &9o&f Drop wand to end
+      lootset_created: '&eThe lootset has been completed.'
+      lootset_removed: '&eThe lootset has been removed.'
+      lootset_remove: '&ePlease enter the name of the lootset ''yer removin''. Options
+        include:'
+    chat_prefix:
+      start: '&eEnter a chat prefix (ie. [PIRATE]), using ampersands (&) fer chat
+        formatting.'
+      continue: '&eEnter a rank number (0-100), or a crewmate''s name to apply this
+        prefix to.'
+      finish: '&aThe chat prefix has been created.'
+    spawn_kit: |-
+      &eYer now managing spawn kits.
+      &9o&f Enter a rank number (0-100) or a crewmate's name to save yer current inventory and gear contents to.
+    spawn_kit_created: '&aThe spawn kit has been created.'
+    region:
+      begin: |-
+        &e'Yer now managing regions.
+        &9o&f Left click a block to set a corner of the region
+        &9o&f Right click a block to set the other corner of the region
+        &9o&f Left click air to create the region
+        &9o&f Right click air to get the region info of your current location
+        &9o&f Setting points on the same Y-plane will extend the region from the top of the world to the bottom
+        &9o&f Drop wand to end
+      click: '&eCorn-arrrrr $0 has been set.'
+      added: '&eThe region has been added.'
+      not_added: '&4Arrr, one or more of the region corners was not set.'
+      finalize: |-
+        &eEnt-arrr the spawn chance multipliers you wish to apply in the following format, 'ye scurvy dog:
+        &f<zombie>, <pigman>, <giant>, <guard>
+        &feg: 0.5, 1.0, 25.0, 0.0
+  requires_player: '&4That command requires ''ye ''ta provide the name of a crewmate.'
+  userdata:
+    no_field: '&4''Yer entry couldn''t be found.'
+    immutable: '&4Ya can''t change that entry.'
+    wrong_type: '&4''Ye need to entarrrr a(n) $0.'
+    parse_error: '&4Unable to parse $0.'
+  store:
+    hand_empty: '&4''Yer not holding the display item!'
+    syntax_error: '&4Unable to modify treasure trove. Check ''yer syntax and try again.'
+    created:
+      item: '&aThe treasure item has been created.'
+      gui: '&aThe GUI has been created.'
+  get_points: '&e''Ye have ammassed $0 dubloons of zombie booty.'
+equipment:
+  starter:
+    chestplate:
+      displayname: Dusty Chestpiece
+      lore: It's decomposin'...
+    sword:
+      displayname: Pirate Scimitar
+      lore: Get to slashin'.
+  state:
+    devastated: '&4Decomposed~$0% Effective'
+    broken: '&4Rottin''~$0% Effective'
+    dull: '&4Dull~$0% Effective'
+    tempered: '&2Tempered~$0% Effective'
+    reinforced: '&6Reinforced~$0% Effective'
+    shattered: '&4Shattered~$0% Effective'
+    weakened: '&4Weakened~$0% Effective'
+    sharpened: '&2Pointy~$0% Effective'
+    ornate: '&6Fancy~$0% Effective'
+    fortified: '&2Fortified~$0% Effective'
+    slack: '&4Slack~$0% Effective'
+    precise: '&2Accurate~$0% Effective~~&9+$1 Headshot Damage'
+    cracked: '&4Cracked~$0% Effective'
+    bow_sharpened: '&2Sharpened~$0% Effective~~&9+$1 Attack Damage'
+    weak_grapple: '&4Weak'
+    lightweight_grapple: '&6Lightweight~&9Negates Fall Damage'
+items:
+  healing:
+    bandage:
+      lore: Stops bleedin'.~~&eRight-click to use~&eLeft-click crewmate to use
+statement:
+  'yes': '&aaye'
+  'no': '&4neigh'
+  nothing: nothin'
+success: '''Ye did it!'
+spawn:
+  unable: '&4''Ye could not be spawned in the world presently. Try latarrrr.'
+kill:
+  zombie: '&eZombie down!~&e$0 this life.'
+  pigman: '&ePigman down!~&e$0 this life.'
+  giant: '&eGiant down!~&e$0 this life.'
+  guard: '&eGuard down!~$0 this life.'
+  player: '&eCrewmate down!~&e$0 this life.'
+update:
+  available: '&eMyZ $1 ($0) is available! Update on http://spigotmc.org/resources/myz.3826/
+    (currently $2).'
+special_event:
+  awareness_month: '&eYarr, it be &4&lZombie Awareness Month&r&e! The undead have
+    $0x health, $1x strength and $x detection range!'
+friend:
+  added: $0 &r&ewas added to 'yer crew.
+  was_added: $0 &r&eadded you his crew.
+  removed: $0 &r&4was removed from 'yer crew.
+  was_removed: $0 &r&4threw you overboard.
+safe_logout:
+  progress: '&e''Yer gonna be logged out in $0 seconds.'
+  failure: '&4Safe logout was cancelled because ''ya moved!'
+specialevent:
+  active: '&eIt''s &r$0&e! Keep ''yer eyes out for holiday events!'
+  april_fools: '&6April Fools'
+  easter: '&9Easter'
+  speak_like_pirate_day: specialevent.speak_like_pirate_day

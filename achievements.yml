@@ -1,0 +1,93 @@
+friends:
+  name: Making Friends
+  description: make a friend
+  requirements:
+    kills:
+      zombie: 0
+      pigman: 0
+      player: 0
+      giant: 0
+    heals:
+      self:
+        bleeding: 0
+        infection: 0
+      other: 0
+    drinks: 0
+    revive:
+      other: 0
+      self: 0
+    deaths: 0
+    deathstate:
+      zombie: 0
+      ghost: 0
+    friends: 1
+    z_points: 0
+    immunity: 0
+    toughness: 0
+    rank: 0
+    wolf:
+      level: 0
+    horse:
+      level: 0
+thirsty:
+  name: Staying Hydrated
+  description: drink 20 bottles of water
+  requirements:
+    kills:
+      zombie: 0
+      pigman: 0
+      player: 0
+      giant: 0
+    heals:
+      self:
+        bleeding: 0
+        infection: 0
+      other: 0
+    drinks: 20
+    revive:
+      other: 0
+      self: 0
+    deaths: 0
+    deathstate:
+      zombie: 0
+      ghost: 0
+    friends: 0
+    z_points: 0
+    immunity: 0
+    toughness: 0
+    rank: 0
+    wolf:
+      level: 0
+    horse:
+      level: 0
+lifecycle:
+  name: The Circle of Life
+  description: reach the end of your life
+  requirements:
+    kills:
+      zombie: 0
+      pigman: 0
+      player: 0
+      giant: 0
+    heals:
+      self:
+        bleeding: 0
+        infection: 0
+      other: 0
+    drinks: 0
+    revive:
+      other: 0
+      self: 0
+    deaths: 1
+    deathstate:
+      zombie: 0
+      ghost: 0
+    friends: 0
+    z_points: 0
+    immunity: 0
+    toughness: 0
+    rank: 0
+    wolf:
+      level: 0
+    horse:
+      level: 0
