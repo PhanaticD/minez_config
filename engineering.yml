@@ -1,5 +1,5 @@
 recipes:
-  cfbc5f32-c530-428a-8f13-4b5e624b4144:
+  ff7c885f-1602-43dc-aa22-1c8cd57f52d8:
     input1:
       ==: org.bukkit.inventory.ItemStack
       type: INK_SACK
