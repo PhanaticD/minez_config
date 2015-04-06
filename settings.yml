@@ -100,7 +100,7 @@ thirst:
 chat:
   local:
     radius: 20
-  autocorrect: true
+  autocorrect: false
 death:
   vulnerable_time: 300
   revive_time: 10
