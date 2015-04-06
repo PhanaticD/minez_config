@@ -867,4 +867,198 @@ types:
       item:
         ==: org.bukkit.inventory.ItemStack
         type: MUSHROOM_SOUP
-locations: {}
+  Common:
+    afc96255-a7e5-411e-9253-c60ad6d04c50:
+      probability: 50
+      amount_minimum: 1
+      amount_maximum: 5
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ROTTEN_FLESH
+        amount: 7
+locations:
+  210885ab-355a-47e8-8e15-0bf083e30acb, 538, 48, -3149:
+    material: CHEST
+    orientation: SOUTH
+    type: Weaponry - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1279, 68, -517:
+    material: CHEST
+    orientation: EAST
+    type: Supplies - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1275, 68, -521:
+    material: CHEST
+    orientation: SOUTH
+    type: Food - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1277, 68, -516:
+    material: CHEST
+    orientation: NORTH
+    type: 'Yes'
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1273, 68, -520:
+    material: CHEST
+    orientation: WEST
+    type: ya
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1275, 68, -516:
+    material: CHEST
+    orientation: NORTH
+    type: Armor - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1273, 68, -518:
+    material: CHEST
+    orientation: WEST
+    type: ya
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1279, 68, -519:
+    material: CHEST
+    orientation: EAST
+    type: Weaponry - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1277, 68, -521:
+    material: CHEST
+    orientation: SOUTH
+    type: 'Yes'
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1307, 68, -492:
+    material: CHEST
+    orientation: EAST
+    type: Food - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1240, 68, -521:
+    material: CHEST
+    orientation: WEST
+    type: Oh is this where are all are
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1245, 73, -521:
+    material: CHEST
+    orientation: EAST
+    type: Weaponry - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1240, 73, -533:
+    material: CHEST
+    orientation: WEST
+    type: Supplies - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1261, 68, -532:
+    material: CHEST
+    orientation: WEST
+    type: Armor - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1260, 73, -541:
+    material: CHEST
+    orientation: WEST
+    type: ya
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1244, 68, -510:
+    material: CHEST
+    orientation: WEST
+    type: wtf
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1244, 68, -494:
+    material: CHEST
+    orientation: NORTH
+    type: Weaponry - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1307, 68, -537:
+    material: CHEST
+    orientation: EAST
+    type: Supplies - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1299, 68, -530:
+    material: CHEST
+    orientation: SOUTH
+    type: Weaponry - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1280, 73, -541:
+    material: CHEST
+    orientation: EAST
+    type: Weaponry - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1280, 68, -533:
+    material: CHEST
+    orientation: NORTH
+    type: Oh is this where are all are
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 653, 69, 556:
+    material: CHEST
+    orientation: NORTH
+    type: Armor - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1276, 68, -504:
+    material: CHEST
+    orientation: EAST
+    type: Oh is this where are all are
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1262, 68, -514:
+    material: CHEST
+    orientation: WEST
+    type: Weaponry - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1262, 68, -512:
+    material: CHEST
+    orientation: WEST
+    type: Supplies - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1262, 68, -510:
+    material: CHEST
+    orientation: WEST
+    type: Weaponry - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1264, 68, -514:
+    material: CHEST
+    orientation: WEST
+    type: Armor - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1264, 68, -512:
+    material: CHEST
+    orientation: WEST
+    type: Armor - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1264, 68, -510:
+    material: CHEST
+    orientation: WEST
+    type: Armor - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1266, 68, -514:
+    material: CHEST
+    orientation: WEST
+    type: Supplies - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1266, 68, -512:
+    material: CHEST
+    orientation: WEST
+    type: Supplies - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1266, 68, -510:
+    material: CHEST
+    orientation: WEST
+    type: Supplies - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1268, 68, -514:
+    material: CHEST
+    orientation: WEST
+    type: Food - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1268, 68, -512:
+    material: CHEST
+    orientation: WEST
+    type: Food - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1268, 68, -510:
+    material: CHEST
+    orientation: WEST
+    type: Food - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1270, 68, -514:
+    material: CHEST
+    orientation: WEST
+    type: Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1270, 68, -512:
+    material: CHEST
+    orientation: WEST
+    type: Random
+    respawn_time: -1

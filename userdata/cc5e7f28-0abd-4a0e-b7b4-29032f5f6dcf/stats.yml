@@ -1,0 +1,21 @@
+kills:
+  zombie: 2
+  player: 0
+  pigman: 16
+  giant: 0
+  guard: 0
+revives:
+  self: 0
+  other: 0
+friends: 0
+drinks: 0
+deaths: 1
+heals:
+  self:
+    infection: 0
+    bleeding: 0
+  other: 0
+deathstate:
+  zombie: 1
+  ghost: 1
+z_points: 16.950000000000003

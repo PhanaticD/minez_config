@@ -1,0 +1,17 @@
+thirst: 20.0
+poisoned: false
+bleeding: false
+ghost: false
+zombie: false
+in_game: true
+tracked:
+  kills:
+    zombie: 31
+    player: 0
+    pigman: 17
+    giant: 10
+    guard: 0
+temperature: 37.0
+died_while_offline: false
+corpse:
+  location: ''
