@@ -191,8 +191,8 @@ guard:
       sword: IRON_SWORD
     boots: CHAINMAIL_BOOTS
     leggings: CHAINMAIL_LEGGINGS
-    chestplate: AIR
-    helmet: GOLD_HELMET
+    chestplate: CHAINMAIL_CHESTPLATE
+    helmet: CHAINMAIL_HELMET
   become_zombie_on_death: true
 giant:
   spawn:
@@ -204,9 +204,9 @@ giant:
       includes:
       - Mesa Plateau
     limits:
-      minimum_z: 0
-      maximum_z: 0
-      enabled: false
+      minimum_z: -3000
+      maximum_z: -4095
+      enabled: true
   ability:
     reinforcement:
       minimum: 1
