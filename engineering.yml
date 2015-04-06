@@ -14,8 +14,6 @@ recipes:
         - §r
         - §r§6Heal X
         - §rAbsorption I
-        enchants:
-          Glow: 9
     input2:
       ==: org.bukkit.inventory.ItemStack
       type: INK_SACK
@@ -29,8 +27,6 @@ recipes:
         - §rTreats infection.
         - §r
         - §r§6Immunity X
-        enchants:
-          Glow: 9
     output:
       ==: org.bukkit.inventory.ItemStack
       type: INK_SACK
@@ -45,5 +41,3 @@ recipes:
         - §r§6Heal II
         - §r§6Absorption II
         - §r§6Immunity X
-        enchants:
-          Glow: 9
