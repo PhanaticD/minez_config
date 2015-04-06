@@ -45,7 +45,7 @@ bleeding:
 infection:
   enabled: true
 temperature:
-  enabled: true
+  enabled: false
 chests:
   enabled: true
 scoreboard:
