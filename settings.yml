@@ -169,7 +169,7 @@ heal:
       extention: 0
       level: 0
     antiseptic: true
-temperature:
+// temperature:
   default: 37.0
   biome:
     frozen: 31.0
@@ -243,7 +243,7 @@ points:
   death: 0.1
   kill:
     zombie: 1.0
-    pigman: 0.9
+    pigman: 1.5
     giant: 12.0
     player: 3.0
     guard: 0.8
