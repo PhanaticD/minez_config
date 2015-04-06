@@ -1,6 +1,6 @@
 language: en_CA
 worlds:
-- world
+- minez
 operation_tick: 1
 save_delay: 6000
 dedicated-mode: false
