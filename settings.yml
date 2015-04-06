@@ -179,7 +179,7 @@ temperature:
     ocean: 30.5
   modify:
     thirst:
-      threshold: 3.0
+      threshold: 3
       thirsty: 0.5
     water:
       in_non_ocean_water: -2.2
