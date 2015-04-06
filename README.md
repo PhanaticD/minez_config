@@ -1,0 +1,1 @@
+# minez_config
