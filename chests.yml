@@ -1,2 +1,176 @@
-types: {}
-locations: {}
+types:
+  Civ_Common:
+    8307450d-b9fe-4fca-ad70-48266a64ab28:
+      probability: 50
+      amount_minimum: 1
+      amount_maximum: 5
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+    b7904ea8-db75-4210-aeaa-db26002a083b:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+    bd567f47-7593-4799-a87e-0ca02675228e:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+    0da8e3e4-7249-49ae-9ff2-b7108e6afd2f:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+    61dcff15-4208-4503-a6a7-06c952457ea8:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+    db994909-1229-40a1-ba08-378047b37219:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+    b6b80dd4-9b5f-4cf0-a7b2-7865ad3d6d3b:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 5
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 5
+    6223d4aa-4b65-483a-b3ce-62bf6113ebc4:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ROTTEN_FLESH
+    930f9b22-326d-4b88-8497-02db8ec6fb38:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SNOW_BALL
+    ec849706-456c-4254-93a5-b361899da31a:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+    a0fc19a9-6784-4c0b-b679-2407fcc1b14a:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+    77255ee2-0f9a-4e22-8be7-abd2aaaf941d:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 1
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§4Ointment
+          lore:
+          - §rBasic medicine.
+          - §r
+          - §r§6Heal X
+          - §rAbsorption I
+    2a45409f-d259-464d-95fb-c9dd687d391b:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§aAntiseptic
+          lore:
+          - §rTreats infection.
+          - §r
+          - §r§6Immunity X
+    1ed2d599-1058-4d89-b29f-f320f400b5b0:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SHEARS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rScissors
+          lore:
+          - §rUsed to cut bandages.
+          - §r
+          - §r§eLeft-click friend
+          - §r§eto cut bandage
+    2c3aac7a-036b-4f8d-9754-035f628bb072:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: MILK_BUCKET
+    d7cb7855-9c51-40e7-b926-cef725e07f87:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+    84000121-482e-4f89-b2c7-5a37112f7327:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+locations:
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, 2:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, 2:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 987, 68, -2044:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
