@@ -3,7 +3,7 @@ ranks:
     chat_prefix: 'Survivor'
     equipment:
       chestplate:
-      -  ==: org.bukkit.inventory.ItemStack
+      - ==: org.bukkit.inventory.ItemStack
         type: LEATHER_CHESTPLATE
         meta:
           ==: ItemMeta
