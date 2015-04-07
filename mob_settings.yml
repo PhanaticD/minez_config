@@ -201,10 +201,9 @@ giant:
       minimum: 1
       maximum: 1
     biome:
-      excludes:
-      - Ocean
       includes:
       - Mesa Plateau
+      - DesertHills
     limits:
       minimum_z: -4095
       maximum_z: -3000
