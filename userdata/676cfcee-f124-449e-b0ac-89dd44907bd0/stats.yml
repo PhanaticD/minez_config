@@ -1,5 +1,5 @@
 kills:
-  zombie: 59
+  zombie: 176
   player: 0
   pigman: 30
   giant: 12
@@ -8,14 +8,14 @@ revives:
   self: 0
   other: 0
 friends: 0
-drinks: 1
-deaths: 1
+drinks: 3
+deaths: 2
 heals:
   self:
     infection: 0
     bleeding: 0
   other: 0
 deathstate:
-  zombie: 1
-  ghost: 1
-z_points: 228.2000000000001
+  zombie: 2
+  ghost: 4
+z_points: 346.2500000000001

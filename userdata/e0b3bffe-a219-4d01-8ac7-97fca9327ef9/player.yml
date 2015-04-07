@@ -1,5 +1,5 @@
 prefix: ''
-rank: 100
+rank: 0
 friend_list: ''
 z_points_multiplier: 1.0
 horse:
@@ -8,4 +8,4 @@ horse:
 wolf:
   name: ''
   level: 0
-actual_name: Rising24
+actual_name: iWadey

@@ -1062,3 +1062,33 @@ locations:
     orientation: WEST
     type: Random
     respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -270, 44, -2633:
+    material: CHEST
+    orientation: WEST
+    type: Supplies - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -274, 44, -2629:
+    material: CHEST
+    orientation: EAST
+    type: Weaponry - Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 694, 68, -3248:
+    material: CHEST
+    orientation: SOUTH
+    type: Armor - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 448, 32, -3186:
+    material: CHEST
+    orientation: WEST
+    type: Armor - Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 435, 37, -3185:
+    material: CHEST
+    orientation: NORTH
+    type: Supplies - Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 437, 40, -3185:
+    material: CHEST
+    orientation: NORTH
+    type: Weaponry - Uncommon
+    respawn_time: -1

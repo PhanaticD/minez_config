@@ -1,16 +1,16 @@
 thirst: 21.0
 poisoned: true
-bleeding: true
+bleeding: false
 ghost: false
 zombie: false
 in_game: false
 tracked:
   kills:
-    zombie: 6
+    zombie: 0
     player: 0
-    pigman: 1
+    pigman: 0
     giant: 0
-    guard: 1
+    guard: 0
 temperature: 37.0
 died_while_offline: false
 corpse:
