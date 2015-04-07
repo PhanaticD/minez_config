@@ -1,8 +1,8 @@
 kills:
-  zombie: 1
+  zombie: 37
   player: 0
   pigman: 4
-  giant: 0
+  giant: 10
   guard: 0
 revives:
   self: 0
@@ -18,4 +18,4 @@ heals:
 deathstate:
   zombie: 0
   ghost: 0
-z_points: 3.05
+z_points: 159.05
