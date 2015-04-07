@@ -1,3 +1,5 @@
+Item(<min>, <max>, <% chance>)
+
 Civ_Common
 Wooden Sword(1, 1, 6)
 Leather Helmet(1, 1, 6)
