@@ -8,8 +8,8 @@ pigman:
       excludes:
       - Mesa Plateau
     limits:
-      minimum_z: -2000
-      maximum_z: -4095
+      minimum_z: -4095
+      maximum_z: -2000
       enabled: true
   attribute:
     health: 1.0
@@ -204,8 +204,8 @@ giant:
       includes:
       - Mesa Plateau
     limits:
-      minimum_z: -3000
-      maximum_z: -4095
+      minimum_z: -4095
+      maximum_z: -3000
       enabled: true
   ability:
     reinforcement:
