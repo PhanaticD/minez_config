@@ -202,7 +202,8 @@ giant:
       minimum: 1
       maximum: 1
     biome:
-      includes: []
+      excludes:
+      - Ocean
     limits:
       minimum_z: -4095
       maximum_z: -3000
