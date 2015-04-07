@@ -22,16 +22,16 @@ pigman:
       multiplier: 1.05
   explode:
     adult:
-      amount: 4
+      amount: 3
     baby:
       magnitude: 1.0
   babies: true
 zombie:
   spawn:
-    chance: 80
+    chance: 50
     pack:
       minimum: 1
-      maximum: 5
+      maximum: 3
     biome:
       excludes:
       - Mesa Plateau

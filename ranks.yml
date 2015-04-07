@@ -1,6 +1,6 @@
 ranks:
   '0':
-    chat_prefix: ''
+    chat_prefix: 'Survivor'
     equipment:
       chestplate:
         ==: org.bukkit.inventory.ItemStack
@@ -24,14 +24,6 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
           - §rGet to slashing.
-      - ==: org.bukkit.inventory.ItemStack
-        type: COMPASS
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §rThermometer
-          lore:
-          - §r§eRight click to get temperature reading.
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
         meta:
