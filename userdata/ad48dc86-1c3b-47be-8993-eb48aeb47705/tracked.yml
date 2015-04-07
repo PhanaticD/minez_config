@@ -1,14 +1,14 @@
-thirst: 21.0
+thirst: 0.5694652173913068
 poisoned: false
 bleeding: false
 ghost: false
 zombie: false
-in_game: false
+in_game: true
 tracked:
   kills:
-    zombie: 0
+    zombie: 1
     player: 0
-    pigman: 0
+    pigman: 4
     giant: 0
     guard: 0
 temperature: 37.0

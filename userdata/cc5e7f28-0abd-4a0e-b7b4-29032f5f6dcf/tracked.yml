@@ -6,10 +6,10 @@ zombie: false
 in_game: true
 tracked:
   kills:
-    zombie: 0
+    zombie: 4
     player: 0
-    pigman: 0
-    giant: 0
+    pigman: 1
+    giant: 2
     guard: 0
 temperature: 39.03877127925635
 died_while_offline: false

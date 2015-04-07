@@ -200,15 +200,13 @@ giant:
     pack:
       minimum: 1
       maximum: 1
+    biome:
+      excludes:
+      - Ocean
     limits:
       minimum_z: -4095
       maximum_z: -3000
       enabled: true
-    biome:
-      excludes:
-      - Ocean
-      includes:
-      - Mesa Plateau
   ability:
     reinforcement:
       minimum: 1

@@ -1,14 +1,14 @@
 kills:
-  zombie: 0
+  zombie: 1
   player: 0
-  pigman: 0
+  pigman: 4
   giant: 0
   guard: 0
 revives:
   self: 0
   other: 0
 friends: 0
-drinks: 0
+drinks: 1
 deaths: 0
 heals:
   self:
@@ -18,4 +18,4 @@ heals:
 deathstate:
   zombie: 0
   ghost: 0
-z_points: 0.0
+z_points: 3.05
