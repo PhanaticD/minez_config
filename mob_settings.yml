@@ -1,3 +1,4 @@
+#TODO Change Giant spawn from 100% when done testing
 pigman:
   spawn:
     chance: 10
@@ -196,7 +197,7 @@ guard:
   become_zombie_on_death: true
 giant:
   spawn:
-    chance: 1
+    chance: 100
     pack:
       minimum: 1
       maximum: 1
