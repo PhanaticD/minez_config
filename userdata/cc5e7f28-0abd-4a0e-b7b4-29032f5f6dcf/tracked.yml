@@ -1,9 +1,9 @@
-thirst: 18.984668192219555
+thirst: 20.0
 poisoned: false
 bleeding: false
 ghost: false
 zombie: false
-in_game: false
+in_game: true
 tracked:
   kills:
     zombie: 0
