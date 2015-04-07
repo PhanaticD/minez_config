@@ -52,20 +52,20 @@ zombie:
     normal:
       chance: 80
     leather:
-      chance: 10
-    chain:
       chance: 5
-    gold:
+    chain:
       chance: 3
-    iron:
+    gold:
       chance: 2
+    iron:
+      chance: 0
   subtype:
     crawler:
       chance: 5
   babies: true
 guard:
   spawn:
-    chance: 5
+    chance: 1
     pack:
       minimum: 1
       maximum: 1
@@ -180,7 +180,7 @@ guard:
   attribute:
     jump:
       multiplier: 1.05
-    health: 20.0
+    health: 25.0
     speed:
       no_target: 0.23
       target_multiplier: 1.0
