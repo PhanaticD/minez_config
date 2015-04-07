@@ -207,7 +207,7 @@ giant:
     limits:
       minimum_z: -4095
       maximum_z: -3000
-      enabled: true
+      enabled: false
   ability:
     reinforcement:
       minimum: 1
