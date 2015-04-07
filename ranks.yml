@@ -1,6 +1,6 @@
 ranks:
   '0':
-    chat_prefix: 'Survivor'
+    chat_prefix: Survivor
     equipment:
       chestplate:
       - ==: org.bukkit.inventory.ItemStack
