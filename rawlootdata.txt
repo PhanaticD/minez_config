@@ -15,3 +15,32 @@ Shears(1, 1, 4)
 Antidote / Milk(1, 1, 4)
 Cocoa beans(1, 1, 10)
 Water bottle(1, 1, 4)
+
+Civ_Hospital
+Potion of Instant Health(1, 1, 55)
+Potion of Instant Health II(1, 1, 30)
+Splash Potion of Instant Health(1, 1, 7)
+Splash Potion of Instant Health(1, 1, 5)
+Golden Apple(1, 1, 4)
+
+Civ_Store
+Apple(1, 1, 15)
+Melon(1, 1, 30)
+Cocoa beans(1, 1, 13)
+Wheat(1, 1, 16)
+Mushroom Brown(1, 1, 10)
+Mushroom Red(1, 1, 10)
+Bowl(1, 1, 5)
+Cake(1, 1, 1)
+
+Civ_Tool
+Stone sword(1, 1, 15)
+Bow(1, 1, 5)
+Arrows(1, 2, 20)
+Leather tunic(1, 1, 5)
+Wooden hoe(1, 1, 5)
+Iron shovel(1, 1, 5)
+Empty bottle(1, 1, 20)
+Button(1, 1, 10)
+Cobweb(1, 1, 10)
+Cactus(1, 1, 10)
