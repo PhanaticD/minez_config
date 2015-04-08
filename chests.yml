@@ -1,9 +1,9 @@
 types:
   Civ_Common:
     8307450d-b9fe-4fca-ad70-48266a64ab28:
-      probability: 6
+      probability: 50
       amount_minimum: 1
-      amount_maximum: 1
+      amount_maximum: 5
       item:
         ==: org.bukkit.inventory.ItemStack
         type: WOOD_SWORD
@@ -158,9 +158,201 @@ types:
       item:
         ==: org.bukkit.inventory.ItemStack
         type: POTION
+  Civ_Hospital:
+    d2e85ceb-e282-4447-be3b-61dd725c42b2:
+      probability: 55
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    35c54a4c-f74e-44c2-bb15-2de937a06341:
+      probability: 30
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    665fac02-2990-4e6c-b749-bee2401393fd:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    60f889fc-be76-402a-85a2-4fcc735d3a45:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    a8ab7ad4-b01f-4453-b245-f320cd9a48b1:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+  Civ_Store:
+    65a74396-61fb-4251-be30-4be28bcb9492:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: APPLE
+    30fbc38b-f1f5-430f-ba9d-bd8c9baa2468:
+      probability: 30
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: MELON
+    c2fa0169-c646-4700-aeb6-9d1847b597a9:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+    28276edd-3f37-4c76-9695-e0dc81a65fbe:
+      probability: 16
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WHEAT
+    b5b8a9b6-8642-41f9-a6ae-8bdcd0055d84:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BROWN_MUSHROOM
+    09d2deb1-7481-45bd-95eb-466d06a03824:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: RED_MUSHROOM
+    47e661f2-f2b9-4af2-ada6-aeb7c15f8630:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOWL
+    3052d4e8-91d5-4a87-8826-90b09d4d2433:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CAKE
+  Civ_Tool:
+    3ae3cd27-9015-4960-8664-123b059e8a60:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_SWORD
+    a02a30a4-99e5-49f6-ac9e-a719422249ab:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+    593bfcc3-35a1-4c4a-9a86-f23461b26e76:
+      probability: 22
+      amount_minimum: 1
+      amount_maximum: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+    21fd0ca0-d83f-492c-b7bb-b3ffa3e27d64:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+    cbfabf57-d8cf-465d-b711-dae95deff938:
+      probability: 0
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_HOE
+    8566733c-38a2-4925-8b10-3834458b2f7c:
+      probability: 22
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GLASS_BOTTLE
+    8486f54a-9462-4392-a63c-5deaa448ba4c:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_BUTTON
+    9a6aa325-0112-472d-9ee0-780728a6b26f:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rGrappling Hook
+          lore:
+          - §r§eRight click to use
+    75a46af1-9986-42d3-9837-b26ee96a5496:
+      probability: 11
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_FENCE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rChain Links
 locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, 2:
     material: CHEST
     orientation: EAST
     type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, 2:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 987, 68, -2044:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, 2:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, 2:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Tool
     respawn_time: -1
