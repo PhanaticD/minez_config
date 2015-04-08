@@ -1,6 +1,6 @@
 ranks:
   '0':
-    chat_prefix: Survivor
+    chat_prefix: ''
     equipment:
       chestplate:
       - ==: org.bukkit.inventory.ItemStack
@@ -46,6 +46,6 @@ ranks:
           lore:
           - §r§eHold and chat to use
   '100':
-    chat_prefix: ''''''
+    chat_prefix: ''
     equipment:
       inventory: []
