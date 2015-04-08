@@ -1027,20 +1027,6 @@ types:
         ==: org.bukkit.inventory.ItemStack
         type: BAKED_POTATO
   Dungeon_Islands:
-    77fd4105-cbca-41e0-830a-cc4a0eb103af:
-      probability: 12
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: IRON_HELMET
-    aa3c019d-1a31-4bec-9395-6e31e4c76f6c:
-      probability: 33
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: CARROT_ITEM
     14c3bfe3-0c02-4970-a545-b9811e06a2ad:
       probability: 12
       amount_minimum: 1
@@ -1077,7 +1063,7 @@ types:
         damage: 16424
   Hospital_Legendary:
     1294c279-2386-4ffe-a3e5-2c95e240c4c8:
-      probability: 20
+      probability: 21
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1085,7 +1071,7 @@ types:
         type: POTION
         damage: 8261
     df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
-      probability: 20
+      probability: 21
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1111,7 +1097,7 @@ types:
             ambient: false
             has-particles: false
     b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
-      probability: 20
+      probability: 21
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1163,64 +1149,64 @@ locations:
     material: CHEST
     orientation: EAST
     type: Civ_Common
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, 2:
     material: CHEST
     orientation: NORTH
     type: Civ_Hospital
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, 2:
     material: CHEST
     orientation: EAST
     type: Civ_Store
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, 2:
     material: CHEST
     orientation: EAST
     type: Civ_Tool
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Common
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Uncommon
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Rare
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Epic
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Rare
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Spire
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Islands
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Ship
-    respawn_time: -1
+    respawn_time: 1
   210885ab-355a-47e8-8e15-0bf083e30acb, 5, 4, -4:
     material: CHEST
     orientation: EAST
     type: Hospital_Legendary
-    respawn_time: -1
+    respawn_time: 1
