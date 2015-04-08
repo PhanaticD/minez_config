@@ -46,6 +46,6 @@ ranks:
           lore:
           - §r§eHold and chat to use
   '100':
-    chat_prefix: ''
+    chat_prefix: ''''''
     equipment:
       inventory: []
