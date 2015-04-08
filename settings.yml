@@ -99,8 +99,8 @@ thirst:
       per_dehydrated_level: -4
 chat:
   local:
-    radius: 20
-  autocorrect: false
+    radius: 50
+  autocorrect: true
 death:
   vulnerable_time: 300
   revive_time: 10
