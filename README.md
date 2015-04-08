@@ -16,4 +16,3 @@ addons.yml
 config.yml
 mob_settings.yml
 settings.yml
-for you to manually edit"
