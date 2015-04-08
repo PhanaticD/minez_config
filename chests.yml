@@ -330,6 +330,834 @@ types:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           display-name: §rChain Links
+  Mil_Common:
+    f054a820-9b08-4dab-9e4b-8e008da72daf:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+    d022656b-0920-4097-a0fd-86b29e7e39b5:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+    492ee786-3953-45ca-a792-a37607b0902c:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+    541fb1ba-f96a-432d-af1d-04ff6130a144:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+    38203c13-5e7d-4b34-a496-537c0c8d5266:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+    c64f9c46-3f36-455c-a97a-6061ecb9aaf7:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_SWORD
+    8e75a4e7-c3d5-4759-83da-91402f9f331b:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_AXE
+    58652689-60d6-4127-ae08-e5db7e240bb1:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+    f72f7670-b9c6-4601-b5aa-e752f293ab49:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 5
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+    4d2f96e9-a359-436f-982e-c18473f07dc4:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+  Mil_Uncommon:
+    749d3f49-3642-4488-a254-2f3d0017511c:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+    2d67ec4e-a5bf-40f2-97b2-f1f71e4dad6a:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+    aa6b95d7-093c-4ae4-8d86-c502360a073e:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+    e0349c69-c37b-4ae9-aeb1-0c599e15aa48:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+    46425bca-d69a-4990-9dee-5b8b4b3a9259:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+    b00f3bcd-c5ed-45a1-888a-53b80c730146:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_SWORD
+    f7675eaf-7812-4f9e-a4cc-93be647631d5:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_AXE
+    673fdd8d-f34f-4d60-a470-008949418432:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_HELMET
+    b42ae6a3-a7a2-4fed-90a3-6b8ace8120c9:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_CHESTPLATE
+    d3da6efb-fd72-4814-99e4-2d559ccdecfd:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_LEGGINGS
+    bb571950-339b-49b3-b840-eed052acd516:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_BOOTS
+    1a7b075d-9be9-4e76-b146-7e2b8a6001b5:
+      probability: 2
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+    bbc575ac-e542-4cfd-af6c-23fd561ae569:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+    51f228c7-d907-4481-b121-52b357b49cd7:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 5
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+  Mil_Rare:
+    1136c261-27fe-4e15-b306-f7ee39f9d170:
+      probability: 15
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_SWORD
+    4b586bcb-5899-4a7c-997b-363302bd5b68:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE_AXE
+    941a1ac1-61e7-4b11-98f9-e6e19b644ac6:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_HELMET
+    6bec72db-b41f-40c2-8445-4e21cb14aec6:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_CHESTPLATE
+    c37413f1-809a-4a11-8a5a-a27c8da99942:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_LEGGINGS
+    e1b76002-0af9-4b40-a713-59385e858012:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_BOOTS
+    a3851c1b-dd70-4f3f-8592-cbd06bb727d5:
+      probability: 7
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+    1ac1024b-d8a4-4a7a-a9f2-a7e31f62e715:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 1
+    94fa43db-e797-406d-ae87-f1ac28c9e404:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 1
+            KNOCKBACK: 1
+    58688838-2f1d-451b-9815-7e040821a402:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+    766b2ff6-b32d-4bb1-adea-3bc1b3d1b874:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_CHESTPLATE
+    30f29d45-e7c3-4390-b2cb-7edaa4e6d619:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_LEGGINGS
+    3ca00d35-2658-45bb-b534-6eafb9e76380:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+    b76c6757-a390-4be7-b841-c04d3a7318b1:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+    f769635e-769e-4ed9-ae43-756372a6abfd:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+    ad2f3f9a-82fd-4cdb-9377-920b4789b57d:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_KNOCKBACK: 1
+    302692f5-70c2-44b6-b85e-b38c56be667d:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 10
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+    e76eb733-4364-4ceb-a5a2-2e852d1dee52:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+  Mil_Epic:
+    c9af8e5c-de29-445a-bd97-e82d4f42d443:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_HELMET
+    e9797db1-c9fc-4e8e-9f21-7438ff3c5c98:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_CHESTPLATE
+    c2f078a9-451a-4fc5-a2bc-8cfb6b873a4b:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_LEGGINGS
+    5457289b-de36-4f7c-a2da-241221a33a0f:
+      probability: 8
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CHAINMAIL_BOOTS
+    1615fd24-3f8a-4ef7-b278-94c004562e00:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 1
+    2a9ed45c-85f7-4e03-90af-da0f93ce8520:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 1
+            KNOCKBACK: 1
+    4e4e32cf-e3da-4708-9139-12a1ace9d8dd:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 2
+    2e4831b0-43be-41b2-8027-8a1d2b7837d0:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 2
+            KNOCKBACK: 1
+    ac584cad-d761-49ad-8705-aecf0061c3c5:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 3
+    de819129-39fd-4f1a-84a6-ab7115d45e34:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 3
+            KNOCKBACK: 1
+    b1fa1252-e088-428f-9d03-3970e056512c:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+    3536caca-3e19-4580-afcf-e5dda7dcd70e:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_CHESTPLATE
+    eba4352a-23df-4780-8d0b-1eab02c7f803:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_LEGGINGS
+    621db13d-d4bf-46f3-824d-9845061c01f6:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+    c63a2667-7782-4a15-8a6f-0147f0b397bf:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_FALL: 1
+    f1163926-e6c7-411f-8ae2-64621e4612fc:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_FALL: 2
+    89d8ced6-53ca-4d7b-bdc6-75fe367a0b54:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_FALL: 3
+    de0e38e9-78d9-44be-bdaf-33b37ecc2e8b:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_FALL: 4
+    86648b99-3734-4b39-9890-9466ccc75ad7:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+    06a0791f-b46a-4095-bb64-12871b3994cd:
+      probability: 4
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_KNOCKBACK: 2
+    47e1e01c-7888-4d88-9bac-7ac5dbf4c94b:
+      probability: 2
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 2
+    5b161e9a-ef5a-49cf-9da9-9613e671c9c6:
+      probability: 2
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 2
+            ARROW_KNOCKBACK: 1
+    b052c250-1026-4874-b0f6-35fe51d35579:
+      probability: 18
+      amount_minimum: 1
+      amount_maximum: 15
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+    e8d30cc7-4704-43df-9c3e-b2d2ab5ca770:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+    05e1d1cb-d2c6-4cc2-9853-a8196e469e9a:
+      probability: 1
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Dungeon_Rare:
+    aec3a7b7-2054-4c99-95ba-12c8511caf75:
+      probability: 35
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+    7bf3c346-4cda-4b58-858f-a616b521d647:
+      probability: 19
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    471456c1-de36-4727-918c-6014f9979673:
+      probability: 14
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+    f96a7877-d90f-4ded-8cd2-c32f7327e1e8:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+    a96bf537-1036-472d-b3b3-c8b0758207ef:
+      probability: 19
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+  Dungeon_Ship:
+    144ffc92-2444-4cb2-9f9b-4e10ef3cbc83:
+      probability: 5
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_CARROT
+    50082eeb-5684-4240-ad37-7cd35ffc7e78:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+    c3933b10-5ab5-4588-b12d-669a792dc6df:
+      probability: 25
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 15
+    34724eee-c2ee-4779-91e5-e1287e74504a:
+      probability: 25
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 4
+    f0ae048c-e39a-4012-b052-fb62ba4bf7aa:
+      probability: 25
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+  Dungeon_Spire:
+    4f2bb844-9e8f-4c30-9c4d-92b7879b1050:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+    2955531f-c9d5-495c-96e9-0805ea2a3864:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+    da00780c-e553-44a6-b997-76dc44659425:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_FALL: 4
+    05eda8f7-61b8-4d5a-8f57-e432c43aa618:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16426
+    057930bf-877f-4ed3-adbf-5d8d848495f7:
+      probability: 30
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BAKED_POTATO
+  Dungeon_Islands:
+    77fd4105-cbca-41e0-830a-cc4a0eb103af:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+    aa3c019d-1a31-4bec-9395-6e31e4c76f6c:
+      probability: 33
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+    14c3bfe3-0c02-4970-a545-b9811e06a2ad:
+      probability: 12
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            OXYGEN: 3
+    157b2439-2e9e-4a82-8775-b3480fe6f797:
+      probability: 33
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: CARROT_ITEM
+    3950e3fe-9117-40b3-8f23-1c483945f22b:
+      probability: 33
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: STICK
+    3235b47f-8b30-414b-8338-c0dfae83c733:
+      probability: 22
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16424
+  Hospital_Legendary:
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 20
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
 locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, 2:
     material: CHEST
@@ -350,4 +1178,49 @@ locations:
     material: CHEST
     orientation: EAST
     type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, -1:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, -1:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, -1:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, -1:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Epic
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, -4:
+    material: CHEST
+    orientation: EAST
+    type: Dungeon_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, -4:
+    material: CHEST
+    orientation: EAST
+    type: Dungeon_Spire
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, -4:
+    material: CHEST
+    orientation: EAST
+    type: Dungeon_Islands
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, -4:
+    material: CHEST
+    orientation: EAST
+    type: Dungeon_Ship
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 5, 4, -4:
+    material: CHEST
+    orientation: EAST
+    type: Hospital_Legendary
     respawn_time: -1
