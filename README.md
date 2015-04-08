@@ -2,7 +2,7 @@
 wiki page: https://github.com/JordanSicherman/MyZ-API/wiki
 plugin page: http://www.spigotmc.org/resources/myz-zombie-apocalypse.3826/
 
-DO NOT EDIT THESE FILES ON THE GITHUB UNLESS THE SERVER IS OFFLINE:
+DO NOT EDIT THESE FILES ON THE GITHUB UNLESS OKAYED BY JOSH:
 chests.yml
 engineering.yml
 ranks.yml
