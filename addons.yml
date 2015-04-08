@@ -17,7 +17,7 @@ enderpearls_explode:
   enabled: true
 chat:
   local:
-    enabled: true
+    enabled: false
   radio:
     enabled: true
   private:
