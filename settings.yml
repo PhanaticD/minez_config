@@ -261,7 +261,7 @@ points:
 chests:
   random_layout: false
 ghosts:
-  can_damage: true
+  can_damage: false
 zombie_awareness_month:
   enabled: false
 specialevent:

@@ -5,7 +5,7 @@ thirst:
 enhanced_food:
   enabled: true
 wither_damage:
-  disabled: true
+  disabled: false
 zombie:
   falldamage:
     disabled: true
@@ -28,10 +28,10 @@ death:
   become_ghost:
     enabled: true
   become_zombie:
-    enabled: true
+    enabled: false
     always: false
 enhance_furnaces:
-  enabled: true
+  enabled: false
 bandages:
   enabled: true
 use_healing:

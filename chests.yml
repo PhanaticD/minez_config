@@ -1,12 +1,5 @@
 types:
   Civ_Common:
-    8307450d-b9fe-4fca-ad70-48266a64ab28:
-      probability: 6
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WOOD_SWORD
     b7904ea8-db75-4210-aeaa-db26002a083b:
       probability: 6
       amount_minimum: 1
@@ -1160,6 +1153,88 @@ types:
           pages:
           - §8§lBefore the birth of men, the Dragons ruled all Mundus. Their word was the Voice, and they spoke only for True Needs. For the Voice could blot out the sky and flood the land.
           generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 21
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 21
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 21
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 6
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
   Emblem II:
     a5062ef1-023e-4f7d-8b91-bc182b65b26f:
       probability: 100
@@ -1460,58 +1535,8 @@ locations:
     orientation: NORTH
     type: Mil_Rare
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 7, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem I
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 6, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem II
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 5, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem III
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 4, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem IV
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem V
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 2, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem VI
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem VII
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 0, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem VIII
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -1, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem IX
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2, 3, 10:
-    material: CHEST
-    orientation: NORTH
-    type: Emblem X
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 8, 2, 5:
     material: CHEST
     orientation: WEST
     type: Test
-    respawn_time: -1
+    respawn_time: 0
