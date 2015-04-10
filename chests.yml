@@ -1539,4 +1539,9 @@ locations:
     material: CHEST
     orientation: WEST
     type: Test
-    respawn_time: 0
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 8, 2, 8:
+    material: CHEST
+    orientation: WEST
+    type: Emblem I
+    respawn_time: -1
