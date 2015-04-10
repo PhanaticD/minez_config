@@ -1154,6 +1154,724 @@ types:
           - §8§lBefore the birth of men, the Dragons ruled all Mundus. Their word was the Voice, and they spoke only for True Needs. For the Voice could blot out the sky and flood the land.
           generation: 0
     1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Emblem II:
+    a5062ef1-023e-4f7d-8b91-bc182b65b26f:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem II
+          author: Unknown
+          pages:
+          - §8§lMen were born and spread over the face of Mundus The Dragons presided over the crawling masses Men were weak then, and had no Voice
+          generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Emblem III:
+    fa10862b-e593-4bcb-a869-a111e9091062:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem III
+          author: Unknown
+          pages:
+          - §8§lThe fledgling spirits of Men were strong in Old Times Unafraid to war with Dragons and their Voices But the Dragons only shouted them down and broke their hearts
+          generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Emblem IV:
+    0d5e7d7f-279b-487f-9edc-a8b8cf051a35:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem IV
+          author: Unknown
+          pages:
+          - §8§lKyne called on Paarthurnax, who pitied Man Together they taught Men to use the Voice Then Dragon War raged, Dragon against Tonguend broke their hearts
+          generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Emblem V:
+    b60e18dd-851b-481e-899c-ed57becc573a:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem V
+          author: Unknown
+          pages:
+          - §8§lMan prevailed, shouting Alduin out of the world Proving for all that their Voice too was strong Although their sacrifices were many-fold
+          generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Emblem VI:
+    9bcd6b94-017e-4f3b-8613-d23011ac205c:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem VI
+          author: Unknown
+          pages:
+          - §8§lWith roaring Tongues, the Sky-Children conquer Founding the First Empire with Sword and Voice Whilst the Dragons withdrew from this World
+          generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Emblem VII:
+    5985e520-a081-4bf0-bd12-90549ca9adf5:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem VII
+          author: Unknown
+          pages:
+          - §8§lThe Tongues at Red Mountain went away humbled Jurgen Windcaller began His Seven Year Meditation To understand how Strong Voices could fail
+          generation: 0
+  Emblem VIII:
+    686635bc-7805-4c4f-ad65-e54d0b33e154:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem VIII
+          author: Unknown
+          pages:
+          - §8§lJurgen Windcaller chose silence and returned The 17 disputants could not shout Him down Jurgen the Calm built His home on the Throat of the World
+          generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8261
+    df65358c-a8c0-457c-a75c-96e6ed6eb5e5:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8229
+    95d2f13a-d53b-4117-a8ba-dcd3dd92e962:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    b2c632de-d7e8-4f88-bc9d-3a8f8de86559:
+      probability: 10
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+    b180f80d-3972-45c4-8023-e5dda8734232:
+      probability: 13
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+    8240c02d-19c7-4b8e-84ba-56ac35ac16bc:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16395
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 0
+            amplifier: 2
+            ambient: false
+            has-particles: false
+    501f7f48-0f6d-405d-8788-a52ca67cc768:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+    dcb89105-373c-4ec4-9ccc-6cb8be112dc1:
+      probability: 3
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SULPHUR
+  Emblem IX:
+    2534976b-ce75-456b-ae9c-d2a280093452:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem IX
+          author: Unknown
+          pages:
+          - §8§lFor years all silent, the Greybeards spoke one name Tiber Septim, stripling then, was summoned to Hrothgar They blessed and named him Dohvakiin
+          generation: 0
+  Emblem X:
+    ad0aef1f-bcb0-4b75-ad97-375d74ea63e6:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem X
+          author: Unknown
+          pages:
+          - §8§lThe Voice is worship Follow the Inner path Speak only in True Need
+          generation: 0
+    1294c279-2386-4ffe-a3e5-2c95e240c4c8:
       probability: 21
       amount_minimum: 1
       amount_maximum: 1
@@ -1235,150 +1953,6 @@ types:
       item:
         ==: org.bukkit.inventory.ItemStack
         type: SULPHUR
-  Emblem II:
-    a5062ef1-023e-4f7d-8b91-bc182b65b26f:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem II
-          author: Unknown
-          pages:
-          - §8§lMen were born and spread over the face of Mundus The Dragons presided over the crawling masses Men were weak then, and had no Voice
-          generation: 0
-  Emblem III:
-    fa10862b-e593-4bcb-a869-a111e9091062:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem III
-          author: Unknown
-          pages:
-          - §8§lThe fledgling spirits of Men were strong in Old Times Unafraid to war with Dragons and their Voices But the Dragons only shouted them down and broke their hearts
-          generation: 0
-  Emblem IV:
-    0d5e7d7f-279b-487f-9edc-a8b8cf051a35:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem IV
-          author: Unknown
-          pages:
-          - §8§lKyne called on Paarthurnax, who pitied Man Together they taught Men to use the Voice Then Dragon War raged, Dragon against Tonguend broke their hearts
-          generation: 0
-  Emblem V:
-    b60e18dd-851b-481e-899c-ed57becc573a:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem V
-          author: Unknown
-          pages:
-          - §8§lMan prevailed, shouting Alduin out of the world Proving for all that their Voice too was strong Although their sacrifices were many-fold
-          generation: 0
-  Emblem VI:
-    9bcd6b94-017e-4f3b-8613-d23011ac205c:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem VI
-          author: Unknown
-          pages:
-          - §8§lWith roaring Tongues, the Sky-Children conquer Founding the First Empire with Sword and Voice Whilst the Dragons withdrew from this World
-          generation: 0
-  Emblem VII:
-    5985e520-a081-4bf0-bd12-90549ca9adf5:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem VII
-          author: Unknown
-          pages:
-          - §8§lThe Tongues at Red Mountain went away humbled Jurgen Windcaller began His Seven Year Meditation To understand how Strong Voices could fail
-          generation: 0
-  Emblem VIII:
-    686635bc-7805-4c4f-ad65-e54d0b33e154:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem VIII
-          author: Unknown
-          pages:
-          - §8§lJurgen Windcaller chose silence and returned The 17 disputants could not shout Him down Jurgen the Calm built His home on the Throat of the World
-          generation: 0
-  Emblem IX:
-    2534976b-ce75-456b-ae9c-d2a280093452:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem IX
-          author: Unknown
-          pages:
-          - §8§lFor years all silent, the Greybeards spoke one name Tiber Septim, stripling then, was summoned to Hrothgar They blessed and named him Dohvakiin
-          generation: 0
-  Emblem X:
-    ad0aef1f-bcb0-4b75-ad97-375d74ea63e6:
-      probability: 100
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WRITTEN_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: BOOK_SIGNED
-          title: Emblem X
-          author: Unknown
-          pages:
-          - §8§lThe Voice is worship Follow the Inner path Speak only in True Need
-          generation: 0
   Test:
     ccc03d1e-a87c-4e31-a8e5-5b873c19b089:
       probability: 100
