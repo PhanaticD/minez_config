@@ -1144,69 +1144,374 @@ types:
       item:
         ==: org.bukkit.inventory.ItemStack
         type: SULPHUR
+  Emblem I:
+    d6e6a57b-1804-4990-8a9a-1b8c40954c23:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem I
+          author: Unknown
+          pages:
+          - §8§lBefore the birth of men, the Dragons ruled all Mundus. Their word was the Voice, and they spoke only for True Needs. For the Voice could blot out the sky and flood the land.
+          generation: 0
+  Emblem II:
+    a5062ef1-023e-4f7d-8b91-bc182b65b26f:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem II
+          author: Unknown
+          pages:
+          - §8§lMen were born and spread over the face of Mundus The Dragons presided over the crawling masses Men were weak then, and had no Voice
+          generation: 0
+  Emblem III:
+    fa10862b-e593-4bcb-a869-a111e9091062:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem III
+          author: Unknown
+          pages:
+          - §8§lThe fledgling spirits of Men were strong in Old Times Unafraid to war with Dragons and their Voices But the Dragons only shouted them down and broke their hearts
+          generation: 0
+  Emblem IV:
+    0d5e7d7f-279b-487f-9edc-a8b8cf051a35:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem IV
+          author: Unknown
+          pages:
+          - §8§lKyne called on Paarthurnax, who pitied Man Together they taught Men to use the Voice Then Dragon War raged, Dragon against Tonguend broke their hearts
+          generation: 0
+  Emblem V:
+    b60e18dd-851b-481e-899c-ed57becc573a:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem V
+          author: Unknown
+          pages:
+          - §8§lMan prevailed, shouting Alduin out of the world Proving for all that their Voice too was strong Although their sacrifices were many-fold
+          generation: 0
+  Emblem VI:
+    9bcd6b94-017e-4f3b-8613-d23011ac205c:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem VI
+          author: Unknown
+          pages:
+          - §8§lWith roaring Tongues, the Sky-Children conquer Founding the First Empire with Sword and Voice Whilst the Dragons withdrew from this World
+          generation: 0
+  Emblem VII:
+    5985e520-a081-4bf0-bd12-90549ca9adf5:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem VII
+          author: Unknown
+          pages:
+          - §8§lThe Tongues at Red Mountain went away humbled Jurgen Windcaller began His Seven Year Meditation To understand how Strong Voices could fail
+          generation: 0
+  Emblem VIII:
+    686635bc-7805-4c4f-ad65-e54d0b33e154:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem VIII
+          author: Unknown
+          pages:
+          - §8§lJurgen Windcaller chose silence and returned The 17 disputants could not shout Him down Jurgen the Calm built His home on the Throat of the World
+          generation: 0
+  Emblem IX:
+    2534976b-ce75-456b-ae9c-d2a280093452:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem IX
+          author: Unknown
+          pages:
+          - §8§lFor years all silent, the Greybeards spoke one name Tiber Septim, stripling then, was summoned to Hrothgar They blessed and named him Dohvakiin
+          generation: 0
+  Emblem X:
+    ad0aef1f-bcb0-4b75-ad97-375d74ea63e6:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WRITTEN_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: BOOK_SIGNED
+          title: Emblem X
+          author: Unknown
+          pages:
+          - §8§lThe Voice is worship Follow the Inner path Speak only in True Need
+          generation: 0
+  Test:
+    ccc03d1e-a87c-4e31-a8e5-5b873c19b089:
+      probability: 100
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        damage: 44
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
 locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, 2:
     material: CHEST
     orientation: EAST
     type: Civ_Common
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, 2:
     material: CHEST
     orientation: NORTH
     type: Civ_Hospital
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, 2:
     material: CHEST
     orientation: EAST
     type: Civ_Store
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, 2:
     material: CHEST
     orientation: EAST
     type: Civ_Tool
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Common
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Uncommon
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Rare
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, -1:
     material: CHEST
     orientation: EAST
     type: Mil_Epic
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Rare
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Spire
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Islands
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1, 4, -4:
     material: CHEST
     orientation: EAST
     type: Dungeon_Ship
-    respawn_time: 1
+    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 5, 4, -4:
     material: CHEST
     orientation: EAST
     type: Hospital_Legendary
-    respawn_time: 1
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3612, 88, -454:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3610, 88, -452:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3592, 80, -470:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3591, 80, -472:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3593, 70, -461:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3580, 70, -467:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3590, 96, -471:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3589, 96, -469:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3578, 80, -476:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3596, 80, -497:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3605, 88, -501:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3614, 76, -516:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3628, 76, -509:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3608, 71, -524:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3642, 71, -523:
+    material: CHEST
+    orientation: NORTH
+    type: Mil_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 7, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem I
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 6, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem II
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 5, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem III
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 4, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem IV
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 3, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem V
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 2, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem VI
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 1, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem VII
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 0, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem VIII
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem IX
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2, 3, 10:
+    material: CHEST
+    orientation: NORTH
+    type: Emblem X
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 8, 2, 5:
+    material: CHEST
+    orientation: WEST
+    type: Test
+    respawn_time: -1

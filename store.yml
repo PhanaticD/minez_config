@@ -449,3 +449,20 @@ main:
                   - '§ePrice: §6180 §ezPoints'
               command: myz userdata $player kills.giant +50
               cost: 180.0
+    Shop:
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: STONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Shop
+      children:
+        remove:
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: STONE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: remove
