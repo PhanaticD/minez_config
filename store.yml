@@ -258,7 +258,7 @@ main:
               meta-type: UNSPECIFIC
               display-name: Test2
       items:
-        'test buy':
+        test buy:
           display:
             ==: org.bukkit.inventory.ItemStack
             type: ROTTEN_FLESH
