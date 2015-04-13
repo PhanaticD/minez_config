@@ -258,15 +258,15 @@ main:
               meta-type: UNSPECIFIC
               display-name: Test2
       items:
-        test_buy:
+        'test buy':
           display:
             ==: org.bukkit.inventory.ItemStack
             type: ROTTEN_FLESH
             meta:
               ==: ItemMeta
               meta-type: UNSPECIFIC
-              display-name: test_buy
+              display-name: test buy
               lore:
               - '§ePrice: §60 §ezPoints'
-          command: bc_test
+          command: bc test
           cost: 0.0

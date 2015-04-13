@@ -1968,56 +1968,35 @@ types:
           lore:
           - §r§4Broken
           - §r70% Effective
-  axe:
+  Axes:
     5b8dbc38-1e8a-4438-9a05-09207e98b1ad:
-      probability: 25
+      probability: 10
       amount_minimum: 1
       amount_maximum: 1
       item:
         ==: org.bukkit.inventory.ItemStack
         type: WOOD_AXE
     387bb8ad-d938-4b7d-81fb-1cb4d6ae7fd7:
-      probability: 25
+      probability: 8
       amount_minimum: 1
       amount_maximum: 1
       item:
         ==: org.bukkit.inventory.ItemStack
         type: STONE_AXE
     37d52a19-0fdb-40ad-a33b-c006e6d227e4:
-      probability: 25
+      probability: 6
       amount_minimum: 1
       amount_maximum: 1
       item:
         ==: org.bukkit.inventory.ItemStack
         type: GOLD_AXE
-    07035a35-a255-4b32-9848-a3fca22663bc:
-      probability: 25
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WOOD_AXE
-    cb213b8e-bccb-47eb-9fc3-fc526f79167f:
-      probability: 25
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: STONE_AXE
     25153321-2c7c-48d4-b34c-55f2589e02f8:
-      probability: 25
+      probability: 4
       amount_minimum: 1
       amount_maximum: 1
       item:
         ==: org.bukkit.inventory.ItemStack
         type: IRON_AXE
-    001a6dde-cd57-492c-9d86-c323bd412622:
-      probability: 25
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: GOLD_AXE
 locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, 2:
     material: CHEST
@@ -2122,7 +2101,7 @@ locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, 3589, 96, -469:
     material: CHEST
     orientation: EAST
-    type: Mil_Rare
+    type: Mil_Uncommon
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3578, 80, -476:
     material: CHEST
@@ -2157,12 +2136,7 @@ locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, 3642, 71, -523:
     material: CHEST
     orientation: NORTH
-    type: Mil_Rare
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 8, 2, 5:
-    material: CHEST
-    orientation: WEST
-    type: Test
+    type: Civ_Common
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 8, 2, 8:
     material: CHEST
@@ -2172,7 +2146,7 @@ locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, 3534, 190, -3237:
     material: CHEST
     orientation: EAST
-    type: Random
+    type: Civ_Store
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3685, 159, -2917:
     material: CHEST
@@ -2223,16 +2197,6 @@ locations:
     material: CHEST
     orientation: EAST
     type: Emblem X
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3752, 130, -2908:
-    material: CHEST
-    orientation: NORTH
-    type: Test
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3754, 130, -2907:
-    material: CHEST
-    orientation: NORTH
-    type: Test
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3712, 132, -2891:
     material: CHEST
@@ -2417,17 +2381,12 @@ locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, 1783, 85, 428:
     material: CHEST
     orientation: WEST
-    type: Emblem II
+    type: Civ_Common
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1689, 84, 401:
     material: CHEST
     orientation: NORTH
     type: Civ_Common
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1780, 65, 371:
-    material: CHEST
-    orientation: EAST
-    type: i will soon
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1729, 93, 475:
     material: CHEST
@@ -2447,17 +2406,12 @@ locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, 1749, 87, 428:
     material: CHEST
     orientation: EAST
-    type: Emblem VI
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1802, 91, 470:
-    material: CHEST
-    orientation: EAST
-    type: lol
+    type: Civ_Common
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 653, 69, 556:
     material: CHEST
     orientation: NORTH
-    type: Emblem VII
+    type: Civ_Common
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1740, 72, 419:
     material: CHEST
@@ -2628,16 +2582,6 @@ locations:
     material: CHEST
     orientation: NORTH
     type: Mil_Common
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1800, 86, 532:
-    material: CHEST
-    orientation: NORTH
-    type: Test
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1800, 86, 519:
-    material: CHEST
-    orientation: NORTH
-    type: Test
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1828, 63, 535:
     material: CHEST
