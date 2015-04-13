@@ -240,3 +240,33 @@ main:
                   - '§ePrice: §650 §ezPoints'
               command: myz userdata $player rank +1
               cost: 50.0
+    Test:
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: ROTTEN_FLESH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Test
+      children:
+        Test2:
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: ROTTEN_FLESH
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Test2
+      items:
+        test_buy:
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: ROTTEN_FLESH
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: test_buy
+              lore:
+              - '§ePrice: §60 §ezPoints'
+          command: bc_test
+          cost: 0.0
