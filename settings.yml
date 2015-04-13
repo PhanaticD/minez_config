@@ -259,7 +259,7 @@ points:
   ghost: 0.2
   undead: 0.25
 chests:
-  random_layout: true
+  random_layout: false
 ghosts:
   can_damage: false
 zombie_awareness_month:
