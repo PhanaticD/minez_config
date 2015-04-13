@@ -1,8 +1,8 @@
 main:
-  name: '&4MyZ Store'
+  name: '&4PhanaticZ Store'
   gui_template: $0
   sale_template: '$0~&ePrice: &6$1 &ezPoints~&eClick to purchase'
-'&4MyZ Store':
+'&4PhanaticZ Store':
   children:
     '&9Skill Upgrades':
       display:
@@ -12,49 +12,31 @@ main:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           display-name: §9Skill Upgrades
-      children:
-        '&4Immunity':
+      items:
+        '&rTrain Immunity':
           display:
             ==: org.bukkit.inventory.ItemStack
             type: ROTTEN_FLESH
             meta:
               ==: ItemMeta
               meta-type: UNSPECIFIC
-              display-name: §4Immunity
-          items:
-            '&rTrain':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: ANVIL
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §rTrain
-                  lore:
-                  - '§ePrice: §650 §ezPoints'
-              command: myz userdata $player immunity +1
-              cost: 50.0
-        '&eToughness':
+              display-name: §rTrain Immunity
+              lore:
+              - '§ePrice: §650 §ezPoints'
+          command: myz userdata $player immunity +1
+          cost: 50.0
+        '&rTrain Toughness':
           display:
             ==: org.bukkit.inventory.ItemStack
             type: LEATHER
             meta:
               ==: ItemMeta
               meta-type: UNSPECIFIC
-              display-name: §eToughness
-          items:
-            '&rTrain':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: ANVIL
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §rTrain
-                  lore:
-                  - '§ePrice: §650 §ezPoints'
-              command: myz userdata $player toughness +1
-              cost: 50.0
+              display-name: §rTrain Toughness
+              lore:
+              - '§ePrice: §650 §ezPoints'
+          command: myz userdata $player toughness +1
+          cost: 50.0
     '&eSurvivability':
       display:
         ==: org.bukkit.inventory.ItemStack
@@ -228,14 +210,14 @@ main:
               meta-type: UNSPECIFIC
               display-name: §eRanks
           items:
-            '&rUpgrade':
+            '&rLevel Up':
               display:
                 ==: org.bukkit.inventory.ItemStack
                 type: ANVIL
                 meta:
                   ==: ItemMeta
                   meta-type: UNSPECIFIC
-                  display-name: §rUpgrade
+                  display-name: §rLevel Up
                   lore:
                   - '§ePrice: §650 §ezPoints'
               command: myz userdata $player rank +1

@@ -100,7 +100,7 @@ thirst:
 chat:
   local:
     radius: 50
-  autocorrect: true
+  autocorrect: false
 death:
   vulnerable_time: 300
   revive_time: 10
@@ -238,7 +238,7 @@ scoreboard:
 spawn:
   safespawn_radius: 15
 hologram:
-  display_ticks: 3
+  display_ticks: 2
 points:
   death: 0.1
   kill:
