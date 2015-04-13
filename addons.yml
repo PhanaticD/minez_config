@@ -26,7 +26,7 @@ enhanced_deathmessages:
   enabled: true
 death:
   become_ghost:
-    enabled: true
+    enabled: false
   become_zombie:
     enabled: false
     always: false
