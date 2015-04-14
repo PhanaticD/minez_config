@@ -2145,8 +2145,8 @@ locations:
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3534, 190, -3237:
     material: CHEST
-    orientation: EAST
-    type: Civ_Store
+    orientation: NORTH
+    type: Mil_Rare
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3685, 159, -2917:
     material: CHEST

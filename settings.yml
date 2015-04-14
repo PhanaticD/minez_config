@@ -248,7 +248,7 @@ points:
     player: 3.0
     guard: 0.8
   drink: 0.05
-  friend_add: 0.00
+  friend_add: 0.0
   heal:
     self: 0.5
     other: 1.3
