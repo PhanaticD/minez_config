@@ -279,5 +279,5 @@ specialevent:
 friends:
   friendly_fire: false
 safe_logout:
-  timer: 15
-  completed_command: send $player hub
+  timer: 10
+  completed_command: kick $player hubkick
