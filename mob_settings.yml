@@ -203,6 +203,8 @@ giant:
     biome:
       excludes:
       - Mesa Plateau
+      includes:
+      - Mesa Plateau
     limits:
       minimum_z: -4095
       maximum_z: -3000
