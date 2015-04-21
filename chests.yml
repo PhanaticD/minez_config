@@ -2195,11 +2195,6 @@ locations:
     orientation: EAST
     type: Emblem VII
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3598, 199, -3182:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3656, 208, -3113:
     material: CHEST
     orientation: NORTH
@@ -2654,16 +2649,6 @@ locations:
     material: CHEST
     orientation: NORTH
     type: Civ_Tool
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3754, 130, -2907:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3752, 130, -2908:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3749, 130, -2910:
     material: CHEST

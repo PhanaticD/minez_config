@@ -37,14 +37,14 @@ main:
               - '§ePrice: §650 §ezPoints'
           command: myz userdata $player toughness +1
           cost: 50.0
-    '&eSurvivability':
+    '&eItems':
       display:
         ==: org.bukkit.inventory.ItemStack
         type: POTION
         meta:
           ==: ItemMeta
           meta-type: POTION
-          display-name: §eSurvivability
+          display-name: §eItems
       items:
         '&rCold Water':
           display:
@@ -123,105 +123,18 @@ main:
               - '§ePrice: §611 §ezPoints'
           command: give $player minecraft:apple 1 0
           cost: 11.0
-    '&cRank Unlocks':
+    '&4Level Up':
       display:
         ==: org.bukkit.inventory.ItemStack
-        type: NETHER_STAR
+        type: ANVIL
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §cRank Unlocks
-      children:
-        '&9Prefixes':
-          display:
-            ==: org.bukkit.inventory.ItemStack
-            type: NAME_TAG
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: §9Prefixes
-          items:
-            '&r&5[Dangerous]':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: STONE_SWORD
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §r§5[Dangerous]
-                  lore:
-                  - '§ePrice: §670 §ezPoints'
-              command: myz userdata $player prefix &5[Dangerous]~&r
-              cost: 70.0
-            '&r&9[Deadly]':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: IRON_SWORD
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §r§9[Deadly]
-                  lore:
-                  - '§ePrice: §6110 §ezPoints'
-              command: myz userdata $player prefix &9[Deadly]~&r
-              cost: 110.0
-            '&r&4[Zombie Slayer]':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: DIAMOND_SWORD
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §r§4[Zombie Slayer]
-                  lore:
-                  - '§ePrice: §6220 §ezPoints'
-              command: myz userdata $player prefix &4[Zombie Slayer]~&r
-              cost: 220.0
-            '&r&c[Healer]':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: SHEARS
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §r§c[Healer]
-                  lore:
-                  - '§ePrice: §650 §ezPoints'
-              command: myz userdata $player prefix &c[Healer]~&r
-              cost: 50.0
-            '&r&a[Survivor]':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: WOOD_SWORD
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §r§a[Survivor]
-                  lore:
-                  - '§ePrice: §620 §ezPoints'
-              command: myz userdata $player prefix &a[Survivor]~&r
-              cost: 20.0
-        '&eRanks':
-          display:
-            ==: org.bukkit.inventory.ItemStack
-            type: GOLD_INGOT
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: §eRanks
-          items:
-            '&rLevel Up':
-              display:
-                ==: org.bukkit.inventory.ItemStack
-                type: ANVIL
-                meta:
-                  ==: ItemMeta
-                  meta-type: UNSPECIFIC
-                  display-name: §rLevel Up
-                  lore:
-                  - '§ePrice: §650 §ezPoints'
-              command: myz userdata $player rank +1
-              cost: 50.0
+          display-name: §4Level Up
+          lore:
+          - '§ePrice: §650 §ezPoints'
+      command: myz userdata $player rank +1
+      cost: 50.0
     Test:
       display:
         ==: org.bukkit.inventory.ItemStack

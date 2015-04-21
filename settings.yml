@@ -230,7 +230,7 @@ airdrop:
   - Armor - Rare
   - Food - Rare
 spawnkit:
-  hierarchical: false
+  hierarchical: true
 scoreboard:
   name: '&4MyZ Stats - Career Kills@&4MyZ Stats - Current Kills@&4MyZ Stats - Status@&4MyZ
     Stats - Skills@&4MyZ Stats - Other'
@@ -280,4 +280,4 @@ friends:
   friendly_fire: false
 safe_logout:
   timer: 15
-  completed_command: kick $player
+  completed_command: send $player hub

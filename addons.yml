@@ -1,5 +1,5 @@
 enhance_envils:
-  enabled: false
+  enabled: true
 thirst:
   enabled: true
 enhanced_food:
