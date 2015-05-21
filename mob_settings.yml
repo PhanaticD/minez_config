@@ -20,6 +20,8 @@ pigman:
     damage: 10.0
     jump:
       multiplier: 1.05
+    leap:
+      multiplier: 0.45
   explode:
     adult:
       amount: 3
@@ -48,6 +50,8 @@ zombie:
     damage: 3.0
     jump:
       multiplier: 1.05
+    leap:
+      multiplier: 0.45
   type:
     normal:
       chance: 80
@@ -61,6 +65,8 @@ zombie:
       chance: 0
   subtype:
     crawler:
+      chance: 5
+    jumper:
       chance: 5
   babies: true
 guard:
@@ -227,6 +233,8 @@ giant:
       multiplier: 4.1
     knockback_resistance: 0.0
     damage: 12.0
+    leap:
+      multiplier: 0.9
 general:
   spawn:
     biome:
