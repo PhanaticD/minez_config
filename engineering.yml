@@ -41,3 +41,13 @@ recipes:
         - §r§6Heal II
         - §r§6Absorption II
         - §r§6Immunity X
+  af511769-e718-4ab1-abbd-2520a47c8e7f:
+    input1:
+      ==: org.bukkit.inventory.ItemStack
+      type: STICK
+    input2:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE
+    output:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD

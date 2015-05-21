@@ -165,3 +165,16 @@ main:
               - '§ePrice: §60 §ezPoints'
           command: bc test
           cost: 0.0
+  items:
+    buy:
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: ANVIL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: buy
+          lore:
+          - '§ePrice: §650 §ezPoints'
+      command: command
+      cost: 50.0
