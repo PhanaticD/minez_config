@@ -208,9 +208,7 @@ giant:
       maximum: 1
     biome:
       excludes:
-      - Mesa Plateau
-      includes:
-      - Mesa Plateau
+      - Sky
     limits:
       minimum_z: -4095
       maximum_z: -3000
