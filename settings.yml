@@ -232,8 +232,8 @@ airdrop:
 spawnkit:
   hierarchical: true
 scoreboard:
-  name: '&4PhanaticZ Stats - Career Kills@&4PhanaticZ Stats - Current Kills@&4PhanaticZ Stats - Status@&4MyZ
-    Stats - Skills@&4PhanaticZ Stats - Other'
+  name: '&4PhanaticZ Stats - Career Kills@&4PhanaticZ Stats - Current Kills@&4PhanaticZ
+    Stats - Status@&4MyZ Stats - Skills@&4PhanaticZ Stats - Other'
   data: Players Killed:%kills.player%,Zombies Killed:%kills.zombie%,Pigmen Killed:%kills.pigman%,Giants Killed:%kills.giant%@Players Killed:%tracked.kills.player%,Zombies Killed:%tracked.kills.zombie%,Pigmen Killed:%tracked.kills.pigman%,Giants Killed:%tracked.kills.giant%@Bleeding:%bleeding%,Poisoned:%poisoned%,Temperature:%temperature%,Thirst:%thirst%@Immunity Level:%immunity%,Toughness Level:%toughness%@Friends:%friends%,Revives:%revives.other%,Drinks Consumed:%drinks%,Deaths:%deaths%,Bandages Used:%heals.self.infection%,Heals:%heals.other%,zPoints:%z_points%
 spawn:
   safespawn_radius: 15
