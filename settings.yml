@@ -230,7 +230,7 @@ airdrop:
   - Armor - Rare
   - Food - Rare
 spawnkit:
-  hierarchical: true
+  hierarchical: false
 scoreboard:
   name: '&4PhanaticZ Stats - Career Kills@&4PhanaticZ Stats - Current Kills@&4PhanaticZ
     Stats - Status@&4MyZ Stats - Skills@&4PhanaticZ Stats - Other'
