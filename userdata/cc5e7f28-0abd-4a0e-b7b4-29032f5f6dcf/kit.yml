@@ -1,1 +1,50 @@
-equipment: {}
+equipment:
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EYE_OF_ENDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §rRadio
+      lore:
+      - §r§eHold and chat to use
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §rCold Bottle of Water
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
