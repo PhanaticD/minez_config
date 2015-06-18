@@ -9,4 +9,4 @@ sql:
 notify_on_save: true
 first_run: false
 world:
-  clear_mobs_on_reload: false
+  clear_mobs_on_reload: true
