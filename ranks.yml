@@ -3,16 +3,8 @@ ranks:
     chat_prefix: ''
     equipment:
       chestplate:
-      - ==: org.bukkit.inventory.ItemStack
+        ==: org.bukkit.inventory.ItemStack
         type: LEATHER_CHESTPLATE
-        meta:
-          ==: ItemMeta
-          meta-type: LEATHER_ARMOR
-          display-name: §rTraining Tunic
-          lore:
-          - §r§4Broken
-          - §r70% Effective
-          - §rIt's better than nothing!
       inventory:
       - ==: org.bukkit.inventory.ItemStack
         type: WOOD_SWORD
@@ -25,6 +17,70 @@ ranks:
           - §r50% Effective
           - §rGet to slashing.
       - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '1':
+    chat_prefix: '[Lvl 1]'
+    equipment:
+      inventory: []
+  '100':
+    chat_prefix: ''
+    equipment:
+      inventory: []
+  '10':
+    equipment:
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
         type: PAPER
         meta:
           ==: ItemMeta
@@ -36,20 +92,167 @@ ranks:
           - §r§eRight-click to use
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+        type: BREAD
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '20':
+    equipment:
+      inventory:
       - ==: org.bukkit.inventory.ItemStack
-        type: EYE_OF_ENDER
+        type: BREAD
+        amount: 0
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '30':
+    equipment:
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+      inventory:
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '40':
+    equipment:
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §rRadio
           lore:
-          - §r§eHold and chat to use
-  '1':
-    chat_prefix: '[Lvl 1]'
-    equipment:
-      inventory: []
-  '100':
-    chat_prefix: ''
-    equipment:
-      inventory: []
+          - §r§4Broken
+          - §r70% Effective
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null

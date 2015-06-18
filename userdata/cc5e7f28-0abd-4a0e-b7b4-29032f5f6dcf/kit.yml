@@ -48,3 +48,5 @@ equipment:
   - null
   - null
   - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
