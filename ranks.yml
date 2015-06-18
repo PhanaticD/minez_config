@@ -79,10 +79,6 @@ ranks:
       - null
       - null
       - null
-  '1':
-    chat_prefix: '[Lvl 1]'
-    equipment:
-      inventory: []
   '100':
     chat_prefix: ''
     equipment:
