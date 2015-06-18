@@ -86,12 +86,24 @@ ranks:
   '100':
     chat_prefix: ''
     equipment:
-      inventory: []
-  '10':
-    equipment:
       inventory:
       - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Dull
+          - §r90% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
         type: PAPER
+        amount: 3
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -103,6 +115,133 @@ ranks:
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
+        amount: 5
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+  '10':
+    equipment:
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rTraining Sword
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+          - §rGet to slashing.
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rMurky Water Bottle
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 2
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
       - null
       - null
       - null
@@ -130,19 +269,61 @@ ranks:
       - null
       - null
       - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
   '20':
     equipment:
       inventory:
       - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rTraining Sword
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+          - §rGet to slashing.
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rMurky Water Bottle
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
         type: BREAD
-        amount: 0
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
       - null
       - null
       - null
@@ -162,6 +343,12 @@ ranks:
       - null
       - null
       - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rMurky Water Bottle
       - null
       - null
       - null
@@ -169,21 +356,70 @@ ranks:
       - null
       - null
       - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
   '30':
     equipment:
       helmet:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
       inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rTraining Sword
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+          - §rGet to slashing.
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rWarm Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
       - null
       - null
       - null
@@ -203,6 +439,12 @@ ranks:
       - null
       - null
       - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rMurky Water Bottle
       - null
       - null
       - null
@@ -210,16 +452,15 @@ ranks:
       - null
       - null
       - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
   '40':
     equipment:
       inventory:
@@ -231,6 +472,39 @@ ranks:
           lore:
           - §r§4Broken
           - §r70% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rWarm Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
       - null
       - null
       - null
@@ -250,6 +524,108 @@ ranks:
       - null
       - null
       - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rWarm Bottle of Water
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+  '50':
+    equipment:
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rWarm Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
       - null
       - null
       - null
@@ -259,6 +635,582 @@ ranks:
       - null
       - null
       - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rWarm Bottle of Water
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '60':
+    equipment:
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+  '70':
+    equipment:
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '80':
+    equipment:
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '90':
+    equipment:
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 4
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+  '95':
+    equipment:
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - §r§4Broken
+          - §r70% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 5
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rCold Bottle of Water
       - null
       - null
       - null
