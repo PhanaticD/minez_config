@@ -5,6 +5,12 @@ ranks:
       chestplate:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
       inventory:
       - ==: org.bukkit.inventory.ItemStack
         type: WOOD_SWORD
@@ -17,8 +23,6 @@ ranks:
           - §r50% Effective
           - §rGet to slashing.
       - ==: org.bukkit.inventory.ItemStack
-        type: POTION
-      - ==: org.bukkit.inventory.ItemStack
         type: PAPER
         meta:
           ==: ItemMeta
@@ -29,6 +33,12 @@ ranks:
           - §r
           - §r§eRight-click to use
           - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §rMurky Water Bottle
       - null
       - null
       - null
