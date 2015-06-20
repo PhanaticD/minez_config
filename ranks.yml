@@ -225,7 +225,7 @@ ranks:
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
-        amount: 2
+        amount: 3
       - null
       - null
       - null
@@ -295,7 +295,7 @@ ranks:
           display-name: §rMurky Water Bottle
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
-        amount: 3
+        amount: 2
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -307,7 +307,7 @@ ranks:
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
-        amount: 4
+        amount: 3
       - null
       - null
       - null
@@ -391,7 +391,7 @@ ranks:
           display-name: §rWarm Bottle of Water
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
-        amount: 3
+        amount: 2
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -403,7 +403,7 @@ ranks:
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
-        amount: 4
+        amount: 3
       - null
       - null
       - null
