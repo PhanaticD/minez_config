@@ -76,7 +76,7 @@ ranks:
       - null
       - null
   '10':
-    chat_prefix: 'Lvl 10'
+    chat_prefix: Lvl 10
     equipment:
       inventory:
       - ==: org.bukkit.inventory.ItemStack
@@ -155,7 +155,7 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
   '20':
-    chat_prefix: 'Lvl 20'
+    chat_prefix: Lvl 20
     equipment:
       inventory:
       - ==: org.bukkit.inventory.ItemStack
@@ -235,7 +235,7 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
   '30':
-    chat_prefix: 'Lvl 30'
+    chat_prefix: Lvl 30
     equipment:
       helmet:
         ==: org.bukkit.inventory.ItemStack
@@ -324,7 +324,7 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
   '40':
-    chat_prefix: 'Lvl 40'
+    chat_prefix: Lvl 40
     equipment:
       inventory:
       - ==: org.bukkit.inventory.ItemStack
@@ -411,7 +411,7 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
   '50':
-    chat_prefix: 'Lvl 50'
+    chat_prefix: Lvl 50
     equipment:
       leggings:
         ==: org.bukkit.inventory.ItemStack
@@ -507,7 +507,7 @@ ranks:
       - null
       - null
   '60':
-    chat_prefix: 'Lvl 60'
+    chat_prefix: Lvl 60
     equipment:
       chestplate:
         ==: org.bukkit.inventory.ItemStack
@@ -612,7 +612,7 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
   '70':
-    chat_prefix: 'Lvl 70'
+    chat_prefix: Lvl 70
     equipment:
       boots:
         ==: org.bukkit.inventory.ItemStack
@@ -717,7 +717,7 @@ ranks:
       - null
       - null
   '80':
-    chat_prefix: 'Lvl 80'
+    chat_prefix: Lvl 80
     equipment:
       boots:
         ==: org.bukkit.inventory.ItemStack
@@ -822,7 +822,7 @@ ranks:
       - null
       - null
   '90':
-    chat_prefix: 'Lvl 90'
+    chat_prefix: Lvl 90
     equipment:
       boots:
         ==: org.bukkit.inventory.ItemStack
@@ -927,7 +927,7 @@ ranks:
       - null
       - null
   '95':
-    chat_prefix: 'Lvl 95'
+    chat_prefix: Lvl 95
     equipment:
       boots:
         ==: org.bukkit.inventory.ItemStack
@@ -1032,7 +1032,7 @@ ranks:
       - null
       - null
   '100':
-    chat_prefix: 'Lvl 100'
+    chat_prefix: Lvl 100
     equipment:
       inventory:
       - ==: org.bukkit.inventory.ItemStack
@@ -1043,6 +1043,8 @@ ranks:
           lore:
           - §r§4Dull
           - §r90% Effective
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: POTION
       - ==: org.bukkit.inventory.ItemStack
@@ -1060,7 +1062,6 @@ ranks:
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
         amount: 5
-      - null
       - null
       - null
       - null
@@ -1091,8 +1092,7 @@ ranks:
       - null
       - null
       - null
-      - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+      - null
       - null
       - null
       - null
