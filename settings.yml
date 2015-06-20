@@ -110,7 +110,7 @@ bleed:
   damage_amount: 1.1
 infection:
   damage_delay: 38
-  damage_amount: 1.3
+  damage_amount: 1.0
 equipment:
   devastated_modifier: 50
   shattered_modifier: 40
