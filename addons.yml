@@ -21,7 +21,7 @@ chat:
   radio:
     enabled: true
   private:
-    enabled: true
+    enabled: false
 enhanced_deathmessages:
   enabled: true
 death:
