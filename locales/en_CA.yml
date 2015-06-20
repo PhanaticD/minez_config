@@ -84,7 +84,7 @@ event:
       &4Unable to parse format. &ePlease enter a minimum and maximum amount for this item, followed by a probability.
       &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
 chat:
-  radio: '%s: &aCh. $0 - %s'
+  radio: '%s: &a[1.$0 MHz] %s'
   private:
     from: '&8From %s: %s'
     to: '&8To %s: %s'
