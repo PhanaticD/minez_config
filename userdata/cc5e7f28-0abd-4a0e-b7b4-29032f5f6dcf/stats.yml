@@ -8,14 +8,14 @@ revives:
   self: 0
   other: 0
 friends: 0
-drinks: 31
-deaths: 19
+drinks: 33
+deaths: 24
 heals:
   self:
     infection: 1
-    bleeding: 0
+    bleeding: 1
   other: 0
 deathstate:
   zombie: 3
   ghost: 6
-z_points: 27.250000000000025
+z_points: 28.350000000000033
