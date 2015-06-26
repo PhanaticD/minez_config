@@ -1924,3 +1924,23 @@ locations:
     orientation: NORTH
     type: Mil_Rare
     respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, 298, 69, -3655:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2397, 58, -3709:
+    material: CHEST
+    orientation: NORTH
+    type: Dungeon_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2397, 58, -3724:
+    material: CHEST
+    orientation: SOUTH
+    type: Dungeon_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2393, 64, -3724:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Hospital
+    respawn_time: -1

@@ -124,6 +124,73 @@ death:
   starvation: '&4$0 couldn''t find the nearest Golden Arches.'
   void: '&4$0 fell forever.'
   as_ghost: '&4$0 faced judgement.'
+equipment:
+  starter:
+    chestplate:
+      displayname: Training Tunic
+      lore: It's better than nothing!
+    sword:
+      displayname: Training Sword
+      lore: Get to slashing.
+  state:
+    devastated: '&4Devastated~$0% Effective'
+    broken: '&4Broken~$0% Effective'
+    dull: '&4Dull~$0% Effective'
+    tempered: '&2Tempered~$0% Effective'
+    reinforced: '&6Reinforced~$0% Effective'
+    shattered: '&4Shattered~$0% Effective'
+    weakened: '&4Weakened~$0% Effective'
+    sharpened: '&2Sharpened~$0% Effective'
+    ornate: '&6Ornate~$0% Effective'
+    fortified: '&2Fortified~$0% Effective'
+    slack: '&4Slack~$0% Effective'
+    precise: '&2Precise~$0% Effective~~&9+$1 Headshot Damage'
+    cracked: '&4Cracked~$0% Effective'
+    bow_sharpened: '&2Sharpened~$0% Effective~~&9+$1 Attack Damage'
+    weak_grapple: '&4Weak'
+    lightweight_grapple: '&6Lightweight~&9Negates Fall Damage'
+items:
+  healing:
+    bandage:
+      lore: Stops bleeding.~~&eRight-click to use~&eLeft-click friend to use
+statement:
+  'yes': '&ayes'
+  'no': '&4no'
+  nothing: nothing
+success: Success!
+spawn:
+  unable: '&4You could not be spawned in the world at this time. Please try again
+    later.'
+kill:
+  zombie: '&eZombie down!~&e$0 this life.'
+  pigman: '&ePigman down!~&e$0 this life.'
+  giant: '&eGiant down!~&e$0 this life.'
+  guard: '&eGuard down!~&e$0 this life.'
+  player: '&ePlayer down!~&e$0 this life.'
+update:
+  available: '&eMyZ $1 ($0) is available! Update on http://spigotmc.org/resources/myz.3826/
+    (currently $2).'
+special_event:
+  awareness_month: '&eIt is &4&lZombie Awareness Month&r&e! The undead have $0x health,
+    $1x strength and $x detection range!'
+friend:
+  added: $0 &r&ewas added to your friends list.
+  was_added: $0 &r&eadded you as a friend.
+  removed: $0 &r&4was removed from your friends list.
+  was_removed: $0 &r&4removed you as a friend.
+safe_logout:
+  progress: '&eYou will be logged out in $0 seconds.'
+  failure: '&4Safe logout was cancelled due to movement.'
+specialevent:
+  active: '&eIt''s &r$0&e! Keep an eye out for holiday events!'
+  april_fools: '&6April Fools'
+  easter: '&9Easter'
+  speak_like_pirate_day: specialevent.speak_like_pirate_day
+system:
+  optimize: '&4Your MyZ environment is not optimized! Type &e"/MyZ optimize"&4 to
+    fix this!'
+  optimized: '&eMyZ has been optimized. Changes will take effect next time server
+    starts up.'
 command:
   cannot_execute_as_console: You cannot execute this command as the console.
   manage:
@@ -213,7 +280,7 @@ command:
   argument:
     manage_spawns: manage~spawns
     reload_config: reload~config
-    spawn: spawn
+    spawn: spawn~$integer
     manage_engineer: manage~engineer
     reload_userdata: reload~userdata
     transcribe: transcribe
@@ -224,80 +291,13 @@ command:
     version: version
     item_get: item~get~$item
     item_apply: item~apply~$state
-    stats: stats
-    rank: rank~<NAME>~<NUMBER>
-    assign_chests: assign~chests
-    userdata: userdata~$field~<VALUE>
-    store: store~<gui/item>~<NAME>
+    stats: stats~$integer
+    rank: rank~$player~$integer
+    assign_chests: auto~assign~chests~$coordinate~$coordinate
+    userdata: userdata~$userdata~$unknown
+    store: store~$gui/item~$parent~$unknown~$1item/$unknown~$1item/$integer
     shop: shop
     manage_regions: manage~regions
     points: points
-    friends: friends
+    friends: friends~$add/remove~$player
     optimize: optimize
-equipment:
-  starter:
-    chestplate:
-      displayname: Training Tunic
-      lore: It's better than nothing!
-    sword:
-      displayname: Training Sword
-      lore: Get to slashing.
-  state:
-    devastated: '&4Devastated~$0% Effective'
-    broken: '&4Broken~$0% Effective'
-    dull: '&4Dull~$0% Effective'
-    tempered: '&2Tempered~$0% Effective'
-    reinforced: '&6Reinforced~$0% Effective'
-    shattered: '&4Shattered~$0% Effective'
-    weakened: '&4Weakened~$0% Effective'
-    sharpened: '&2Sharpened~$0% Effective'
-    ornate: '&6Ornate~$0% Effective'
-    fortified: '&2Fortified~$0% Effective'
-    slack: '&4Slack~$0% Effective'
-    precise: '&2Precise~$0% Effective~~&9+$1 Headshot Damage'
-    cracked: '&4Cracked~$0% Effective'
-    bow_sharpened: '&2Sharpened~$0% Effective~~&9+$1 Attack Damage'
-    weak_grapple: '&4Weak'
-    lightweight_grapple: '&6Lightweight~&9Negates Fall Damage'
-items:
-  healing:
-    bandage:
-      lore: Stops bleeding.~~&eRight-click to use~&eLeft-click friend to use
-statement:
-  'yes': '&ayes'
-  'no': '&4no'
-  nothing: nothing
-success: Success!
-spawn:
-  unable: '&4You could not be spawned in the world at this time. Please try again
-    later.'
-kill:
-  zombie: '&eZombie down!~&e$0 this life.'
-  pigman: '&ePigman down!~&e$0 this life.'
-  giant: '&eGiant down!~&e$0 this life.'
-  guard: '&eGuard down!~&e$0 this life.'
-  player: '&ePlayer down!~&e$0 this life.'
-update:
-  available: '&eMyZ $1 ($0) is available! Update on http://spigotmc.org/resources/myz.3826/
-    (currently $2).'
-special_event:
-  awareness_month: '&eIt is &4&lZombie Awareness Month&r&e! The undead have $0x health,
-    $1x strength and $x detection range!'
-friend:
-  added: $0 &r&ewas added to your friends list.
-  was_added: $0 &r&eadded you as a friend.
-  removed: $0 &r&4was removed from your friends list.
-  was_removed: $0 &r&4removed you as a friend.
-safe_logout:
-  progress: '&eYou will be logged out in $0 seconds.'
-  failure: '&4Safe logout was cancelled due to movement.'
-specialevent:
-  active: '&eIt''s &r$0&e! Keep an eye out for holiday events!'
-  april_fools: '&6April Fools'
-  easter: '&9Easter'
-  speak_like_pirate_day: specialevent.speak_like_pirate_day
-system:
-  optimize: '&4Your MyZ environment is not optimized! Type &e"/MyZ optimize"&4 to
-    fix this!'
-  optimized: '&eMyZ has been optimized. Changes will take effect next time server
-    starts up.'
