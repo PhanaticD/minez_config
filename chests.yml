@@ -1944,3 +1944,553 @@ locations:
     orientation: SOUTH
     type: Civ_Hospital
     respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3011, 67, 300:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3004, 67, 310:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3006, 63, 305:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3005, 76, 307:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3028, 63, 296:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3036, 63, 276:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3029, 63, 255:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3037, 63, 256:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -3001, 63, 229:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2994, 64, 240:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2948, 63, 244:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2957, 63, 243:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2938, 63, 272:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2942, 70, 268:
+    material: CHEST
+    orientation: NORTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2964, 63, 278:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2947, 63, 283:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2940, 60, 282:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2972, 63, 300:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2844, 67, -245:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2828, 71, -231:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2838, 67, -263:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2839, 67, -264:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2837, 67, -290:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2841, 71, -285:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2836, 67, -296:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2837, 67, -306:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2805, 63, -317:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2801, 91, -319:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2800, 143, -319:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2801, 115, -318:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2767, 66, -292:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2767, 66, -301:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2778, 67, -276:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2768, 67, -277:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2778, 69, -257:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2785, 67, -236:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2793, 69, -250:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1724, 68, 355:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1769, 68, 355:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1739, 75, 352:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1750, 75, 338:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1743, 75, 338:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1742, 75, 346:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1770, 74, 357:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1722, 74, 354:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1758, 79, 353:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1730, 79, 358:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1739, 83, 355:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1749, 84, 348:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1750, 90, 358:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1718, 68, 370:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1770, 69, 370:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1774, 68, 383:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1769, 72, 383:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1774, 68, 404:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1772, 72, 390:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1771, 72, 410:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1774, 76, 407:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1777, 76, 394:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1741, 64, 420:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1753, 64, 420:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1750, 64, 417:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1748, 64, 412:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1744, 64, 417:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1751, 69, 447:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1747, 69, 445:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1743, 69, 447:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1751, 73, 422:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1749, 73, 419:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1745, 73, 419:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1743, 73, 422:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1716, 69, 421:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1725, 75, 414:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1747, 72, 395:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1740, 77, 397:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1755, 81, 404:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1734, 69, 394:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1733, 71, 388:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1735, 71, 388:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1703, 69, 366:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1709, 77, 387:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2184, 70, 86:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2187, 67, 82:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2196, 69, 74:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2194, 73, 71:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2181, 68, 74:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2339, 90, -402:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2352, 90, -397:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2365, 90, -400:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2348, 88, -416:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2341, 86, -453:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2409, 86, -458:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2414, 109, -462:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2425, 100, -435:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2440, 89, -419:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2453, 89, -420:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2468, 82, -436:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2473, 80, -451:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2485, 84, -466:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2485, 84, -483:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2488, 88, -473:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2453, 82, -464:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2459, 82, -464:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Hospital
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2491, 73, -535:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2492, 73, -531:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Common
+    respawn_time: 1435386477913
+  210885ab-355a-47e8-8e15-0bf083e30acb, -2475, 72, -529:
+    material: CHEST
+    orientation: NORTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1884, 225, -600:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1884, 225, -564:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1853, 225, -567:
+    material: CHEST
+    orientation: NORTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1853, 225, -597:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
