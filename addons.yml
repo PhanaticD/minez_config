@@ -46,6 +46,10 @@ infection:
   enabled: true
 temperature:
   enabled: false
+  modify:
+    on_mountain:
+      y_threshold: 110.0
+      modifier: -2.8
 chests:
   enabled: true
 scoreboard:
@@ -61,3 +65,10 @@ followers:
     enabled: true
   wolf:
     enabled: true
+enhance_anvils:
+  only_on_sneak: false
+spawn_title:
+  enabled: true
+  fadein_time: 5
+  display_time: 60
+  fadeout_time: 5

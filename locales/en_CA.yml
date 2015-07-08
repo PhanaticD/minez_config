@@ -161,6 +161,8 @@ success: Success!
 spawn:
   unable: '&4You could not be spawned in the world at this time. Please try again
     later.'
+  title: '&4Survive.'
+  subtitle: 'Spawnpoint #$0'
 kill:
   zombie: '&eZombie down!~&e$0 this life.'
   pigman: '&ePigman down!~&e$0 this life.'
