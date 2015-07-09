@@ -72,3 +72,5 @@ spawn_title:
   fadein_time: 5
   display_time: 60
   fadeout_time: 5
+block_protection:
+  enabled: true

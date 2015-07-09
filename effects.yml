@@ -1,0 +1,96 @@
+food:
+  APPLE:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  BAKED_POTATO:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  BREAD:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  CARROT:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  COOKED_BEEF:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  COOKED_CHICKEN:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  COOKED_FISH:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  COOKED_MUTTON:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  COOKED_RABBIT:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  COOKIE:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  GOLDEN_APPLE:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  GRILLED_PORK:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  MELON:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  MUSHROOM_SOUP:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  MUTTON:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  PORK:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  POTATO_ITEM:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  PUMPKIN_PIE:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []
+  RABBIT_STEW:
+    thirst: 0
+    health: 1
+    temperature: 0
+    effects: []

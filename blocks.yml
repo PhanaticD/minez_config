@@ -1,0 +1,10 @@
+properties:
+  respawn_time: 180
+  despawn_time: 180
+protection:
+  place:
+    whitelist: []
+    ignorelist: []
+  break:
+    whitelist: []
+    ignorelist: []

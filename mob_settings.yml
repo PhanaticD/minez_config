@@ -28,6 +28,11 @@ pigman:
     baby:
       magnitude: 1.0
   babies: true
+  drops:
+  - ==: org.bukkit.inventory.ItemStack
+    type: STICK
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_INGOT
 zombie:
   spawn:
     chance: 50
@@ -63,12 +68,38 @@ zombie:
       chance: 2
     iron:
       chance: 0
+    explosive:
+      chance: 3
   subtype:
     crawler:
       chance: 5
     jumper:
       chance: 5
   babies: true
+  drops:
+  - ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §rBandage
+      lore:
+      - §rStops bleeding.
+      - §r
+      - §r§eRight-click to use
+      - §r§eLeft-click friend to use
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §rMurky Water Bottle
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_FENCE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §rChain Links
 guard:
   spawn:
     chance: 1
@@ -200,6 +231,7 @@ guard:
     chestplate: CHAINMAIL_CHESTPLATE
     helmet: CHAINMAIL_HELMET
   become_zombie_on_death: true
+  drops: []
 giant:
   spawn:
     chance: 100
@@ -235,6 +267,19 @@ giant:
     damage: 12.0
     leap:
       multiplier: 0.9
+  drops:
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_INFINITE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    damage: 780
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
 general:
   spawn:
     biome:
