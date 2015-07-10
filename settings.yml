@@ -197,6 +197,10 @@ temperature:
     nighttime: -1.2
     warm_water: 0.5
     cold_water: -0.9
+    on_mountain:
+      y_threshold: 110.0
+      modifier: -0.15
+    near_fire: 300.2
   threshold:
     heatstroke:
       '3': 42.7
@@ -235,6 +239,8 @@ spawn:
   safespawn_radius: 15
 hologram:
   display_ticks: 1
+  display:
+    time: 3
 points:
   death: 0.1
   kill:
@@ -281,3 +287,7 @@ scoreboard:
   name: '&4MyZ Stats - Career Kills@&4MyZ Stats - Current Kills@&4MyZ Stats - Status@&4MyZ
     Stats - Skills@&4MyZ Stats - Deaths@&4MyZ Stats - Other'
   data: Players Killed:%kills.player%,Zombies Killed:%kills.zombie%,Pigmen Killed:%kills.pigman%,Giants Killed:%kills.giant%@Players Killed:%tracked.kills.player%,Zombies Killed:%tracked.kills.zombie%,Pigmen Killed:%tracked.kills.pigman%,Giants Killed:%tracked.kills.giant%@Bleeding:%bleeding%,Poisoned:%poisoned%,Temperature:%temperature%,Thirst:%thirst%@Immunity Level:%immunity%,Toughness Level:%toughness%@Zombie:%killer.zombie%,Pigman:%killer.pigman%,Giant:%killer.giant%,Guard%killer.guard%,Projectile:%killer.projectile%,Fire:%killer.fire%,Falling:%killer.fall%,Drown:%killer.drown%,Void:%killer.void%,Magic:%killer.magic%,Starvation:%killer.hunger%,Explode:%killer.explode%,Other:%killer.other%@Friends:%friends%,Revives:%revives.other%,Drinks Consumed:%drinks%,Deaths:%deaths%,Bandages Used:%heals.self.infection%,Heals:%heals.other%,zPoints:%z_points%
+spawn_title:
+  fadein_time: 5
+  display_time: 60
+  fadeout_time: 5

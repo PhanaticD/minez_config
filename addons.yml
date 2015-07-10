@@ -56,6 +56,11 @@ scoreboard:
   enabled: true
 hologram:
   enabled: true
+  display:
+    enabled: true
+  chat:
+    enabled: true
+    time: 10
 npc:
   enabled: true
   corpses:

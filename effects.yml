@@ -94,3 +94,12 @@ food:
     health: 1
     temperature: 0
     effects: []
+potion_effects:
+  spawn:
+  - BLINDNESS@100.1
+  - CONFUSION@100.0
+  - DAMAGE_RESISTANCE@200.1
+  infection:
+  - CONFUSION@200.3
+  bleeding:
+  - BLINDNESS@200.3
