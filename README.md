@@ -10,3 +10,4 @@ Do not edit these files until the server has been shut down first:
 - spawn_regions.yml
 - spawns.yml
 - store.yml
+- any userdata
