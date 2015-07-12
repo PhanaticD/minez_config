@@ -30,8 +30,6 @@ pigman:
   babies: true
   drops:
   - ==: org.bukkit.inventory.ItemStack
-    type: STICK
-  - ==: org.bukkit.inventory.ItemStack
     type: GOLD_INGOT
 zombie:
   spawn:
@@ -93,7 +91,6 @@ zombie:
     meta:
       ==: ItemMeta
       meta-type: POTION
-      display-name: §rMurky Water Bottle
   - ==: org.bukkit.inventory.ItemStack
     type: IRON_FENCE
     meta:
@@ -239,10 +236,8 @@ giant:
       minimum: 1
       maximum: 1
     biome:
-      excludes:
-      - Sky
-      includes:
-      - Mesa Plateau
+      excludes: []
+      includes: []
     limits:
       minimum_z: -4095
       maximum_z: -3000
