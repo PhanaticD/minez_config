@@ -2639,36 +2639,6 @@ locations:
     orientation: NORTH
     type: Civ_Store
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2854, 68, -2137:
-    material: CHEST
-    orientation: SOUTH
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2864, 68, -2132:
-    material: CHEST
-    orientation: EAST
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2859, 68, -2123:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2848, 68, -2129:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2872, 68, -2142:
-    material: CHEST
-    orientation: SOUTH
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2861, 68, -2143:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -2889, 67, -2116:
     material: CHEST
     orientation: EAST
@@ -3359,11 +3329,6 @@ locations:
     orientation: SOUTH
     type: Civ_Common
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 2578, 87, 443:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 2571, 66, 465:
     material: CHEST
     orientation: SOUTH
@@ -3393,16 +3358,6 @@ locations:
     material: CHEST
     orientation: SOUTH
     type: Civ_Common
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 2470, 90, 384:
-    material: CHEST
-    orientation: SOUTH
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 2426, 93, 409:
-    material: CHEST
-    orientation: EAST
-    type: DELETE CHEST
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 2585, 64, 172:
     material: CHEST
@@ -3654,11 +3609,6 @@ locations:
     orientation: NORTH
     type: Mil_Rare
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3920, 67, -592:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3926, 67, -596:
     material: CHEST
     orientation: NORTH
@@ -3678,16 +3628,6 @@ locations:
     material: CHEST
     orientation: NORTH
     type: Civ_Hospital
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3931, 73, -564:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 3925, 72, -589:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 3898, 72, -577:
     material: CHEST
