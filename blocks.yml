@@ -7,6 +7,7 @@ protection:
     - 77
     - 143
     - 30
+    - 103
     ignorelist: []
   break:
     whitelist:
