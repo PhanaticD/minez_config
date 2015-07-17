@@ -18,6 +18,16 @@ item:
   healing:
     bandage:
       displayname: Bandage
+      medical:
+        displayname: '&6Medical Bandage'
+        lore: Used in hospitals.~&6Heal III~&6Absorption II~&6Immunity X~~&eRight-click to use~&eLeft-click friend to use.
+      sterile:
+        displayname: '&aSterile Bandage'
+        lore: Fights infection.~&6Heal I~&6Immunity X~~&eRight-click to use~&eLeft-click friend to use.
+      clean:
+        displayname: Clean Bandage
+        lore: '&4Patches you up.~&6Heal II~&6Absorption I~~&eRight-click to use~&eLeft-click
+          friend to use.'
     ointment:
       displayname: '&4Ointment'
       lore: Basic medicine.~~&6Heal X~Absorption I
@@ -102,6 +112,10 @@ revive:
   revived_started: '&e$0 has begun to revive you. Hold tight.'
   reviver_cancelled: '&4You slipped and failed to revive $0.'
   revived_cancelled: '&4$0 was unable to revive you.'
+  attempt:
+    only_by_friend: '&4$0 tried to revive you, but you may only be revived by your
+      friends.'
+    only_friend: '&4You may not revive $0 as they are not on your friends list.'
 death:
   became_ghost: '&eYou are a &fghost&e! If you aren''t revived within $0 seconds,
     you will die.'
@@ -306,6 +320,7 @@ command:
     drop: drop~$zombie/giant/pigman/guard
     give_string: give~string
     temperature: temperature
+    achievements: achievements~$all/owned/unowned~$integer
   drop:
     must_be_holding: '&4You must be holding an item to add to the drop table.'
     needs_mob: '&4You must specify a mob. &eOptions: &rzombie, guard, pigman, giant&e.'
@@ -317,3 +332,19 @@ temperature:
     too_cold: '&bYou''re too cold! You should find a fire or put some armor on.'
     too_hot: '&4You''re too hot! You should take off some armor or drink something
       cold.'
+store:
+  too_poor: '&4You cannot afford to spend &e$0&4 points (you only have &e$1&4)'
+achievement:
+  gui:
+    title: '&4MyZ - Achievements ($0)'
+    all: All
+    owned: Owned
+    unowned: Unowned
+follower:
+  wolf:
+    gain_exp: '&a+$0 XP'
+    tamed: '&eYou tamed your wolf, &r$0&r&e!'
+  horse:
+    gain_exp: '&a+$0 XP'
+    died: '&4Your wolf was killed.'
+    tamed: '&eYou tamed your horse, &r$0&r&e!'

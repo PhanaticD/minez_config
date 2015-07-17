@@ -221,6 +221,8 @@ temperature:
     frostbite: 62
     potion_effects: 33
     sweat: 3
+  modifier:
+    near_snow: -5.1
 chest:
   respawn_time: 300
 airdrop:
@@ -237,6 +239,7 @@ spawnkit:
   hierarchical: false
 spawn:
   safespawn_radius: 15
+  clear_inventory: true
 hologram:
   display_ticks: 1
   display:
@@ -287,7 +290,26 @@ scoreboard:
   name: '&4MyZ Stats - Career Kills@&4MyZ Stats - Current Kills@&4MyZ Stats - Status@&4MyZ
     Stats - Skills@&4MyZ Stats - Deaths@&4MyZ Stats - Other'
   data: Players Killed:%kills.player%,Zombies Killed:%kills.zombie%,Pigmen Killed:%kills.pigman%,Giants Killed:%kills.giant%@Players Killed:%tracked.kills.player%,Zombies Killed:%tracked.kills.zombie%,Pigmen Killed:%tracked.kills.pigman%,Giants Killed:%tracked.kills.giant%@Bleeding:%bleeding%,Poisoned:%poisoned%,Temperature:%temperature%,Thirst:%thirst%@Immunity Level:%immunity%,Toughness Level:%toughness%@Zombie:%killer.zombie%,Pigman:%killer.pigman%,Giant:%killer.giant%,Guard%killer.guard%,Projectile:%killer.projectile%,Fire:%killer.fire%,Falling:%killer.fall%,Drown:%killer.drown%,Void:%killer.void%,Magic:%killer.magic%,Starvation:%killer.hunger%,Explode:%killer.explode%,Other:%killer.other%@Friends:%friends%,Revives:%revives.other%,Drinks Consumed:%drinks%,Deaths:%deaths%,Bandages Used:%heals.self.infection%,Heals:%heals.other%,zPoints:%z_points%
+  highscore:
+    data:
+    - '&4Zombie Kills: &r%kills.zombie.owner% &r&4- &e%kills.zombie.value%'
+    - '&4Player Kills: &r%kills.player.owner% &r&4- &e%kills.player.value%'
+    - '&4Pigman Kills: &r%kills.pigman.owner% &r&4- &e%kills.pigman.value%'
+    - '&4Giant Kills: &r%kills.giant.owner% &r&4- &e%kills.giant.value%'
+    - '&4Guard Kills: &r%kills.guard.owner% &r&4- &e%kills.guard.value%'
+    - '&4Friends: &r%friends.owner% &r&4- &e%friends.value%'
+    - '&4Drinks: &r%drinks.owner% &r&4- &e%drinks.value%'
+    - '&4Deaths: &r%deaths.owner% &r&4- &e%deaths.value%'
+    - '&4zPoints: &r%z_points.owner% &r&4- &e%z_points.value%'
 spawn_title:
   fadein_time: 5
   display_time: 60
   fadeout_time: 5
+rank:
+  load_forwards: true
+followers:
+  points:
+    death_penalty: 0.2
+    damage_entity: 0.1
+    multiplier_per_level: 0.43
+    fireworks_on_levelup: true

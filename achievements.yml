@@ -1,6 +1,10 @@
 friends:
   name: Making Friends
   description: make a friend
+  display:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
   requirements:
     kills:
       zombie: 0
@@ -32,6 +36,13 @@ friends:
 thirsty:
   name: Staying Hydrated
   description: drink 20 bottles of water
+  display:
+    ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §rCold Bottle of Water
   requirements:
     kills:
       zombie: 0
@@ -63,6 +74,9 @@ thirsty:
 lifecycle:
   name: The Circle of Life
   description: reach the end of your life
+  display:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
   requirements:
     kills:
       zombie: 0

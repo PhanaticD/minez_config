@@ -88,9 +88,6 @@ zombie:
       - §r§eLeft-click friend to use
   - ==: org.bukkit.inventory.ItemStack
     type: POTION
-    meta:
-      ==: ItemMeta
-      meta-type: POTION
   - ==: org.bukkit.inventory.ItemStack
     type: IRON_FENCE
     meta:
@@ -229,6 +226,17 @@ guard:
     helmet: CHAINMAIL_HELMET
   become_zombie_on_death: true
   drops: []
+  skins:
+  - MrTeePee
+  - ConnMen
+  - mattman621
+  - azfanatic11
+  - jeb_
+  - Darkauron
+  - Honeydew
+  - Etho
+  - Jammymanrock
+  match_skins_to_names: false
 giant:
   spawn:
     chance: 100
@@ -314,3 +322,78 @@ default_mobs:
   HORSE: false
   RABBIT: false
   VILLAGER: false
+horse:
+  spawn:
+    chance: 4
+    pack:
+      minimum: 1
+      maximum: 2
+    biome:
+      excludes:
+      - Mesa Plateau
+  names:
+  - Star
+  - Dakota
+  - Lucky
+  - Blaze
+  - Spirit
+  - Freckles
+  - Bo
+  - Apache
+  - Beauty
+  - Belle
+  - Bud
+  - Honey
+  - Lady
+  - Rocky
+  - Stormy
+  - Toby
+  - Prince
+  - Molly
+  - King
+  - Maggie
+  - Harley
+  - Charlie
+  - Chester
+  - Charger
+  - Champ
+  attribute:
+    speed:
+      target_multiplier: 1.5
+  is_cannibal: true
+wolf:
+  names:
+  - Max
+  - Jack
+  - Rocky
+  - Bear
+  - Lucky
+  - Maggie
+  - Coco
+  - Baxter
+  - Sparky
+  - Duke
+  - Thor
+  - Zeus
+  - Winston
+  - Heidi
+  - Elsa
+  - Anna
+  - Sophie
+  - Angus
+  - Caesar
+  - Quinn
+  - Rufus
+  - Anita
+  - Ralph
+  - Bubba
+  - Hank
+  spawn:
+    chance: 3
+    pack:
+      minimum: 1
+      maximum: 3
+    biome:
+      excludes:
+      - Mesa Plateau
+  is_cannibal: true
