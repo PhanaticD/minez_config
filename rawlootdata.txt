@@ -23,6 +23,8 @@ Potion of Instant Health(1, 1, 55)
 Potion of Instant Health II(1, 1, 30)
 Splash Potion of Instant Health(1, 1, 7)
 Splash Potion of Instant Health(1, 1, 5)
+Medical Bandage(1, 1, 15)
+Clean Bandage(1, 2, 30)
 Golden Apple(1, 1, 4)
 
 Civ_Store
