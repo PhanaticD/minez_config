@@ -1,6 +1,6 @@
 prefix: ''
 rank: 0
-friend_list: d8d5a923-7b20-43d8-883b-1150148d6955;
+friend_list: ''
 z_points_multiplier: 1.0
 horse:
   name: ''
@@ -8,4 +8,4 @@ horse:
 wolf:
   name: ''
   level: 0
-actual_name: Rising24
+actual_name: ''

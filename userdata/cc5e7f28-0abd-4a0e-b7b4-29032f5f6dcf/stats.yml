@@ -1,24 +1,3 @@
-kills:
-  zombie: 48
-  player: 0
-  pigman: 84
-  giant: 4
-  guard: 10
-revives:
-  self: 0
-  other: 0
-friends: 0
-drinks: 38
-deaths: 29
-heals:
-  self:
-    infection: 1
-    bleeding: 1
-  other: 0
-deathstate:
-  zombie: 3
-  ghost: 6
-z_points: 29.100000000000044
 killer:
   zombie: 0
   pigman: 0
@@ -34,3 +13,24 @@ killer:
   hunger: 0
   magic: 0
   other: 0
+kills:
+  zombie: 0
+  player: 0
+  pigman: 0
+  giant: 0
+  guard: 0
+revives:
+  self: 0
+  other: 0
+friends: 0
+drinks: 0
+deaths: 0
+heals:
+  self:
+    infection: 0
+    bleeding: 0
+  other: 0
+deathstate:
+  zombie: 0
+  ghost: 0
+z_points: 0.0

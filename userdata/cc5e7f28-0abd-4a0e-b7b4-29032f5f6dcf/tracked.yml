@@ -1,9 +1,9 @@
-thirst: 20.0
+thirst: 21.0
 poisoned: false
 bleeding: false
 ghost: false
 zombie: false
-in_game: true
+in_game: false
 tracked:
   kills:
     zombie: 0
@@ -11,7 +11,7 @@ tracked:
     pigman: 0
     giant: 0
     guard: 0
-temperature: 36.838771279256356
+temperature: 37.0
 died_while_offline: false
 corpse:
   location: ''

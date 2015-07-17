@@ -1,0 +1,96 @@
+killer:
+  zombie:
+    owner: ''
+    value: 0
+  pigman:
+    owner: ''
+    value: 0
+  giant:
+    owner: ''
+    value: 0
+  player:
+    owner: ''
+    value: 0
+  guard:
+    owner: ''
+    value: 0
+  projectile:
+    owner: ''
+    value: 0
+  fire:
+    owner: ''
+    value: 0
+  void:
+    owner: ''
+    value: 0
+  drown:
+    owner: ''
+    value: 0
+  fall:
+    owner: ''
+    value: 0
+  explode:
+    owner: ''
+    value: 0
+  hunger:
+    owner: ''
+    value: 0
+  magic:
+    owner: ''
+    value: 0
+  other:
+    owner: ''
+    value: 0
+kills:
+  zombie:
+    owner: ''
+    value: 0
+  player:
+    owner: ''
+    value: 0
+  pigman:
+    owner: ''
+    value: 0
+  giant:
+    owner: ''
+    value: 0
+  guard:
+    owner: ''
+    value: 0
+revives:
+  self:
+    owner: ''
+    value: 0
+  other:
+    owner: ''
+    value: 0
+friends:
+  owner: ''
+  value: 0
+drinks:
+  owner: ''
+  value: 0
+deaths:
+  owner: ''
+  value: 0
+heals:
+  self:
+    infection:
+      owner: ''
+      value: 0
+    bleeding:
+      owner: ''
+      value: 0
+  other:
+    owner: ''
+    value: 0
+deathstate:
+  zombie:
+    owner: ''
+    value: 0
+  ghost:
+    owner: ''
+    value: 0
+z_points:
+  owner: ''
+  value: 0
