@@ -287,9 +287,6 @@ safe_logout:
   timer: 10
   completed_command: kick $player hubkick
 scoreboard:
-  name: '&4MyZ Stats - Career Kills@&4MyZ Stats - Current Kills@&4MyZ Stats - Status@&4MyZ
-    Stats - Skills@&4MyZ Stats - Deaths@&4MyZ Stats - Other'
-  data: Players Killed:%kills.player%,Zombies Killed:%kills.zombie%,Pigmen Killed:%kills.pigman%,Giants Killed:%kills.giant%@Players Killed:%tracked.kills.player%,Zombies Killed:%tracked.kills.zombie%,Pigmen Killed:%tracked.kills.pigman%,Giants Killed:%tracked.kills.giant%@Bleeding:%bleeding%,Poisoned:%poisoned%,Temperature:%temperature%,Thirst:%thirst%@Immunity Level:%immunity%,Toughness Level:%toughness%@Zombie:%killer.zombie%,Pigman:%killer.pigman%,Giant:%killer.giant%,Guard%killer.guard%,Projectile:%killer.projectile%,Fire:%killer.fire%,Falling:%killer.fall%,Drown:%killer.drown%,Void:%killer.void%,Magic:%killer.magic%,Starvation:%killer.hunger%,Explode:%killer.explode%,Other:%killer.other%@Friends:%friends%,Revives:%revives.other%,Drinks Consumed:%drinks%,Deaths:%deaths%,Bandages Used:%heals.self.infection%,Heals:%heals.other%,zPoints:%z_points%
   highscore:
     data:
     - '&4Zombie Kills: &r%kills.zombie.owner% &r&4- &e%kills.zombie.value%'
@@ -301,6 +298,9 @@ scoreboard:
     - '&4Drinks: &r%drinks.owner% &r&4- &e%drinks.value%'
     - '&4Deaths: &r%deaths.owner% &r&4- &e%deaths.value%'
     - '&4zPoints: &r%z_points.owner% &r&4- &e%z_points.value%'
+  name: '&4MyZ Stats - Career Kills@&4MyZ Stats - Current Kills@&4MyZ Stats - Status@&4MyZ
+    Stats - Levels@&4MyZ Stats - Deaths@&4MyZ Stats - Other@&4MyZ Stats - Highscores'
+  data: Players Killed:%kills.player%,Zombies Killed:%kills.zombie%,Pigmen Killed:%kills.pigman%,Giants Killed:%kills.giant%@Players Killed:%tracked.kills.player%,Zombies Killed:%tracked.kills.zombie%,Pigmen Killed:%tracked.kills.pigman%,Giants Killed:%tracked.kills.giant%@Bleeding:%bleeding%,Poisoned:%poisoned%,Temperature:%temperature%,Thirst:%thirst%@Wolf Level:%wolf.level%,Horse Level:%horse.level%,Immunity Level:%immunity%,Toughness Level:%toughness%@Zombie:%killer.zombie%,Pigman:%killer.pigman%,Giant:%killer.giant%,Guard%killer.guard%,Projectile:%killer.projectile%,Fire:%killer.fire%,Falling:%killer.fall%,Drown:%killer.drown%,Void:%killer.void%,Magic:%killer.magic%,Starvation:%killer.hunger%,Explode:%killer.explode%,Other:%killer.other%@Friends:%friends%,Revives:%revives.other%,Drinks Consumed:%drinks%,Deaths:%deaths%,Bandages Used:%heals.self.infection%,Heals:%heals.other%,zPoints:%z_points%@Zombie Kills:%highscore.kills.zombie%,Player Kills:%highscore.kills.player$,Pigman Kills:%highscore.kills.pigman%,Giant Kills:%highscore.kills.giant%,Guard Kills:%highscore.kills.guard%
 spawn_title:
   fadein_time: 5
   display_time: 60
