@@ -51,3 +51,9 @@ recipes:
     output:
       ==: org.bukkit.inventory.ItemStack
       type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §r§4Dull
+        - §r90% Effective

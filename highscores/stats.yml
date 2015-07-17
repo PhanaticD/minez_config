@@ -71,8 +71,8 @@ drinks:
   owner: ''
   value: 0
 deaths:
-  owner: ''
-  value: 0
+  owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
+  value: 5
 heals:
   self:
     infection:
