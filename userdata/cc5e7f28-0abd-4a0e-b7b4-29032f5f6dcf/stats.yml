@@ -19,3 +19,18 @@ deathstate:
   zombie: 3
   ghost: 6
 z_points: 29.100000000000044
+killer:
+  zombie: 0
+  pigman: 0
+  giant: 0
+  player: 0
+  guard: 0
+  projectile: 0
+  fire: 0
+  void: 0
+  drown: 0
+  fall: 0
+  explode: 0
+  hunger: 0
+  magic: 0
+  other: 0
