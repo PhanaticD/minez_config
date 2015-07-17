@@ -203,8 +203,7 @@ specialevent:
   easter: '&9Easter'
   speak_like_pirate_day: specialevent.speak_like_pirate_day
 system:
-  optimize: '&4Your MyZ environment is not optimized! Type &e"/MyZ optimize"&4 to
-    fix this!'
+  optimize: ''
   optimized: '&eMyZ has been optimized. Changes will take effect next time server
     starts up.'
 command:
