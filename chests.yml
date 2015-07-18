@@ -191,14 +191,6 @@ types:
       item:
         ==: org.bukkit.inventory.ItemStack
         type: GOLDEN_APPLE
-    e227ab2e-b70a-446c-a04f-13b6986f7b6a:
-      probability: 55
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: POTION
-        damage: 8261
     718e5eba-4d95-4dff-ad26-a31f9856fed1:
       probability: 15
       amount_minimum: 1
@@ -1182,6 +1174,25 @@ types:
       item:
         ==: org.bukkit.inventory.ItemStack
         type: SULPHUR
+    718e5eba-4d95-4dff-ad26-a31f9856fed1:
+      probability: 25
+      amount_minimum: 1
+      amount_maximum: 3
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §r§6Medical Bandage
+          lore:
+          - §rUsed in hospitals.
+          - §r§6Heal III
+          - §r§6Absorption II
+          - §r§6Immunity X
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use.
   Test:
     ccc03d1e-a87c-4e31-a8e5-5b873c19b089:
       probability: 100
