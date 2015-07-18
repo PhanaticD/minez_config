@@ -48,9 +48,9 @@ zombie:
     health: 20.0
     speed:
       no_target: 0.23
-      target_multiplier: 1.5
+      target_multiplier: 1.2
     knockback_resistance: 0.0
-    damage: 3.0
+    damage: 2.0
     jump:
       multiplier: 1.05
     leap:
