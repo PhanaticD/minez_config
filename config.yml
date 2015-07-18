@@ -3,7 +3,7 @@ worlds:
 - minez
 operation_tick: 1
 save_delay: 6000
-dedicated-mode: true
+dedicated-mode: false
 sql:
   transmit_period: 60
 notify_on_save: true
