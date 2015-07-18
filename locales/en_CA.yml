@@ -98,7 +98,7 @@ event:
       &4Unable to parse format. &ePlease enter a minimum and maximum amount for this item, followed by a probability.
       &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
 chat:
-  radio: '%s: &a1.$0 Hz - %s'
+  radio: '%s: &a[1.$0 MHz] %s'
   private:
     from: '&8From %s: %s'
     to: '&8To %s: %s'
@@ -322,8 +322,7 @@ specialevent:
   easter: '&9Easter'
   speak_like_pirate_day: '&3International Talk Like a Pirate Day'
 system:
-  optimize: '&4Your MyZ environment is not optimized! Type &e"/MyZ optimize"&4 to
-    fix this!'
+  optimize: ''
   optimized: '&eMyZ has been optimized. Changes will take effect next time server
     starts up.'
 back: '&rBack'
