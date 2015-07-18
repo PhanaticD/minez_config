@@ -292,36 +292,6 @@ general:
       - Deep Ocean
 npc:
   lifetime_ticks: 600
-default_mobs:
-  CREEPER: false
-  SKELETON: false
-  SPIDER: false
-  SLIME: false
-  GHAST: false
-  ENDERMAN: false
-  CAVE_SPIDER: false
-  SILVERFISH: false
-  BLAZE: false
-  MAGMA_CUBE: false
-  ENDER_DRAGON: false
-  WITHER: false
-  BAT: false
-  WITCH: false
-  ENDERMITE: false
-  GUARDIAN: false
-  PIG: false
-  SHEEP: false
-  COW: false
-  CHICKEN: false
-  SQUID: false
-  WOLF: false
-  MUSHROOM_COW: false
-  SNOWMAN: false
-  OCELOT: false
-  IRON_GOLEM: false
-  HORSE: false
-  RABBIT: false
-  VILLAGER: false
 horse:
   spawn:
     chance: 4
@@ -397,3 +367,207 @@ wolf:
       excludes:
       - Mesa Plateau
   is_cannibal: true
+default_mobs:
+  CREEPER:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  SKELETON:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  SPIDER:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  SLIME:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  GHAST:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  ENDERMAN:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  CAVE_SPIDER:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  SILVERFISH:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  BLAZE:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  MAGMA_CUBE:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  ENDER_DRAGON:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  WITHER:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  BAT:
+    enabled: true
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  WITCH:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  ENDERMITE:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  GUARDIAN:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  PIG:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  SHEEP:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  COW:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  CHICKEN:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  SQUID:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  WOLF:
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+    enabled: false
+  MUSHROOM_COW:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  SNOWMAN:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  OCELOT:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  IRON_GOLEM:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  HORSE:
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+    enabled: false
+  RABBIT:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
+  VILLAGER:
+    enabled: false
+    pathfinder:
+      zombie: false
+      pigman: false
+      guard: false
+      giant: false
