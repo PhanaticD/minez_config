@@ -8,10 +8,9 @@ protection:
     - 143
     - 30
     - 103
-    ignorelist:
-    - 2
+    ignorelist: []
   break:
     whitelist:
     - 30
-    ignorelist:
-    - 2
+    - 103
+    ignorelist: []
