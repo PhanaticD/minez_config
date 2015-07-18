@@ -141,6 +141,7 @@ main:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: Back
+  items:  
     '&4Level Up':
       display:
         ==: org.bukkit.inventory.ItemStack
@@ -152,12 +153,4 @@ main:
           lore:
           - '§ePrice: §650 §ezPoints'
       command: myz userdata $player rank +1
-      cost: 50.0
-    Back:
-      display:
-        ==: org.bukkit.inventory.ItemStack
-        type: NETHER_STAR
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: Back
+      cost: 50.0 
