@@ -3,7 +3,7 @@ visibility:
     walking: 3
     sprinting: 6
     airborne: 2
-    activate_redstone: 3
+    activate_redstone: 0
     take_damage: 2
     shooting: 1
     sneaking: -2
