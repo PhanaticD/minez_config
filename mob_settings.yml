@@ -369,6 +369,8 @@ wolf:
       excludes:
       - Mesa Plateau
   is_cannibal: true
+  mounted_undead:
+    chance: 64
 default_mobs:
   CREEPER:
     enabled: false
@@ -573,3 +575,5 @@ default_mobs:
       pigman: false
       guard: false
       giant: false
+mount_naturally:
+  one_in: 20

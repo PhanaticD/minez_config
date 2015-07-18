@@ -316,3 +316,5 @@ followers:
 mobs:
   pig:
     zombification: true
+dedicated:
+  auto-respawn: true
