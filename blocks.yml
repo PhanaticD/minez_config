@@ -1,6 +1,6 @@
 properties:
-  respawn_time: 180
-  despawn_time: 180
+  respawn_time: 300
+  despawn_time: 60
 protection:
   place:
     whitelist:
@@ -8,8 +8,10 @@ protection:
     - 143
     - 30
     - 103
-    ignorelist: []
+    ignorelist:
+    - 2
   break:
     whitelist:
     - 30
-    ignorelist: []
+    ignorelist:
+    - 2
