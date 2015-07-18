@@ -107,7 +107,7 @@ death:
   transition_time: 60
 bleed:
   damage_delay: 42
-  damage_amount: 1.1
+  damage_amount: 1.0
 infection:
   damage_delay: 38
   damage_amount: 1.0
@@ -317,4 +317,4 @@ mobs:
   pig:
     zombification: true
 dedicated:
-  auto-respawn: true
+  auto-respawn: false
