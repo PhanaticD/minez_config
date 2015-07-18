@@ -141,6 +141,7 @@ main:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: Back
+  items:
     '&4Level Up':
       display:
         ==: org.bukkit.inventory.ItemStack
@@ -150,27 +151,6 @@ main:
           meta-type: UNSPECIFIC
           display-name: §4Level Up
           lore:
-          - '§ePrice: §650 §ezPoints'
+          - '§ePrice: §61 §ezPoints'
       command: myz userdata $player rank +1
       cost: 50.0
-    Back:
-      display:
-        ==: org.bukkit.inventory.ItemStack
-        type: NETHER_STAR
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: Back
-  items:
-    LevelUp:
-      display:
-        ==: org.bukkit.inventory.ItemStack
-        type: ANVIL
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: LevelUp
-          lore:
-          - '§ePrice: §61 §ezPoints'
-      command: /lvlup
-      cost: 1.0
