@@ -331,6 +331,8 @@ horse:
     speed:
       target_multiplier: 1.5
   is_cannibal: true
+  mounted_undead:
+    chance: 70
 wolf:
   names:
   - Max

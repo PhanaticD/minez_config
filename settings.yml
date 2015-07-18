@@ -313,3 +313,6 @@ followers:
     damage_entity: 0.1
     multiplier_per_level: 0.43
     fireworks_on_levelup: true
+mobs:
+  pig:
+    zombification: true
