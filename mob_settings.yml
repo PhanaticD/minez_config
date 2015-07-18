@@ -47,8 +47,8 @@ zombie:
   attribute:
     health: 20.0
     speed:
-      no_target: 0.23
-      target_multiplier: 1.2
+      no_target: 0.20
+      target_multiplier: 1.3
     knockback_resistance: 0.0
     damage: 2.0
     jump:
@@ -73,7 +73,7 @@ zombie:
       chance: 5
     jumper:
       chance: 5
-  babies: true
+  babies: false
   drops:
   - ==: org.bukkit.inventory.ItemStack
     type: PAPER
