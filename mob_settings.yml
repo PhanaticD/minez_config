@@ -47,7 +47,7 @@ zombie:
   attribute:
     health: 20.0
     speed:
-      no_target: 0.20
+      no_target: 0.2
       target_multiplier: 1.4
     knockback_resistance: 0.0
     damage: 2.0
