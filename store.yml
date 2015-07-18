@@ -161,3 +161,16 @@ main:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           display-name: Back
+  items:
+    LevelUp:
+      display:
+        ==: org.bukkit.inventory.ItemStack
+        type: ANVIL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: LevelUp
+          lore:
+          - '§ePrice: §61 §ezPoints'
+      command: /lvlup
+      cost: 1.0
