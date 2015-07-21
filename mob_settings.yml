@@ -33,10 +33,10 @@ pigman:
     type: GOLD_INGOT
 zombie:
   spawn:
-    chance: 50
+    chance: 40
     pack:
       minimum: 1
-      maximum: 3
+      maximum: 2
     biome:
       excludes:
       - Mesa Plateau
@@ -73,7 +73,7 @@ zombie:
       chance: 5
     jumper:
       chance: 5
-  babies: false
+  babies: true
   drops:
   - ==: org.bukkit.inventory.ItemStack
     type: PAPER
@@ -227,15 +227,23 @@ guard:
   become_zombie_on_death: true
   drops: []
   skins:
-  - MrTeePee
-  - ConnMen
-  - mattman621
-  - azfanatic11
-  - jeb_
-  - Darkauron
-  - Honeydew
-  - Etho
-  - Jammymanrock
+  - PhanaticD
+  - Mooglemuffins
+  - legit_craft
+  - Polojp
+  - Rising24
+  - Arcticjelly
+  - BradyM
+  - Bambam423
+  - Sophiehix
+  - Ether3000
+  - Rehtims
+  - Shadysauce
+  - Zeda_187
+  - GabbyT
+  - Hunterx
+  - lRoixl
+  - DoomLexus
   match_skins_to_names: false
 giant:
   spawn:
@@ -294,10 +302,10 @@ npc:
   lifetime_ticks: 600
 horse:
   spawn:
-    chance: 4
+    chance: 1
     pack:
       minimum: 1
-      maximum: 2
+      maximum: 1
     biome:
       excludes:
       - Mesa Plateau
@@ -332,7 +340,7 @@ horse:
       target_multiplier: 1.5
   is_cannibal: true
   mounted_undead:
-    chance: 70
+    chance: 50
 wolf:
   names:
   - Max
@@ -361,16 +369,16 @@ wolf:
   - Bubba
   - Hank
   spawn:
-    chance: 3
+    chance: 1
     pack:
       minimum: 1
-      maximum: 3
+      maximum: 2
     biome:
       excludes:
       - Mesa Plateau
   is_cannibal: true
   mounted_undead:
-    chance: 64
+    chance: 50
 default_mobs:
   CREEPER:
     enabled: false
@@ -576,4 +584,4 @@ default_mobs:
       guard: false
       giant: false
 mount_naturally:
-  one_in: 20
+  one_in: 100
