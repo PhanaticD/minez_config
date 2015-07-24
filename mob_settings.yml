@@ -65,9 +65,9 @@ zombie:
     gold:
       chance: 2
     iron:
-      chance: 0
+      chance: 1
     explosive:
-      chance: 3
+      chance: 1
   subtype:
     crawler:
       chance: 5
@@ -298,86 +298,6 @@ guard:
         chestplate:
           ==: org.bukkit.inventory.ItemStack
           type: GOLD_CHESTPLATE
-      '3':
-        hand:
-          ==: org.bukkit.inventory.ItemStack
-          type: DIAMOND
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            display-name: §eTrinket§e «?»
-            lore:
-            - §eLeft-click to set the owner.
-            - '§eExplodes when:'
-            - §e- picked up
-            - §e- shot out of a dispenser
-            - §e- a chest containing this item is opened
-            - §e- placed in an item frame, and nearby
-            - §e ...pressure plates are stepped on.
-            - §e§oOwners cannot trigger their own traps.
-        chestplate:
-          ==: org.bukkit.inventory.ItemStack
-          type: LEATHER_CHESTPLATE
-        boots:
-          ==: org.bukkit.inventory.ItemStack
-          type: IRON_BOOTS
-      '4':
-        hand:
-          ==: org.bukkit.inventory.ItemStack
-          type: POWERED_MINECART
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            display-name: §eToaster§e
-            lore:
-            - §eAnti-personnel mine.
-            - '§eTriggers a fiery explosion when:'
-            - §e- walked into by mobs or players
-            - §e- struck with fists or items
-            - §e- shot by projectiles
-        chestplate:
-          ==: org.bukkit.inventory.ItemStack
-          type: LEATHER_CHESTPLATE
-        boots:
-          ==: org.bukkit.inventory.ItemStack
-          type: IRON_BOOTS
-      '5':
-        hand:
-          ==: org.bukkit.inventory.ItemStack
-          type: REDSTONE_COMPARATOR
-          meta:
-            ==: ItemMeta
-            meta-type: TILE_ENTITY
-            display-name: §ePutty§e «2»
-            lore:
-            - §eRemote explosives.
-            - §eRight click to throw.
-            - §eLeft click to detonate.
-            blockMaterial: REDSTONE_COMPARATOR
-        chestplate:
-          ==: org.bukkit.inventory.ItemStack
-          type: LEATHER_CHESTPLATE
-        boots:
-          ==: org.bukkit.inventory.ItemStack
-          type: IRON_BOOTS
-      '6':
-        hand:
-          ==: org.bukkit.inventory.ItemStack
-          type: INK_SACK
-          damage: 3
-          meta:
-            ==: ItemMeta
-            meta-type: UNSPECIFIC
-            display-name: §eCocoPops§e
-            lore:
-            - §eA cluster bomb that releases
-            - §e10 bomblets upon detonation.
-        chestplate:
-          ==: org.bukkit.inventory.ItemStack
-          type: LEATHER_CHESTPLATE
-        boots:
-          ==: org.bukkit.inventory.ItemStack
-          type: IRON_BOOTS
 giant:
   spawn:
     chance: 100
@@ -390,7 +310,7 @@ giant:
     limits:
       minimum_z: -4095
       maximum_z: -3000
-      enabled: true
+      enabled: false
   ability:
     reinforcement:
       minimum: 1
@@ -718,4 +638,4 @@ default_mobs:
       giant: false
 mount_naturally:
   one_in: 100
-  chance_one_in_x_mobs: 20
+  chance_one_in_x_mobs: 100
