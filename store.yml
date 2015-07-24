@@ -38,22 +38,6 @@ main:
           command: myz userdata $player toughness +1
           cost: 50.0
       children:
-        Back:
-          display:
-            ==: org.bukkit.inventory.ItemStack
-            type: NETHER_STAR
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: Back
-        §rBack:
-          display:
-            ==: org.bukkit.inventory.ItemStack
-            type: NETHER_STAR
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: §rBack
     '&eItems':
       display:
         ==: org.bukkit.inventory.ItemStack
@@ -141,22 +125,6 @@ main:
           command: give $player minecraft:apple 1 0
           cost: 11.0
       children:
-        Back:
-          display:
-            ==: org.bukkit.inventory.ItemStack
-            type: NETHER_STAR
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: Back
-        §rBack:
-          display:
-            ==: org.bukkit.inventory.ItemStack
-            type: NETHER_STAR
-            meta:
-              ==: ItemMeta
-              meta-type: UNSPECIFIC
-              display-name: §rBack
   items:
     '&4Level Up':
       display:
