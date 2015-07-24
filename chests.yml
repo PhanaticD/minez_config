@@ -2836,11 +2836,6 @@ locations:
     orientation: NORTH
     type: Mil_Rare
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2827, 93, -3585:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1424, 82, 292:
     material: CHEST
     orientation: WEST
@@ -4956,11 +4951,6 @@ locations:
     orientation: WEST
     type: Civ_Common
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -1526, 82, -1996:
-    material: CHEST
-    orientation: EAST
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -1519, 73, -1994:
     material: CHEST
     orientation: EAST
@@ -5456,11 +5446,6 @@ locations:
     orientation: SOUTH
     type: Mil_Rare
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 2545, 90, -1802:
-    material: CHEST
-    orientation: SOUTH
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 2545, 89, -1802:
     material: CHEST
     orientation: SOUTH
@@ -5716,16 +5701,6 @@ locations:
     orientation: NORTH
     type: Civ_Tool
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1005, 82, -2573:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1012, 82, -2569:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1016, 82, -2590:
     material: CHEST
     orientation: WEST
@@ -5866,25 +5841,10 @@ locations:
     orientation: NORTH
     type: Civ_Common
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1298, 64, -3416:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1291, 64, -3404:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1285, 68, -3404:
     material: CHEST
     orientation: NORTH
     type: Mil_Rare
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1298, 69, -3404:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1298, 68, -3420:
     material: CHEST
@@ -6401,11 +6361,6 @@ locations:
     orientation: WEST
     type: Mil_Rare
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2394, 58, -3721:
-    material: CHEST
-    orientation: WEST
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -2424, 58, -3709:
     material: CHEST
     orientation: NORTH
@@ -6581,20 +6536,10 @@ locations:
     orientation: NORTH
     type: Mil_Uncommon
     respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1943, 42, -3697:
-    material: CHEST
-    orientation: SOUTH
-    type: DELETE CHEST
-    respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1933, 41, -3710:
     material: CHEST
     orientation: NORTH
     type: Mil_Uncommon
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, 1936, 40, -3708:
-    material: CHEST
-    orientation: NORTH
-    type: DELETE CHEST
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, 1981, 47, -3726:
     material: CHEST
