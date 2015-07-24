@@ -257,11 +257,13 @@ command:
     give_string: give~string
     temperature: temperature
     achievements: achievements~$all/owned/unowned~$integer
+    xp: level
   drop:
     must_be_holding: '&4You must be holding an item to add to the drop table.'
     needs_mob: '&4You must specify a mob. &eOptions: &rzombie, guard, pigman, giant&e.'
     finished: '&eThe item in your hand has been added to the drop table for $0s.'
   get_temperature: '&e$0 �F &7/ &6$1 �C'
+  xp: '&6Level $0&r&a (&6$1 EXP&r&a)'
 equipment:
   starter:
     chestplate:

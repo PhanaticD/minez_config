@@ -50,6 +50,7 @@ temperature:
     on_mountain:
       y_threshold: 110.0
       modifier: -2.8
+  use_potion_effects: true
 chests:
   enabled: true
 scoreboard:
@@ -70,6 +71,8 @@ followers:
     enabled: true
   wolf:
     enabled: true
+  untamed:
+    super_hostile: false
 enhance_anvils:
   only_on_sneak: false
 spawn_title:
