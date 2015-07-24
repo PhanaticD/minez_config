@@ -46,6 +46,14 @@ main:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: Back
+        §rBack:
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: NETHER_STAR
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §rBack
     '&eItems':
       display:
         ==: org.bukkit.inventory.ItemStack
@@ -141,6 +149,14 @@ main:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: Back
+        §rBack:
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: NETHER_STAR
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §rBack
   items:
     '&4Level Up':
       display:
