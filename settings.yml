@@ -201,6 +201,13 @@ temperature:
       y_threshold: 110.0
       modifier: -0.15
     near_fire: 300.2
+    holding:
+      torch: 60.1
+      ice: -30.2
+      snow: -25.1
+      lava_bucket: 100.2
+    near_torch: 100.2
+    near_burning_furnace: 40.2
   threshold:
     heatstroke:
       '3': 42.7

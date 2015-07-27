@@ -22,6 +22,8 @@ chat:
     enabled: true
   private:
     enabled: false
+  undead:
+    enabled: true
 enhanced_deathmessages:
   enabled: true
 death:
@@ -66,6 +68,7 @@ npc:
   enabled: true
   corpses:
     enabled: true
+    lifetime: 30
 followers:
   horse:
     enabled: true
@@ -82,3 +85,7 @@ spawn_title:
   fadeout_time: 5
 block_protection:
   enabled: true
+horde_summon:
+  amount: 5
+cauldron:
+  fill_time: 300

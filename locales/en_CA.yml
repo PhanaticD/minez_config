@@ -66,6 +66,7 @@ item:
         '1': '&bHypothermia I - $0 degrees'
         '2': '&bHypothermia II - $0 degrees'
         '3': '&bHypothermia III - $0 degrees'
+  rain_water: Bottle of Rainwater
 event:
   infected: '&4You have been infected.'
   bleeding: '&4You have been cut and are bleeding!'
@@ -97,6 +98,9 @@ event:
     add_item_error: |-
       &4Unable to parse format. &ePlease enter a minimum and maximum amount for this item, followed by a probability.
       &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
+  bleeding_still: '&4The blood continues to pour from your open wound.'
+  infected_still: '&4You should cure this infection...'
+  thirsty: '&4Your throat is parched.'
 chat:
   radio: '%s: &a[1.$0 MHz] %s'
   private:

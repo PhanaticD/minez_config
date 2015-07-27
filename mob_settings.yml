@@ -31,6 +31,8 @@ pigman:
   drops:
   - ==: org.bukkit.inventory.ItemStack
     type: GOLD_INGOT
+  pickup_items: true
+  light_limit: 15
 zombie:
   spawn:
     chance: 40
@@ -94,6 +96,8 @@ zombie:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       display-name: §rChain Links
+  light_limit: 15
+  pickup_items: true
 guard:
   spawn:
     chance: 1
@@ -298,6 +302,7 @@ guard:
         chestplate:
           ==: org.bukkit.inventory.ItemStack
           type: GOLD_CHESTPLATE
+  light_limit: 15
 giant:
   spawn:
     chance: 100
@@ -344,6 +349,8 @@ giant:
     damage: 780
   - ==: org.bukkit.inventory.ItemStack
     type: GOLDEN_APPLE
+  pickup_items: true
+  light_limit: 15
 general:
   spawn:
     biome:
@@ -394,6 +401,7 @@ horse:
   is_cannibal: true
   mounted_undead:
     chance: 50
+  light_limit: 15
 wolf:
   names:
   - Max
@@ -432,6 +440,7 @@ wolf:
   is_cannibal: true
   mounted_undead:
     chance: 50
+  light_limit: 15
 default_mobs:
   CREEPER:
     enabled: false
@@ -639,3 +648,5 @@ default_mobs:
 mount_naturally:
   one_in: 100
   chance_one_in_x_mobs: 100
+spawn_effect:
+  sunlight_chance_to_reduce: 3
