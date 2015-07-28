@@ -24,7 +24,7 @@ main:
               lore:
               - '§ePrice: §650 §ezPoints'
           command: myz userdata $player immunity +1
-          cost: 50.0
+          cost: 10.0
         '&rTrain Toughness':
           display:
             ==: org.bukkit.inventory.ItemStack
@@ -36,7 +36,7 @@ main:
               lore:
               - '§ePrice: §650 §ezPoints'
           command: myz userdata $player toughness +1
-          cost: 50.0
+          cost: 10.0
       children:
         §rBack:
           display:
