@@ -9,7 +9,7 @@ visibility:
     sneaking: -2
     holding_flesh: -1
     wearing_zombie_head: -3
-    base: 4
+    base: 3
     bleeding: 2
     chat: 1
     on_fire: 7

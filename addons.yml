@@ -63,7 +63,7 @@ hologram:
     enabled: true
   chat:
     enabled: true
-    time: 10
+    time: 5
 npc:
   enabled: true
   corpses:

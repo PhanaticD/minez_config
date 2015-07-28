@@ -35,7 +35,7 @@ pigman:
   light_limit: 15
 zombie:
   spawn:
-    chance: 40
+    chance: 30
     pack:
       minimum: 1
       maximum: 2
@@ -50,7 +50,7 @@ zombie:
     health: 20.0
     speed:
       no_target: 0.2
-      target_multiplier: 1.4
+      target_multiplier: 1.5
     knockback_resistance: 0.0
     damage: 2.0
     jump:
