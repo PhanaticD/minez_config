@@ -68,11 +68,11 @@ friends:
   owner: ''
   value: 0
 drinks:
-  owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
-  value: 1
+  owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
+  value: 2
 deaths:
   owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-  value: 11
+  value: 12
 heals:
   self:
     infection:
