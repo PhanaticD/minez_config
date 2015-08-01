@@ -4,7 +4,6 @@ recipes:
       ==: org.bukkit.inventory.ItemStack
       type: INK_SACK
       damage: 1
-      amount: 2
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
@@ -12,13 +11,14 @@ recipes:
         lore:
         - §rBasic medicine.
         - §r
-        - §r§6Heal X
-        - §rAbsorption I
+        - §r§6Heal I
+        - §r§6Absorption I
+        enchants:
+          Glow: 9
     input2:
       ==: org.bukkit.inventory.ItemStack
       type: INK_SACK
       damage: 10
-      amount: 2
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
@@ -27,6 +27,8 @@ recipes:
         - §rTreats infection.
         - §r
         - §r§6Immunity X
+        enchants:
+          Glow: 9
     output:
       ==: org.bukkit.inventory.ItemStack
       type: INK_SACK
@@ -41,3 +43,51 @@ recipes:
         - §r§6Heal II
         - §r§6Absorption II
         - §r§6Immunity X
+        enchants:
+          Glow: 9
+  036f83c2-bdc2-4ac4-a5da-4d946793583b:
+    input1:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 10
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§aAntiseptic
+        lore:
+        - §rTreats infection.
+        - §r
+        - §r§6Immunity X
+        enchants:
+          Glow: 9
+    input2:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§4Ointment
+        lore:
+        - §rBasic medicine.
+        - §r
+        - §r§6Heal I
+        - §r§6Absorption I
+        enchants:
+          Glow: 9
+    output:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 11
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §r§eMedicine
+        lore:
+        - §rAdvanced medicine.
+        - §r
+        - §r§6Heal II
+        - §r§6Absorption II
+        - §r§6Immunity X
+        enchants:
+          Glow: 9
