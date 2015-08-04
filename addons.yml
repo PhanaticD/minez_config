@@ -17,13 +17,13 @@ enderpearls_explode:
   enabled: true
 chat:
   local:
-    enabled: false
+    enabled: true
   radio:
     enabled: true
   private:
     enabled: false
   undead:
-    enabled: true
+    enabled: false
 enhanced_deathmessages:
   enabled: true
 death:

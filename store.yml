@@ -151,6 +151,6 @@ main:
           meta-type: UNSPECIFIC
           display-name: §4Level Up
           lore:
-          - '§ePrice: §61 §ezPoints'
+          - '§ePrice: §610 §ezPoints'
       command: myz userdata $player rank +1
-      cost: 50.0
+      cost: 10.0
