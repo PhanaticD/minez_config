@@ -7236,3 +7236,28 @@ locations:
     orientation: NORTH
     type: Civ_Hospital
     respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1735, 8, 342:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1735, 8, 340:
+    material: CHEST
+    orientation: EAST
+    type: Mil_Rare
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1777, 17, 360:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1712, 7, 366:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -1716, 7, 352:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Store
+    respawn_time: -1
