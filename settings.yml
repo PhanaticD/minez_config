@@ -208,6 +208,7 @@ temperature:
       lava_bucket: 100.2
     near_torch: 100.2
     near_burning_furnace: 40.2
+    near_snow: -5.1
   threshold:
     heatstroke:
       '3': 42.7
@@ -282,6 +283,7 @@ specialevent:
     health_multiplier: 2.0
     detection_multiplier: 2.0
     zombify: false
+    enabled: true
   april_fools:
     enabled: false
   easter:

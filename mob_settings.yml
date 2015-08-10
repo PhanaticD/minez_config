@@ -11,6 +11,7 @@ pigman:
       minimum_z: -4095
       maximum_z: -2000
       enabled: true
+    random_fail_chance: 1000
   attribute:
     health: 1.0
     speed:
@@ -46,6 +47,7 @@ zombie:
       minimum_z: 0
       maximum_z: 0
       enabled: false
+    random_fail_chance: 10000
   attribute:
     health: 20.0
     speed:
@@ -111,6 +113,7 @@ guard:
       minimum_z: 0
       maximum_z: 0
       enabled: false
+    random_fail_chance: 90
   names:
   - Guard Forrest
   - Guard Aaron
@@ -316,6 +319,7 @@ giant:
       minimum_z: -4095
       maximum_z: -3000
       enabled: false
+    random_fail_chance: 100000
   ability:
     reinforcement:
       minimum: 1
@@ -369,6 +373,7 @@ horse:
     biome:
       excludes:
       - Mesa Plateau
+    random_fail_chance: 28
   names:
   - Star
   - Dakota
@@ -437,6 +442,7 @@ wolf:
     biome:
       excludes:
       - Mesa Plateau
+    random_fail_chance: 42
   is_cannibal: true
   mounted_undead:
     chance: 50

@@ -94,6 +94,11 @@ food:
     health: 2
     temperature: 0
     effects: []
+  CARROT_ITEM:
+    thirst: 0.0
+    health: 1.0
+    temperature: 0.0
+    effects: []
 potion_effects:
   spawn:
   - BLINDNESS@100.1

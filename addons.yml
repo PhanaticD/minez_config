@@ -61,6 +61,7 @@ hologram:
   enabled: true
   display:
     enabled: true
+    time: 3
   chat:
     enabled: true
     time: 5
@@ -69,6 +70,7 @@ npc:
   corpses:
     enabled: true
     lifetime: 30
+  lifetime_ticks: 600
 followers:
   horse:
     enabled: true
@@ -78,6 +80,7 @@ followers:
     super_hostile: false
 enhance_anvils:
   only_on_sneak: false
+  enabled: true
 spawn_title:
   enabled: true
   fadein_time: 5
@@ -89,3 +92,4 @@ horde_summon:
   amount: 5
 cauldron:
   fill_time: 300
+stack_water: true
