@@ -1,4 +1,83 @@
 ranks:
+    'test':
+    chat_prefix: ''
+    equipment:
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rTraining Sword
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+          - §rGet to slashing.
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rBandage
+          lore:
+          - §rStops bleeding.
+          - §r
+          - §r§eRight-click to use
+          - §r§eLeft-click friend to use
+      - ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+        amount: 3
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        type: EYE_OF_ENDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §rRadio
+          lore:
+          - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      chestplate:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
   '0':
     chat_prefix: ''
     equipment:
