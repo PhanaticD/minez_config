@@ -1,5 +1,5 @@
 ranks:
-    'test':
+  'test':
     chat_prefix: ''
     equipment:
       inventory:
