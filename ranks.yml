@@ -8,30 +8,20 @@ ranks:
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          display-name: §rTraining Tunic
           lore:
-          - §rIt's better than nothing!
-          - §r§4Broken
-          - §r70% Effective
+          - §r§4Devastated
+          - §r50% Effective
       inventory:
       - ==: org.bukkit.inventory.ItemStack
         type: WOOD_SWORD
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §rTraining Sword
           lore:
-          - §rGet to slashing.
           - §r§4Devastated
           - §r50% Effective
       - ==: org.bukkit.inventory.ItemStack
-        type: COMPASS
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §rThermometer
-          lore:
-          - §r§eRight click to get temperature reading.
+        type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
         meta:
@@ -44,8 +34,11 @@ ranks:
           - §r
           - §r§eRight-click to use
           - §r§eLeft-click friend to use
-      - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+      - null
+      - null
+      - null
+      - null
+      - null
       - ==: org.bukkit.inventory.ItemStack
         type: EYE_OF_ENDER
         meta:
@@ -54,6 +47,60 @@ ranks:
           display-name: §rRadio
           lore:
           - §r§eHold and chat to use
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      boots:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      leggings:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
+      helmet:
+        ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          lore:
+          - §r§4Devastated
+          - §r50% Effective
   '100':
     chat_prefix: ''
     equipment:
