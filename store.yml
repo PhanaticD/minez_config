@@ -141,16 +141,5 @@ main:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: §rBack
-  items:
-    '&4Level Up':
-      display:
-        ==: org.bukkit.inventory.ItemStack
-        type: ANVIL
-        meta:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: §4Level Up
-          lore:
-          - '§ePrice: §610 §ezPoints'
-      command: myz userdata $player rank +1
-      cost: 10.0
+  items:[]
+  
