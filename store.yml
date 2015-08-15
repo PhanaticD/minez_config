@@ -141,5 +141,4 @@ main:
               ==: ItemMeta
               meta-type: UNSPECIFIC
               display-name: §rBack
-  items: []
-  
+  items: [] 
