@@ -283,7 +283,7 @@ specialevent:
     health_multiplier: 2.0
     detection_multiplier: 2.0
     zombify: false
-    enabled: true
+    enabled: false
   april_fools:
     enabled: false
   easter:

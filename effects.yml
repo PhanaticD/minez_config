@@ -15,7 +15,7 @@ food:
     temperature: 0
     effects: []
   CARROT:
-    thirst: 0
+    thirst: 1
     health: 1
     temperature: 0
     effects: []
@@ -95,7 +95,7 @@ food:
     temperature: 0
     effects: []
   CARROT_ITEM:
-    thirst: 0.0
+    thirst: 1.0
     health: 1.0
     temperature: 0.0
     effects: []
