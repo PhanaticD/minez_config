@@ -360,3 +360,4 @@ follower:
     tamed: '&eYou tamed your horse, &r$0&r&e!'
     levelup: '&aYour horse is now level &e$0&a!'
     lose_exp: '&4-$0 XP'
+portal_travel_failed: '&4You must first activate the beacon at the base of this obelisk.'

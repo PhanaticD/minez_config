@@ -72,6 +72,8 @@ zombie:
       chance: 1
     explosive:
       chance: 1
+    smart:
+      chance: 8
   subtype:
     crawler:
       chance: 5
