@@ -72,7 +72,7 @@ drinks:
   value: 7
 deaths:
   owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-  value: 16
+  value: 18
 heals:
   self:
     infection:
@@ -92,5 +92,5 @@ deathstate:
     owner: ''
     value: 0
 z_points:
-  owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-  value: 43
+  owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
+  value: 110
