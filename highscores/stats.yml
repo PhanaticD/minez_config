@@ -27,8 +27,8 @@ killer:
     owner: ''
     value: 0
   fall:
-    owner: ''
-    value: 0
+    owner: 8d14e3d5-3867-4b29-8126-9f0edf6dd2d5
+    value: 1
   explode:
     owner: ''
     value: 0
@@ -43,8 +43,8 @@ killer:
     value: 0
 kills:
   zombie:
-    owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
-    value: 37
+    owner: 676cfcee-f124-449e-b0ac-89dd44907bd0
+    value: 500
   player:
     owner: ''
     value: 0
@@ -71,16 +71,16 @@ drinks:
   owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
   value: 7
 deaths:
-  owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-  value: 18
+  owner: 8d14e3d5-3867-4b29-8126-9f0edf6dd2d5
+  value: 687
 heals:
   self:
     infection:
       owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
       value: 1
     bleeding:
-      owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-      value: 3
+      owner: 8d14e3d5-3867-4b29-8126-9f0edf6dd2d5
+      value: 5
   other:
     owner: ''
     value: 0
@@ -92,5 +92,5 @@ deathstate:
     owner: ''
     value: 0
 z_points:
-  owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
-  value: 110
+  owner: 676cfcee-f124-449e-b0ac-89dd44907bd0
+  value: 500
