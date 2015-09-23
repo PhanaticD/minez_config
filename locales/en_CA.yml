@@ -67,6 +67,14 @@ item:
         '2': '&bHypothermia II - $0 degrees'
         '3': '&bHypothermia III - $0 degrees'
   rain_water: Bottle of Rainwater
+  grenade:
+    highpower:
+      displayname: '&aHigh Power Grenade'
+      lore: '&eCreates a tear in the space-time continuum'
+    normal:
+      displayname: '&2Grenade'
+      multiplier: '&ePower: $0'
+      lore: '&eExplodes on contact'
 event:
   infected: '&4You have been infected.'
   bleeding: '&4You have been cut and are bleeding!'

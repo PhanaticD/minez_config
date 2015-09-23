@@ -13,3 +13,4 @@ world:
 data:
   use_metadata: false
 use_alternate_locales: true
+debug: true

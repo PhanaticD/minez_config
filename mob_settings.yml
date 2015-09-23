@@ -102,6 +102,7 @@ zombie:
       display-name: §rChain Links
   light_limit: 15
   pickup_items: true
+  decapitation_chance: 1
 guard:
   spawn:
     chance: 1
