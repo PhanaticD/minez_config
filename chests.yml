@@ -44,7 +44,7 @@ types:
         type: ARROW
         amount: 5
     6223d4aa-4b65-483a-b3ce-62bf6113ebc4:
-      probability: 10
+      probability: 15
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -58,7 +58,7 @@ types:
         ==: org.bukkit.inventory.ItemStack
         type: SNOW_BALL
     ec849706-456c-4254-93a5-b361899da31a:
-      probability: 10
+      probability: 15
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -230,7 +230,7 @@ types:
           - §r§eLeft-click friend to use.
   Civ_Store:
     65a74396-61fb-4251-be30-4be28bcb9492:
-      probability: 15
+      probability: 20
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -239,7 +239,7 @@ types:
     30fbc38b-f1f5-430f-ba9d-bd8c9baa2468:
       probability: 30
       amount_minimum: 1
-      amount_maximum: 1
+      amount_maximum: 3
       item:
         ==: org.bukkit.inventory.ItemStack
         type: MELON
@@ -252,7 +252,7 @@ types:
         type: INK_SACK
         damage: 3
     28276edd-3f37-4c76-9695-e0dc81a65fbe:
-      probability: 16
+      probability: 20
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -350,7 +350,7 @@ types:
           lore:
           - §r§eRight click to use
     75a46af1-9986-42d3-9837-b26ee96a5496:
-      probability: 11
+      probability: 5
       amount_minimum: 1
       amount_maximum: 1
       item:
