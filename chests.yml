@@ -1275,6 +1275,15 @@ types:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYPh6npmBE8T1SU0E8hlf/GJmYHPMzS/NA0oysHAw8MJN8UvMTWUQTE/NSy3KTNbLTazwSE3MKckA6vcvSC1KLMnMzwNqYeBgYMGhkoEBADAGR5WYAAAA
+  test:
+    47dd64d9-ff6e-4003-9e72-bcc546af0b3c:
+      probability: 50
+      random_durability: true
+      amount_minimum: 1
+      amount_maximum: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD_SWORD
 locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, 2:
     material: CHEST
@@ -2810,21 +2819,6 @@ locations:
     material: CHEST
     orientation: SOUTH
     type: Civ_Store
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2698, 43, -2816:
-    material: CHEST
-    orientation: EAST
-    type: Civ_Tool
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2682, 40, -2831:
-    material: CHEST
-    orientation: SOUTH
-    type: Civ_Tool
-    respawn_time: -1
-  210885ab-355a-47e8-8e15-0bf083e30acb, -2674, 39, -2817:
-    material: CHEST
-    orientation: WEST
-    type: Mil_Common
     respawn_time: -1
   210885ab-355a-47e8-8e15-0bf083e30acb, -2810, 93, -3569:
     material: CHEST

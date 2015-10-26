@@ -72,7 +72,7 @@ drinks:
   value: 7
 deaths:
   owner: 8d14e3d5-3867-4b29-8126-9f0edf6dd2d5
-  value: 687
+  value: 689
 heals:
   self:
     infection:
