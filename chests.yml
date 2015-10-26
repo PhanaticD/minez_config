@@ -2,6 +2,7 @@ types:
   Civ_Common:
     b7904ea8-db75-4210-aeaa-db26002a083b:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -9,6 +10,7 @@ types:
         type: WOOD_SWORD
     bd567f47-7593-4799-a87e-0ca02675228e:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -16,6 +18,7 @@ types:
         type: LEATHER_HELMET
     0da8e3e4-7249-49ae-9ff2-b7108e6afd2f:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -23,6 +26,7 @@ types:
         type: LEATHER_CHESTPLATE
     61dcff15-4208-4503-a6a7-06c952457ea8:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -30,6 +34,7 @@ types:
         type: LEATHER_LEGGINGS
     db994909-1229-40a1-ba08-378047b37219:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -44,9 +49,9 @@ types:
         type: ARROW
         amount: 5
     6223d4aa-4b65-483a-b3ce-62bf6113ebc4:
-      probability: 10
+      probability: 13
       amount_minimum: 1
-      amount_maximum: 1
+      amount_maximum: 2
       item:
         ==: org.bukkit.inventory.ItemStack
         type: ROTTEN_FLESH
@@ -58,7 +63,7 @@ types:
         ==: org.bukkit.inventory.ItemStack
         type: SNOW_BALL
     ec849706-456c-4254-93a5-b361899da31a:
-      probability: 10
+      probability: 13
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -115,6 +120,7 @@ types:
           - §r§6Immunity X
     1ed2d599-1058-4d89-b29f-f320f400b5b0:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -230,14 +236,14 @@ types:
           - §r§eLeft-click friend to use.
   Civ_Store:
     65a74396-61fb-4251-be30-4be28bcb9492:
-      probability: 15
+      probability: 16
       amount_minimum: 1
-      amount_maximum: 1
+      amount_maximum: 2
       item:
         ==: org.bukkit.inventory.ItemStack
         type: APPLE
     30fbc38b-f1f5-430f-ba9d-bd8c9baa2468:
-      probability: 30
+      probability: 33
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -252,7 +258,7 @@ types:
         type: INK_SACK
         damage: 3
     28276edd-3f37-4c76-9695-e0dc81a65fbe:
-      probability: 16
+      probability: 17
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -289,6 +295,7 @@ types:
   Civ_Tool:
     3ae3cd27-9015-4960-8664-123b059e8a60:
       probability: 11
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -310,13 +317,15 @@ types:
         type: ARROW
     21fd0ca0-d83f-492c-b7bb-b3ffa3e27d64:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_CHESTPLATE
     cbfabf57-d8cf-465d-b711-dae95deff938:
-      probability: 0
+      probability: 3
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -337,7 +346,8 @@ types:
         ==: org.bukkit.inventory.ItemStack
         type: STONE_BUTTON
     9a6aa325-0112-472d-9ee0-780728a6b26f:
-      probability: 11
+      probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -363,6 +373,7 @@ types:
   Mil_Common:
     f054a820-9b08-4dab-9e4b-8e008da72daf:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -370,6 +381,7 @@ types:
         type: WOOD_SWORD
     d022656b-0920-4097-a0fd-86b29e7e39b5:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -377,6 +389,7 @@ types:
         type: LEATHER_HELMET
     492ee786-3953-45ca-a792-a37607b0902c:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -384,6 +397,7 @@ types:
         type: LEATHER_CHESTPLATE
     541fb1ba-f96a-432d-af1d-04ff6130a144:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -391,6 +405,7 @@ types:
         type: LEATHER_LEGGINGS
     38203c13-5e7d-4b34-a496-537c0c8d5266:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -398,6 +413,7 @@ types:
         type: LEATHER_BOOTS
     c64f9c46-3f36-455c-a97a-6061ecb9aaf7:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -405,6 +421,7 @@ types:
         type: STONE_SWORD
     8e75a4e7-c3d5-4759-83da-91402f9f331b:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -443,6 +460,7 @@ types:
   Mil_Uncommon:
     749d3f49-3642-4488-a254-2f3d0017511c:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -450,6 +468,7 @@ types:
         type: WOOD_SWORD
     2d67ec4e-a5bf-40f2-97b2-f1f71e4dad6a:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -457,6 +476,7 @@ types:
         type: LEATHER_HELMET
     aa6b95d7-093c-4ae4-8d86-c502360a073e:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -464,6 +484,7 @@ types:
         type: LEATHER_CHESTPLATE
     e0349c69-c37b-4ae9-aeb1-0c599e15aa48:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -471,6 +492,7 @@ types:
         type: LEATHER_LEGGINGS
     46425bca-d69a-4990-9dee-5b8b4b3a9259:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -478,6 +500,7 @@ types:
         type: LEATHER_BOOTS
     b00f3bcd-c5ed-45a1-888a-53b80c730146:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -485,6 +508,7 @@ types:
         type: STONE_SWORD
     f7675eaf-7812-4f9e-a4cc-93be647631d5:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -492,6 +516,7 @@ types:
         type: STONE_AXE
     673fdd8d-f34f-4d60-a470-008949418432:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -499,6 +524,7 @@ types:
         type: CHAINMAIL_HELMET
     b42ae6a3-a7a2-4fed-90a3-6b8ace8120c9:
       probability: 5
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -506,6 +532,7 @@ types:
         type: CHAINMAIL_CHESTPLATE
     d3da6efb-fd72-4814-99e4-2d559ccdecfd:
       probability: 5
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -513,6 +540,7 @@ types:
         type: CHAINMAIL_LEGGINGS
     bb571950-339b-49b3-b840-eed052acd516:
       probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -520,6 +548,7 @@ types:
         type: CHAINMAIL_BOOTS
     1a7b075d-9be9-4e76-b146-7e2b8a6001b5:
       probability: 2
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -542,6 +571,7 @@ types:
   Mil_Rare:
     1136c261-27fe-4e15-b306-f7ee39f9d170:
       probability: 15
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -549,6 +579,7 @@ types:
         type: STONE_SWORD
     4b586bcb-5899-4a7c-997b-363302bd5b68:
       probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -556,6 +587,7 @@ types:
         type: STONE_AXE
     941a1ac1-61e7-4b11-98f9-e6e19b644ac6:
       probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -563,6 +595,7 @@ types:
         type: CHAINMAIL_HELMET
     6bec72db-b41f-40c2-8445-4e21cb14aec6:
       probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -570,6 +603,7 @@ types:
         type: CHAINMAIL_CHESTPLATE
     c37413f1-809a-4a11-8a5a-a27c8da99942:
       probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -577,6 +611,7 @@ types:
         type: CHAINMAIL_LEGGINGS
     e1b76002-0af9-4b40-a713-59385e858012:
       probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -584,6 +619,7 @@ types:
         type: CHAINMAIL_BOOTS
     a3851c1b-dd70-4f3f-8592-cbd06bb727d5:
       probability: 7
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -591,6 +627,7 @@ types:
         type: IRON_SWORD
     1ac1024b-d8a4-4a7a-a9f2-a7e31f62e715:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -603,6 +640,7 @@ types:
             DAMAGE_UNDEAD: 1
     94fa43db-e797-406d-ae87-f1ac28c9e404:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -616,6 +654,7 @@ types:
             KNOCKBACK: 1
     58688838-2f1d-451b-9815-7e040821a402:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -623,6 +662,7 @@ types:
         type: IRON_HELMET
     766b2ff6-b32d-4bb1-adea-3bc1b3d1b874:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -630,6 +670,7 @@ types:
         type: IRON_CHESTPLATE
     30f29d45-e7c3-4390-b2cb-7edaa4e6d619:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -637,6 +678,7 @@ types:
         type: IRON_LEGGINGS
     3ca00d35-2658-45bb-b534-6eafb9e76380:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -644,6 +686,7 @@ types:
         type: IRON_BOOTS
     b76c6757-a390-4be7-b841-c04d3a7318b1:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -651,6 +694,7 @@ types:
         type: BOW
     f769635e-769e-4ed9-ae43-756372a6abfd:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -663,6 +707,7 @@ types:
             ARROW_DAMAGE: 1
     ad2f3f9a-82fd-4cdb-9377-920b4789b57d:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -691,6 +736,7 @@ types:
   Mil_Epic:
     c9af8e5c-de29-445a-bd97-e82d4f42d443:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -698,6 +744,7 @@ types:
         type: CHAINMAIL_HELMET
     e9797db1-c9fc-4e8e-9f21-7438ff3c5c98:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -705,6 +752,7 @@ types:
         type: CHAINMAIL_CHESTPLATE
     c2f078a9-451a-4fc5-a2bc-8cfb6b873a4b:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -712,6 +760,7 @@ types:
         type: CHAINMAIL_LEGGINGS
     5457289b-de36-4f7c-a2da-241221a33a0f:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -719,6 +768,7 @@ types:
         type: CHAINMAIL_BOOTS
     1615fd24-3f8a-4ef7-b278-94c004562e00:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -731,6 +781,7 @@ types:
             DAMAGE_UNDEAD: 1
     2a9ed45c-85f7-4e03-90af-da0f93ce8520:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -744,6 +795,7 @@ types:
             KNOCKBACK: 1
     4e4e32cf-e3da-4708-9139-12a1ace9d8dd:
       probability: 3
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -756,6 +808,7 @@ types:
             DAMAGE_UNDEAD: 2
     2e4831b0-43be-41b2-8027-8a1d2b7837d0:
       probability: 3
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -769,6 +822,7 @@ types:
             KNOCKBACK: 1
     ac584cad-d761-49ad-8705-aecf0061c3c5:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -781,6 +835,7 @@ types:
             DAMAGE_UNDEAD: 3
     de819129-39fd-4f1a-84a6-ab7115d45e34:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -794,6 +849,7 @@ types:
             KNOCKBACK: 1
     b1fa1252-e088-428f-9d03-3970e056512c:
       probability: 3
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -801,6 +857,7 @@ types:
         type: IRON_HELMET
     3536caca-3e19-4580-afcf-e5dda7dcd70e:
       probability: 3
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -808,6 +865,7 @@ types:
         type: IRON_CHESTPLATE
     eba4352a-23df-4780-8d0b-1eab02c7f803:
       probability: 3
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -815,6 +873,7 @@ types:
         type: IRON_LEGGINGS
     621db13d-d4bf-46f3-824d-9845061c01f6:
       probability: 3
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -822,6 +881,7 @@ types:
         type: IRON_BOOTS
     c63a2667-7782-4a15-8a6f-0147f0b397bf:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -834,6 +894,7 @@ types:
             PROTECTION_FALL: 1
     f1163926-e6c7-411f-8ae2-64621e4612fc:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -846,6 +907,7 @@ types:
             PROTECTION_FALL: 2
     89d8ced6-53ca-4d7b-bdc6-75fe367a0b54:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -858,6 +920,7 @@ types:
             PROTECTION_FALL: 3
     de0e38e9-78d9-44be-bdaf-33b37ecc2e8b:
       probability: 1
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -870,6 +933,7 @@ types:
             PROTECTION_FALL: 4
     86648b99-3734-4b39-9890-9466ccc75ad7:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -882,6 +946,7 @@ types:
             ARROW_DAMAGE: 1
     06a0791f-b46a-4095-bb64-12871b3994cd:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -895,6 +960,7 @@ types:
             ARROW_KNOCKBACK: 2
     47e1e01c-7888-4d88-9bac-7ac5dbf4c94b:
       probability: 2
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -907,6 +973,7 @@ types:
             ARROW_DAMAGE: 2
     5b161e9a-ef5a-49cf-9da9-9613e671c9c6:
       probability: 2
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -956,6 +1023,7 @@ types:
         type: GOLDEN_APPLE
     471456c1-de36-4727-918c-6014f9979673:
       probability: 14
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1017,6 +1085,7 @@ types:
   Dungeon_Spire:
     4f2bb844-9e8f-4c30-9c4d-92b7879b1050:
       probability: 20
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1024,6 +1093,7 @@ types:
         type: IRON_HELMET
     2955531f-c9d5-495c-96e9-0805ea2a3864:
       probability: 20
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1031,6 +1101,7 @@ types:
         type: IRON_BOOTS
     da00780c-e553-44a6-b997-76dc44659425:
       probability: 10
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1059,6 +1130,7 @@ types:
   Dungeon_Islands:
     14c3bfe3-0c02-4970-a545-b9811e06a2ad:
       probability: 12
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1211,6 +1283,7 @@ types:
   Axes:
     5b8dbc38-1e8a-4438-9a05-09207e98b1ad:
       probability: 10
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1218,6 +1291,7 @@ types:
         type: WOOD_AXE
     387bb8ad-d938-4b7d-81fb-1cb4d6ae7fd7:
       probability: 8
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1225,6 +1299,7 @@ types:
         type: STONE_AXE
     37d52a19-0fdb-40ad-a33b-c006e6d227e4:
       probability: 6
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1232,6 +1307,7 @@ types:
         type: GOLD_AXE
     25153321-2c7c-48d4-b34c-55f2589e02f8:
       probability: 4
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1266,6 +1342,7 @@ types:
   Health Sword:
     e9860c18-33b8-4b7a-b256-1de84bba2753:
       probability: 100
+      random_durability: true
       amount_minimum: 1
       amount_maximum: 1
       item:
@@ -1275,15 +1352,6 @@ types:
           ==: ItemMeta
           meta-type: UNSPECIFIC
           internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYPh6npmBE8T1SU0E8hlf/GJmYHPMzS/NA0oysHAw8MJN8UvMTWUQTE/NSy3KTNbLTazwSE3MKckA6vcvSC1KLMnMzwNqYeBgYMGhkoEBADAGR5WYAAAA
-  test:
-    47dd64d9-ff6e-4003-9e72-bcc546af0b3c:
-      probability: 50
-      random_durability: true
-      amount_minimum: 1
-      amount_maximum: 1
-      item:
-        ==: org.bukkit.inventory.ItemStack
-        type: WOOD_SWORD
 locations:
   210885ab-355a-47e8-8e15-0bf083e30acb, -3, 4, 2:
     material: CHEST
