@@ -125,6 +125,13 @@ ranks:
       inventory:
       - ==: org.bukkit.inventory.ItemStack
         type: WOOD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_UNDEAD: 1
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: POTION
       - ==: org.bukkit.inventory.ItemStack
@@ -142,8 +149,7 @@ ranks:
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
-        amount: 4
-      - null
+        amount: 6
       - null
       - null
       - null
@@ -174,8 +180,7 @@ ranks:
       - null
       - null
       - null
-      - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+      - null
       - null
       - null
       - null
@@ -191,39 +196,37 @@ ranks:
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§6Reinforced
-          - §r110% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
       leggings:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_LEGGINGS
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§6Reinforced
-          - §r110% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
       chestplate:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_CHESTPLATE
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§6Reinforced
-          - §r110% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
       helmet:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_HELMET
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§6Reinforced
-          - §r110% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
       inventory:
       - ==: org.bukkit.inventory.ItemStack
-        type: WOOD_SWORD
+        type: STONE_SWORD
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: POTION
       - ==: org.bukkit.inventory.ItemStack
@@ -241,8 +244,7 @@ ranks:
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
-        amount: 4
-      - null
+        amount: 6
       - null
       - null
       - null
@@ -273,8 +275,7 @@ ranks:
       - null
       - null
       - null
-      - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+      - null
       - null
       - null
       - null
@@ -290,50 +291,47 @@ ranks:
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§2Fortified
-          - §r120% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
       leggings:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_LEGGINGS
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§2Fortified
-          - §r120% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
       chestplate:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_CHESTPLATE
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§2Fortified
-          - §r120% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
       helmet:
         ==: org.bukkit.inventory.ItemStack
         type: LEATHER_HELMET
         meta:
           ==: ItemMeta
           meta-type: LEATHER_ARMOR
-          lore:
-          - §r§2Fortified
-          - §r120% Effective
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
       inventory:
       - ==: org.bukkit.inventory.ItemStack
-        type: WOOD_SWORD
+        type: STONE_SWORD
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          lore:
-          - §r§2Sharpened
-          - §r130% Effective
+          enchants:
+            DAMAGE_UNDEAD: 1
+      - ==: org.bukkit.inventory.ItemStack
+        type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
-        amount: 3
+        amount: 2
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -346,9 +344,7 @@ ranks:
           - §r§eLeft-click friend to use
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
-        amount: 4
-      - ==: org.bukkit.inventory.ItemStack
-        type: MUSHROOM_SOUP
+        amount: 6
       - null
       - null
       - null
@@ -378,11 +374,8 @@ ranks:
       - null
       - null
       - null
-      - ==: org.bukkit.inventory.ItemStack
-        type: POTION
-        amount: 0
-      - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+      - null
+      - null
       - null
       - null
       - null

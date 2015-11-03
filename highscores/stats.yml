@@ -71,8 +71,8 @@ drinks:
   owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
   value: 7
 deaths:
-  owner: 8d14e3d5-3867-4b29-8126-9f0edf6dd2d5
-  value: 689
+  owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
+  value: 1207
 heals:
   self:
     infection:
