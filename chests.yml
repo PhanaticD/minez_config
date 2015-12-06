@@ -7323,3 +7323,8 @@ locations:
     orientation: SOUTH
     type: Civ_Store
     respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -186, 71, -2230:
+    material: CHEST
+    orientation: NORTH
+    type: Mil_Common
+    respawn_time: -1
