@@ -7328,3 +7328,43 @@ locations:
     orientation: NORTH
     type: Mil_Common
     respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -255, 219, -2305:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -239, 219, -2304:
+    material: CHEST
+    orientation: SOUTH
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -188, 216, -2305:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Common
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -171, 216, -2307:
+    material: CHEST
+    orientation: SOUTH
+    type: Mil_Uncommon
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -230, 75, -2245:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -237, 75, -2246:
+    material: CHEST
+    orientation: EAST
+    type: Civ_Store
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -225, 75, -2222:
+    material: CHEST
+    orientation: WEST
+    type: Civ_Tool
+    respawn_time: -1
+  210885ab-355a-47e8-8e15-0bf083e30acb, -213, 74, -2288:
+    material: CHEST
+    orientation: NORTH
+    type: Mil_Uncommon
+    respawn_time: -1
