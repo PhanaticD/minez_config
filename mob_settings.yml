@@ -47,12 +47,12 @@ zombie:
       minimum_z: 0
       maximum_z: 0
       enabled: false
-    random_fail_chance: 10000
+    random_fail_chance: 1
   attribute:
     health: 20.0
     speed:
       no_target: 0.2
-      target_multiplier: 1.8
+      target_multiplier: 1.6
     knockback_resistance: 1.2
     damage: 2.0
     jump:
