@@ -127,7 +127,7 @@ main:
             meta:
               ==: ItemMeta
               meta-type: UNSPECIFIC
-              display-name: Apple
+              display-name: §rApple
               lore:
               - '§ePrice: §611 §ezPoints'
           command: give $player minecraft:apple 1 0
@@ -139,7 +139,7 @@ main:
             meta:
               ==: ItemMeta
               meta-type: UNSPECIFIC
-              display-name: Button
+              display-name: §rButton
               lore:
               - '§ePrice: §625 §ezPoints'
           command: give $player minecraft:stone_button 1
