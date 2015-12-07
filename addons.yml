@@ -93,5 +93,5 @@ horde_summon:
 cauldron:
   fill_time: 300
 stack_water: true
-spawn_animation: true
+spawn_animation: false
 spawn_animation_particles: false
