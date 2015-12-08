@@ -28,7 +28,7 @@ killer:
     value: 2
   fall:
     owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-    value: 3
+    value: 5
   explode:
     owner: ''
     value: 0
@@ -72,7 +72,7 @@ drinks:
   value: 7
 deaths:
   owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-  value: 2434
+  value: 2438
 heals:
   self:
     infection:

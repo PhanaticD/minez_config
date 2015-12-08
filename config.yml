@@ -9,7 +9,7 @@ sql:
 notify_on_save: true
 first_run: false
 world:
-  clear_mobs_on_reload: true
+  clear_mobs_on_reload: false
 data:
   use_metadata: false
 use_alternate_locales: true

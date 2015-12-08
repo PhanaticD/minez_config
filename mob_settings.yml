@@ -11,7 +11,7 @@ pigman:
       minimum_z: -4095
       maximum_z: -2000
       enabled: true
-    random_fail_chance: 1000
+    random_fail_chance: 1
   attribute:
     health: 1.0
     speed:
