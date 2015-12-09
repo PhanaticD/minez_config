@@ -376,7 +376,7 @@ horse:
     biome:
       excludes:
       - Mesa Plateau
-    random_fail_chance: 28
+    random_fail_chance: 80
   names:
   - Star
   - Dakota

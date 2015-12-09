@@ -24,8 +24,8 @@ killer:
     owner: edb48b54-08bb-420d-bdf2-fa6634c8ba29
     value: 2
   drown:
-    owner: a4faa589-ac31-4549-8855-c1114bc3952f
-    value: 5
+    owner: a5fd01b3-101e-4854-9542-ca8baf168fed
+    value: 13
   fall:
     owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
     value: 5
@@ -83,7 +83,7 @@ heals:
       value: 26
   other:
     owner: fa722c08-f7ed-4bb4-80a5-a5d826c76903
-    value: 5
+    value: 6
 deathstate:
   zombie:
     owner: ''
@@ -92,5 +92,5 @@ deathstate:
     owner: ''
     value: 0
 z_points:
-  owner: 2c2a05d9-6f3e-4d8b-9bf8-1ac6805ff065
-  value: 505
+  owner: 3758c9e6-352d-407e-b793-e97c6c45b72c
+  value: 591

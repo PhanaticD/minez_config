@@ -15,6 +15,7 @@ sql:
   execute:
     fail: Unable to execute MySQL command
 item:
+  rain_water: Bottle of Rainwater
   murky_water: Murky Water Bottle
   radio:
     displayname: Radio
@@ -66,7 +67,6 @@ item:
         '1': '&bHypothermia I - $0 degrees'
         '2': '&bHypothermia II - $0 degrees'
         '3': '&bHypothermia III - $0 degrees'
-  rain_water: Bottle of Rainwater
   grenade:
     highpower:
       displayname: '&aHigh Power Grenade'
@@ -78,6 +78,8 @@ item:
 event:
   infected: '&4You have been infected.'
   bleeding: '&4You have been cut and are bleeding!'
+  bleeding_still: '&4The blood continues to pour from your open wound.'
+  infected_still: '&4You should cure this infection...'
   stopped_bleeding: '&eThe bleeding subsides.'
   uninfected: '&eYour fever drops as you feel the infection leave your body.'
   open_inventory:
@@ -91,7 +93,8 @@ event:
     cooling_down: '&4You must wait $0 seconds.'
     check: |-
       &eBleeding: $0
-      &eHealth: &6$1
+      &eInfected: $1
+      &eHealth: &6$2
     completed_healer: '&eYou healed $0.'
     completed_healed: '&eYou were healed by $0.'
     started_healed: '&e$0 has begun to heal you.'
@@ -106,11 +109,9 @@ event:
     add_item_error: |-
       &4Unable to parse format. &ePlease enter a minimum and maximum amount for this item, followed by a probability.
       &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
-  bleeding_still: '&4The blood continues to pour from your open wound.'
-  infected_still: '&4You should cure this infection...'
   thirsty: '&4Your throat is parched.'
 chat:
-  radio: '%s: &a[1.$0 MHz] %s'
+  radio: '%s: &a1.$0 Hz - %s'
   private:
     from: '&8From %s: %s'
     to: '&8To %s: %s'
@@ -157,6 +158,7 @@ death:
   as_ghost: '&4$0 faced judgement.'
 command:
   cannot_execute_as_console: You cannot execute this command.
+  xp: '&6Level $0&r&a (&6$1 EXP&r&a - &6$2 EXP remaining&r&a)'
   manage:
     spawn:
       begin: |-
@@ -242,6 +244,7 @@ command:
       gui: '&aThe GUI has been created.'
   get_points: '&eYou have $0 Z Points to spend.'
   argument:
+    xp: level
     manage_spawns: manage~spawns
     reload_config: reload~config
     spawn: spawn~$integer
@@ -259,6 +262,8 @@ command:
     rank: rank~$player~$integer
     assign_chests: auto~assign~chests~$coordinate~$coordinate
     userdata: userdata~$userdata~$unknown
+    config_file: config~$config~$unknown
+    guide: guide
     drop: drop~$zombie/giant/pigman/guard
     store: store~$gui/item~$parent~$unknown~$1item/$unknown~$1item/$integer
     shop: shop
@@ -266,18 +271,14 @@ command:
     points: points
     friends: friends~$add/remove~$player
     optimize: optimize
-    give_string: give~string
+    give_string: give~string~$integer
     temperature: temperature
     achievements: achievements~$all/owned/unowned~$integer
-    xp: level
-    config_file: config~$config~$unknown
-    guide: guide
   drop:
     must_be_holding: '&4You must be holding an item to add to the drop table.'
     needs_mob: '&4You must specify a mob. &eOptions: &rzombie, guard, pigman, giant&e.'
     finished: '&eThe item in your hand has been added to the drop table for $0s.'
-  get_temperature: '&e$0 �F &7/ &6$1 �C'
-  xp: '&6Level $0&r&a (&6$1 EXP&r&a)'
+  get_temperature: '&e$0 degrees F &7/ &6$1 degrees C'
 equipment:
   starter:
     chestplate:
@@ -338,7 +339,8 @@ specialevent:
   easter: '&9Easter'
   speak_like_pirate_day: '&3International Talk Like a Pirate Day'
 system:
-  optimize: ''
+  optimize: '&4Your MyZ environment is not optimized! Type &e"/MyZ optimize"&4 to
+    fix this!'
   optimized: '&eMyZ has been optimized. Changes will take effect next time server
     starts up.'
 back: '&rBack'

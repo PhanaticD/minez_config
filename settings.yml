@@ -114,10 +114,10 @@ death:
   transition_time: 60
 bleed:
   damage_delay: 42
-  damage_amount: 1.0
+  damage_amount: 0.2
 infection:
   damage_delay: 38
-  damage_amount: 1.0
+  damage_amount: 0.1
 equipment:
   devastated_modifier: 50
   shattered_modifier: 40

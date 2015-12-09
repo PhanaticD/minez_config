@@ -21,23 +21,22 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
       - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+        type: BREAD
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
-        amount: 2
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §rBandage
+          display-name: §r§aSterile Bandage
           lore:
-          - §rStops bleeding.
+          - §rFights infection.
           - §r§6Heal I
+          - §r§6Immunity X
           - §r
           - §r§eRight-click to use
-          - §r§eLeft-click friend to use
+          - §r§eLeft-click friend to use.
       - ==: org.bukkit.inventory.ItemStack
-        type: BREAD
-        amount: 4
+        type: POTION
       - null
       - null
       - null
@@ -127,25 +126,26 @@ ranks:
           enchants:
             DAMAGE_UNDEAD: 1
       - ==: org.bukkit.inventory.ItemStack
-        type: POTION
-      - ==: org.bukkit.inventory.ItemStack
-        type: POTION
+        type: BREAD
+        amount: 4
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
         amount: 2
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §rBandage
+          display-name: §r§aSterile Bandage
           lore:
-          - §rStops bleeding.
+          - §rFights infection.
           - §r§6Heal I
+          - §r§6Immunity X
           - §r
           - §r§eRight-click to use
-          - §r§eLeft-click friend to use
+          - §r§eLeft-click friend to use.
       - ==: org.bukkit.inventory.ItemStack
-        type: BREAD
-        amount: 6
+        type: POTION
+        amount: 2
+      - null
       - null
       - null
       - null
@@ -227,17 +227,18 @@ ranks:
         type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
-        amount: 2
+        amount: 3
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §rBandage
+          display-name: §r§aSterile Bandage
           lore:
-          - §rStops bleeding.
+          - §rFights infection.
           - §r§6Heal I
+          - §r§6Immunity X
           - §r
           - §r§eRight-click to use
-          - §r§eLeft-click friend to use
+          - §r§eLeft-click friend to use.
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
         amount: 6
@@ -327,17 +328,18 @@ ranks:
         type: POTION
       - ==: org.bukkit.inventory.ItemStack
         type: PAPER
-        amount: 2
+        amount: 4
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
-          display-name: §rBandage
+          display-name: §r§aSterile Bandage
           lore:
-          - §rStops bleeding.
+          - §rFights infection.
           - §r§6Heal I
+          - §r§6Immunity X
           - §r
           - §r§eRight-click to use
-          - §r§eLeft-click friend to use
+          - §r§eLeft-click friend to use.
       - ==: org.bukkit.inventory.ItemStack
         type: BREAD
         amount: 6
