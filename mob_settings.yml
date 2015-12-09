@@ -11,7 +11,7 @@ pigman:
       minimum_z: -4095
       maximum_z: -2000
       enabled: true
-    random_fail_chance: 1
+    random_fail_chance: 10
   attribute:
     health: 1.0
     speed:
@@ -36,7 +36,7 @@ pigman:
   light_limit: 15
 zombie:
   spawn:
-    chance: 30
+    chance: 20
     pack:
       minimum: 1
       maximum: 2
@@ -47,9 +47,9 @@ zombie:
       minimum_z: 0
       maximum_z: 0
       enabled: false
-    random_fail_chance: 1
+    random_fail_chance: 10
   attribute:
-    health: 20.0
+    health: 12.0
     speed:
       no_target: 0.2
       target_multiplier: 1.6
@@ -322,7 +322,7 @@ giant:
       minimum_z: -4095
       maximum_z: -3000
       enabled: false
-    random_fail_chance: 100000
+    random_fail_chance: 10
   ability:
     reinforcement:
       minimum: 1
