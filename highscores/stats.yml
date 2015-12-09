@@ -3,35 +3,35 @@ killer:
     owner: ''
     value: 0
   pigman:
-    owner: 2c2a05d9-6f3e-4d8b-9bf8-1ac6805ff065
-    value: 1
+    owner: 52aacb2d-ca0c-4811-baf6-5bd2f3793f11
+    value: 2
   giant:
     owner: ''
     value: 0
   player:
-    owner: 8d14e3d5-3867-4b29-8126-9f0edf6dd2d5
-    value: 1
+    owner: a0b878aa-8341-4e0d-81a0-7c96c673c253
+    value: 6
   guard:
-    owner: ''
-    value: 0
+    owner: 4226c81f-31b7-4cc4-afff-155ed04afa5c
+    value: 1
   projectile:
-    owner: ''
-    value: 0
+    owner: 86cafaec-d062-4976-8b00-fabc75f7e913
+    value: 1
   fire:
-    owner: ''
-    value: 0
+    owner: a4faa589-ac31-4549-8855-c1114bc3952f
+    value: 1
   void:
-    owner: ''
-    value: 0
-  drown:
-    owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
+    owner: edb48b54-08bb-420d-bdf2-fa6634c8ba29
     value: 2
+  drown:
+    owner: a4faa589-ac31-4549-8855-c1114bc3952f
+    value: 5
   fall:
     owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
     value: 5
   explode:
-    owner: ''
-    value: 0
+    owner: 3ea7aba4-72e9-49b5-84d0-2d5237bc12ac
+    value: 1
   hunger:
     owner: ''
     value: 0
@@ -46,8 +46,8 @@ kills:
     owner: 676cfcee-f124-449e-b0ac-89dd44907bd0
     value: 500
   player:
-    owner: bde6b799-54cc-441e-8129-ad5932387a9d
-    value: 1
+    owner: b8810f86-1fd2-46ae-afe8-c74205feac33
+    value: 9
   pigman:
     owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
     value: 17
@@ -55,8 +55,8 @@ kills:
     owner: ''
     value: 0
   guard:
-    owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
-    value: 1
+    owner: 85e66574-4e3b-43ec-802e-65a3070f1f35
+    value: 3
 revives:
   self:
     owner: ''
@@ -65,25 +65,25 @@ revives:
     owner: ''
     value: 0
 friends:
-  owner: ''
-  value: 0
+  owner: adc9bd6e-7b68-4993-b70d-ba656f84ad98
+  value: 2
 drinks:
-  owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
-  value: 7
+  owner: 67bfbbb1-4e3c-4f45-bd70-94ac5c492d53
+  value: 102
 deaths:
   owner: cc5e7f28-0abd-4a0e-b7b4-29032f5f6dcf
   value: 2438
 heals:
   self:
     infection:
-      owner: aa33e73b-a2d3-438d-8c41-daf4c4798f9d
-      value: 1
+      owner: b640d0c1-e52a-4841-9b8a-5879c55e9843
+      value: 11
     bleeding:
-      owner: 8d14e3d5-3867-4b29-8126-9f0edf6dd2d5
-      value: 10
+      owner: d6cf2f9a-2d4e-43c9-b530-c7f34f7c6d93
+      value: 26
   other:
-    owner: ''
-    value: 0
+    owner: 4226c81f-31b7-4cc4-afff-155ed04afa5c
+    value: 2
 deathstate:
   zombie:
     owner: ''
@@ -92,5 +92,5 @@ deathstate:
     owner: ''
     value: 0
 z_points:
-  owner: 676cfcee-f124-449e-b0ac-89dd44907bd0
-  value: 500
+  owner: 2c2a05d9-6f3e-4d8b-9bf8-1ac6805ff065
+  value: 505
