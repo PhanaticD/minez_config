@@ -82,8 +82,8 @@ heals:
       owner: d6cf2f9a-2d4e-43c9-b530-c7f34f7c6d93
       value: 26
   other:
-    owner: 4226c81f-31b7-4cc4-afff-155ed04afa5c
-    value: 2
+    owner: fa722c08-f7ed-4bb4-80a5-a5d826c76903
+    value: 3
 deathstate:
   zombie:
     owner: ''
