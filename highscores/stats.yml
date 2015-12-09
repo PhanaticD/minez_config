@@ -83,7 +83,7 @@ heals:
       value: 26
   other:
     owner: fa722c08-f7ed-4bb4-80a5-a5d826c76903
-    value: 3
+    value: 5
 deathstate:
   zombie:
     owner: ''

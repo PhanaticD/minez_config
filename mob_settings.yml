@@ -49,7 +49,7 @@ zombie:
       enabled: false
     random_fail_chance: 10
   attribute:
-    health: 12.0
+    health: 8.0
     speed:
       no_target: 0.2
       target_multiplier: 1.6

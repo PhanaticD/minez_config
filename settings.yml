@@ -141,7 +141,7 @@ equipment:
     headshot_modifier: 4
 heal:
   bandage:
-    amount: 8.0
+    amount: 16.0
   time_to_complete: 15
   time_to_cooldown: 300
   default:
