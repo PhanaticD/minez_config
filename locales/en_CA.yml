@@ -111,7 +111,7 @@ event:
       &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
   thirsty: '&4Your throat is parched.'
 chat:
-  radio: '%s: &a[1.$0 Hz]&r %s'
+  radio: '%s: &e[1.$0 Hz]&r %s'
   private:
     from: '&8From %s: %s'
     to: '&8To %s: %s'
