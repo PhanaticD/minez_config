@@ -111,7 +111,7 @@ event:
       &9ie. 1, 5, 50 &e(Between 1 and 5, 50% spawn chance)
   thirsty: '&4Your throat is parched.'
 chat:
-  radio: '%s: &a1.$0 Hz - %s'
+  radio: '%s: &a[1.$0 Hz]&r %s'
   private:
     from: '&8From %s: %s'
     to: '&8To %s: %s'
@@ -339,10 +339,8 @@ specialevent:
   easter: '&9Easter'
   speak_like_pirate_day: '&3International Talk Like a Pirate Day'
 system:
-  optimize: '&4Your MyZ environment is not optimized! Type &e"/MyZ optimize"&4 to
-    fix this!'
-  optimized: '&eMyZ has been optimized. Changes will take effect next time server
-    starts up.'
+  optimize: ''
+  optimized: 'u dun goofd'
 back: '&rBack'
 temperature:
   update:
