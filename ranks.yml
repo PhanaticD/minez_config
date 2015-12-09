@@ -104,6 +104,7 @@ ranks:
           - §r§4Devastated
           - §r50% Effective
   '1':
+    chat_prefix: ''
     equipment:
       boots:
         ==: org.bukkit.inventory.ItemStack
@@ -185,6 +186,7 @@ ranks:
       - null
       - null
   '2':
+    chat_prefix: ''
     equipment:
       boots:
         ==: org.bukkit.inventory.ItemStack
@@ -281,6 +283,7 @@ ranks:
       - null
       - null
   '3':
+    chat_prefix: ''
     equipment:
       boots:
         ==: org.bukkit.inventory.ItemStack

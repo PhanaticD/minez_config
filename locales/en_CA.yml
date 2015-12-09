@@ -340,7 +340,7 @@ specialevent:
   speak_like_pirate_day: '&3International Talk Like a Pirate Day'
 system:
   optimize: ''
-  optimized: 'u dun goofd'
+  optimized: u dun goofd
 back: '&rBack'
 temperature:
   update:
