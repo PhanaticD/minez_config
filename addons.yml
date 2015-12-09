@@ -12,7 +12,7 @@ zombie:
   burn_in_daylight:
     enabled: false
 natural_regen:
-  enabled: false
+  enabled: true
 enderpearls_explode:
   enabled: true
 chat:
