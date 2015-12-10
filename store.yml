@@ -22,7 +22,7 @@ main:
               meta-type: UNSPECIFIC
               display-name: §rTrain Immunity
               lore:
-              - '§ePrice: §650 §ezPoints'
+              - '§ePrice: §610 §ezPoints'
           command: myz userdata $player immunity +1
           cost: 10.0
         '&rTrain Toughness':
@@ -34,7 +34,7 @@ main:
               meta-type: UNSPECIFIC
               display-name: §rTrain Toughness
               lore:
-              - '§ePrice: §650 §ezPoints'
+              - '§ePrice: §610 §ezPoints'
           command: myz userdata $player toughness +1
           cost: 10.0
       children:
