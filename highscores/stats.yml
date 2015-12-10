@@ -47,7 +47,7 @@ kills:
     value: 500
   player:
     owner: b8810f86-1fd2-46ae-afe8-c74205feac33
-    value: 9
+    value: 12
   pigman:
     owner: 3758c9e6-352d-407e-b793-e97c6c45b72c
     value: 79
@@ -79,8 +79,8 @@ heals:
       owner: 05a72c30-2c7b-4aad-a200-90c8ab872842
       value: 30
     bleeding:
-      owner: 05a72c30-2c7b-4aad-a200-90c8ab872842
-      value: 33
+      owner: 70c719de-6575-4927-99a1-3e110cdf7053
+      value: 36
   other:
     owner: fa722c08-f7ed-4bb4-80a5-a5d826c76903
     value: 6

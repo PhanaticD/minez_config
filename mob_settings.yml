@@ -13,12 +13,12 @@ pigman:
       enabled: true
     random_fail_chance: 10
   attribute:
-    health: 1.0
+    health: 10.0
     speed:
       no_target: 0.21
       target_multiplier: 1.45
     knockback_resistance: 0.0
-    damage: 10.0
+    damage: 3.0
     jump:
       multiplier: 1.05
     leap:
@@ -32,11 +32,22 @@ pigman:
   drops:
   - ==: org.bukkit.inventory.ItemStack
     type: GOLD_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §rBandage
+      lore:
+      - §rStops bleeding.
+      - §r
+      - §r§eRight-click to use
+      - §r§eLeft-click friend to use
   pickup_items: true
   light_limit: 15
 zombie:
   spawn:
-    chance: 20
+    chance: 25
     pack:
       minimum: 1
       maximum: 2
