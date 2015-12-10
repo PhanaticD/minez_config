@@ -146,6 +146,18 @@ main:
               - '§ePrice: §625 §ezPoints'
           command: give $player minecraft:stone_button 1
           cost: 25.0
+        '&rSaddle':
+          display:
+            ==: org.bukkit.inventory.ItemStack
+            type: SADDLE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §rSaddle
+              lore:
+              - '§ePrice: §68 §ezPoints'
+          command: give $player minecraft:saddle 1
+          cost: 8.0
       children:
         §rBack:
           display:

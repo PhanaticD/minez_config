@@ -13,7 +13,7 @@ pigman:
       enabled: true
     random_fail_chance: 10
   attribute:
-    health: 10.0
+    health: 6.0
     speed:
       no_target: 0.21
       target_multiplier: 1.45

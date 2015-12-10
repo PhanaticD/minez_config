@@ -3,14 +3,14 @@ killer:
     owner: ''
     value: 0
   pigman:
-    owner: 52aacb2d-ca0c-4811-baf6-5bd2f3793f11
-    value: 2
+    owner: ad48dc86-1c3b-47be-8993-eb48aeb47705
+    value: 5
   giant:
     owner: ''
     value: 0
   player:
-    owner: 9bed8702-d6ea-4088-901c-ab528c8b1abb
-    value: 8
+    owner: 8f291352-0ffd-4451-9692-cd7b83130215
+    value: 9
   guard:
     owner: 4226c81f-31b7-4cc4-afff-155ed04afa5c
     value: 1
@@ -47,7 +47,7 @@ kills:
     value: 500
   player:
     owner: b8810f86-1fd2-46ae-afe8-c74205feac33
-    value: 12
+    value: 15
   pigman:
     owner: 3758c9e6-352d-407e-b793-e97c6c45b72c
     value: 79
@@ -80,7 +80,7 @@ heals:
       value: 30
     bleeding:
       owner: 70c719de-6575-4927-99a1-3e110cdf7053
-      value: 36
+      value: 39
   other:
     owner: fa722c08-f7ed-4bb4-80a5-a5d826c76903
     value: 6

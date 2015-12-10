@@ -3,7 +3,7 @@ poisoned: false
 bleeding: false
 ghost: false
 zombie: false
-in_game: false
+in_game: true
 tracked:
   kills:
     zombie: 0
